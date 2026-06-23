@@ -1,0 +1,15 @@
+2026/06/14-14:36:09.839 19b8 Reusing MANIFEST C:\Users\User\Documents\camboda-sci-rank\scholar_profile\Default\Session Storage/MANIFEST-000001
+2026/06/14-14:36:09.845 19b8 Recovering log #15
+2026/06/14-14:36:09.853 19b8 Reusing old log C:\Users\User\Documents\camboda-sci-rank\scholar_profile\Default\Session Storage/000015.log 
+2026/06/14-15:14:11.563 899c Level-0 table #19: started
+2026/06/14-15:14:11.571 899c Level-0 table #19: 14456 bytes OK
+2026/06/14-15:14:11.575 899c Delete type=0 #15
+2026/06/14-15:14:11.577 899c Compacting 4@0 + 1@1 files
+2026/06/14-15:14:11.596 899c Generated table #20@0: 36 keys, 1527 bytes
+2026/06/14-15:14:11.596 899c Compacted 4@0 + 1@1 files => 1527 bytes
+2026/06/14-15:14:11.598 899c compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/06/14-15:14:11.600 899c Delete type=2 #7
+2026/06/14-15:14:11.600 899c Delete type=2 #10
+2026/06/14-15:14:11.600 899c Delete type=2 #13
+2026/06/14-15:14:11.600 899c Delete type=2 #16
+2026/06/14-15:14:11.600 899c Delete type=2 #19

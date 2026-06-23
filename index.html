@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambodian University Science Rankings</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #f7f5f0;
+            --surface-color: #ffffff;
+            --surface-border: #d8d4cb;
+            --surface-muted: #edeae3;
+
+            --accent-navy: #1e3a5f;
+            --accent-blue: #2c5282;
+            --accent-teal: #2d6a6a;
+            --accent-gold: #8b6914;
+
+            --text-main: #1a202c;
+            --text-muted: #5a6578;
+            --text-light: #8b95a5;
+
+            --scholar-color: #3d5a80;
+            --s2-primary: #1a5c4a;
+            --s2-secondary: #2d6a6a;
+
+            --font-display: 'Libre Baskerville', Georgia, 'Times New Roman', serif;
+            --font-sans: 'Source Sans 3', system-ui, sans-serif;
+
+            --transition: all 0.2s ease;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            font-family: var(--font-sans);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+
+        .app-container {
+            max-width: 1480px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem 3rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1.75rem;
+        }
+
+        header {
+            padding-bottom: 1.25rem;
+            border-bottom: 2px solid var(--accent-navy);
+            margin-bottom: 0.25rem;
+        }
+
+        .header-title-area h1 {
+            font-family: var(--font-display);
+            font-size: 1.85rem;
+            font-weight: 700;
+            color: var(--accent-navy);
+            letter-spacing: -0.01em;
+        }
+
+        .header-title-area p {
+            margin-top: 0.35rem;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            font-style: italic;
+        }
+
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+        }
+
+        .stat-card {
+            background: var(--surface-color);
+            border: 1px solid var(--surface-border);
+            border-radius: 4px;
+            padding: 1rem 1.25rem;
+            box-shadow: 0 1px 3px rgba(30, 58, 95, 0.06);
+        }
+
+        .stat-val {
+            font-family: var(--font-display);
+            font-size: 1.45rem;
+            font-weight: 700;
+            color: var(--accent-navy);
+        }
+
+        .stat-lbl {
+            font-size: 0.72rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            margin-top: 0.15rem;
+        }
+
+        .card {
+            background: var(--surface-color);
+            border: 1px solid var(--surface-border);
+            border-radius: 4px;
+            box-shadow: 0 1px 4px rgba(30, 58, 95, 0.07);
+        }
+
+        .rankings-card {
+            padding: 0;
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            font-size: 0.875rem;
+        }
+
+        thead tr:first-child th {
+            background: var(--accent-navy);
+            color: #fff;
+            font-family: var(--font-sans);
+            font-weight: 600;
+            padding: 0.65rem 0.75rem;
+            border: 1px solid #16304f;
+            font-size: 0.72rem;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            white-space: nowrap;
+        }
+
+        thead tr.subhead th {
+            background: var(--surface-muted);
+            color: var(--text-muted);
+            font-weight: 600;
+            padding: 0.5rem 0.75rem;
+            border-bottom: 1px solid var(--surface-border);
+            font-size: 0.68rem;
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+            white-space: nowrap;
+        }
+
+        th.group-s2 {
+            background: #1a5c4a !important;
+            border-color: #144a3c !important;
+        }
+
+        th.group-gs {
+            background: #3d5a80 !important;
+            border-color: #324a68 !important;
+        }
+
+        td {
+            padding: 0.75rem;
+            border-bottom: 1px solid var(--surface-border);
+            color: var(--text-main);
+            vertical-align: middle;
+        }
+
+        tbody tr {
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        tbody tr:nth-child(even) td {
+            background: #faf8f4;
+        }
+
+        tbody tr:hover td {
+            background: #eef3f8;
+        }
+
+        .rank-col {
+            font-family: var(--font-display);
+            font-weight: 700;
+            font-size: 1rem;
+            width: 52px;
+            text-align: center;
+            color: var(--accent-navy);
+        }
+
+        tbody tr:nth-child(1) .rank-col { color: var(--accent-gold); }
+        tbody tr:nth-child(2) .rank-col { color: #6b7280; }
+        tbody tr:nth-child(3) .rank-col { color: #9a6b3c; }
+
+        .univ-col {
+            min-width: 200px;
+            max-width: 280px;
+        }
+
+        .univ-name {
+            font-weight: 600;
+            font-size: 0.9rem;
+            color: var(--accent-navy);
+        }
+
+        .univ-domains {
+            font-size: 0.72rem;
+            color: var(--text-light);
+            margin-top: 0.1rem;
+        }
+
+        .faculty-col {
+            text-align: center;
+            font-weight: 600;
+            width: 64px;
+        }
+
+        .metric-col {
+            text-align: right;
+            font-variant-numeric: tabular-nums;
+            width: 72px;
+            color: var(--text-main);
+        }
+
+        .metric-col.gs {
+            color: var(--scholar-color);
+        }
+
+        .metric-col.s2 {
+            color: var(--s2-secondary);
+        }
+
+        .metric-col.primary {
+            font-weight: 700;
+            color: var(--s2-primary);
+            background: rgba(26, 92, 74, 0.06);
+        }
+
+        tbody tr:nth-child(even) .metric-col.primary {
+            background: rgba(26, 92, 74, 0.09);
+        }
+
+        .score-col {
+            font-family: var(--font-display);
+            font-weight: 700;
+            color: var(--accent-blue);
+            text-align: right;
+            width: 72px;
+            font-variant-numeric: tabular-nums;
+        }
+
+        /* Modal */
+        .modal-overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(30, 58, 95, 0.45);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 100;
+            opacity: 0;
+            pointer-events: none;
+            transition: var(--transition);
+            padding: 1rem;
+        }
+
+        .modal-overlay.active {
+            opacity: 1;
+            pointer-events: all;
+        }
+
+        .modal {
+            background: #fff;
+            border: 1px solid var(--surface-border);
+            border-radius: 4px;
+            width: 100%;
+            max-width: 960px;
+            max-height: 90vh;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            box-shadow: 0 8px 32px rgba(30, 58, 95, 0.18);
+            transform: translateY(12px);
+            transition: var(--transition);
+        }
+
+        .modal-overlay.active .modal {
+            transform: translateY(0);
+        }
+
+        .modal-close {
+            position: absolute;
+            top: 0.85rem;
+            right: 0.85rem;
+            background: var(--surface-muted);
+            border: 1px solid var(--surface-border);
+            color: var(--text-muted);
+            width: 32px;
+            height: 32px;
+            border-radius: 3px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 1.1rem;
+            transition: var(--transition);
+            z-index: 2;
+        }
+
+        .modal-close:hover {
+            background: var(--surface-border);
+            color: var(--text-main);
+        }
+
+        .modal-header {
+            padding: 1.5rem 2rem 1rem;
+            border-bottom: 1px solid var(--surface-border);
+            padding-right: 3rem;
+        }
+
+        .modal-title {
+            font-family: var(--font-display);
+            font-size: 1.35rem;
+            font-weight: 700;
+            color: var(--accent-navy);
+        }
+
+        .modal-subtitle {
+            color: var(--text-muted);
+            font-size: 0.82rem;
+            margin-top: 0.2rem;
+        }
+
+        .modal-summary {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            padding: 0.85rem 2rem;
+            background: var(--surface-muted);
+            border-bottom: 1px solid var(--surface-border);
+            font-size: 0.82rem;
+        }
+
+        .modal-summary-item {
+            display: flex;
+            flex-direction: column;
+            gap: 0.1rem;
+        }
+
+        .modal-summary-val {
+            font-family: var(--font-display);
+            font-weight: 700;
+            font-size: 1.1rem;
+            color: var(--accent-navy);
+        }
+
+        .modal-summary-lbl {
+            font-size: 0.68rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-muted);
+        }
+
+        .modal-summary-item.highlight .modal-summary-val {
+            color: var(--s2-primary);
+        }
+
+        .modal-body {
+            overflow-y: auto;
+            flex: 1;
+        }
+
+        .faculty-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.84rem;
+        }
+
+        .faculty-table th {
+            position: sticky;
+            top: 0;
+            background: var(--accent-navy);
+            color: #fff;
+            font-weight: 600;
+            padding: 0.6rem 0.85rem;
+            text-align: left;
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            border-bottom: 1px solid #16304f;
+            white-space: nowrap;
+        }
+
+        .faculty-table th.num {
+            text-align: right;
+        }
+
+        .faculty-table td {
+            padding: 0.7rem 0.85rem;
+            border-bottom: 1px solid var(--surface-border);
+            vertical-align: top;
+        }
+
+        .faculty-table tbody tr:nth-child(even) td {
+            background: #faf8f4;
+        }
+
+        .faculty-table tbody tr:hover td {
+            background: #eef3f8;
+        }
+
+        .f-name {
+            font-weight: 600;
+            color: var(--accent-navy);
+        }
+
+        .f-affil {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin-top: 0.1rem;
+            max-width: 260px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .f-num {
+            text-align: right;
+            font-variant-numeric: tabular-nums;
+        }
+
+        .f-num.gs { color: var(--scholar-color); }
+        .f-num.s2 { color: var(--s2-secondary); }
+
+        .f-links {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .f-link {
+            font-size: 0.72rem;
+            color: var(--accent-blue);
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+        }
+
+        .f-link:hover {
+            border-bottom-color: var(--accent-blue);
+        }
+
+        .f-link.s2-link { color: var(--s2-primary); }
+        .f-link.s2-link:hover { border-bottom-color: var(--s2-primary); }
+        .f-link.scopus-link { color: #e16c00; }
+        .f-link.scopus-link:hover { border-bottom-color: #e16c00; }
+
+        .no-data {
+            color: var(--text-light);
+        }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+
+        .info-panel {
+            padding: 1.25rem 1.5rem;
+        }
+
+        .info-panel h2 {
+            font-family: var(--font-display);
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--accent-navy);
+            margin-bottom: 0.75rem;
+            padding-bottom: 0.4rem;
+            border-bottom: 1px solid var(--surface-border);
+        }
+
+        .info-panel dl {
+            font-size: 0.82rem;
+            display: grid;
+            gap: 0.5rem;
+        }
+
+        .info-panel dt {
+            font-weight: 600;
+            color: var(--text-muted);
+        }
+
+        .info-panel dd {
+            margin: 0 0 0.35rem 0;
+            color: var(--text-main);
+        }
+
+        .quality-list {
+            list-style: none;
+            font-size: 0.82rem;
+            color: var(--text-main);
+        }
+
+        .quality-list li {
+            padding: 0.35rem 0 0.35rem 1rem;
+            position: relative;
+            border-bottom: 1px solid var(--surface-muted);
+        }
+
+        .quality-list li::before {
+            content: '•';
+            position: absolute;
+            left: 0;
+            color: var(--accent-teal);
+        }
+
+        .quality-list li:last-child {
+            border-bottom: none;
+        }
+
+        .uri-col {
+            font-family: var(--font-display);
+            font-weight: 700;
+            color: var(--accent-navy);
+            text-align: right;
+            font-variant-numeric: tabular-nums;
+        }
+
+        .quality-warn {
+            color: #9a3412;
+            background: #fffbeb;
+            border-top: 1px solid #fcd34d;
+            padding: 0.75rem 2rem;
+            font-size: 0.82rem;
+        }
+
+        .warn-badge {
+            display: inline-block;
+            font-size: 0.65rem;
+            background: #fef3c7;
+            color: #92400e;
+            border: 1px solid #fcd34d;
+            padding: 0.1rem 0.35rem;
+            border-radius: 2px;
+            margin-left: 0.35rem;
+            vertical-align: middle;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        @media (max-width: 1100px) {
+            .info-grid {
+                grid-template-columns: 1fr;
+            }
+            .metric-col.hide-md,
+            thead .hide-md {
+                display: none;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+            .univ-domains,
+            .metric-col.hide-sm,
+            thead .hide-sm {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="app-container">
+        <header>
+            <div class="header-title-area">
+                <h1>Cambodian University Science Rankings</h1>
+                <p>University Research Index (URI) — S2-weighted faculty metrics with log aggregation</p>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <span class="stat-val" id="stat-total-univ">-</span>
+                    <span class="stat-lbl">Institutions</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-val" id="stat-total-faculty">-</span>
+                    <span class="stat-lbl">Total Researchers</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-val" id="stat-top-univ" style="font-size: 0.95rem; line-height: 1.3; padding-top: 0.2rem;">-</span>
+                    <span class="stat-lbl">Top Ranked</span>
+                </div>
+            </div>
+
+            <div class="info-grid">
+                <div class="card info-panel" id="methodology-panel">
+                    <h2>URI Methodology</h2>
+                    <dl id="methodology-content"></dl>
+                </div>
+                <div class="card info-panel">
+                    <h2>Data Quality Notes</h2>
+                    <ul class="quality-list" id="quality-notes"></ul>
+                </div>
+            </div>
+
+            <div class="card rankings-card">
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="text-align:center; width:52px;">Rank</th>
+                            <th class="univ-col">University</th>
+                            <th style="text-align:center; width:64px;">Faculty</th>
+                            <th style="text-align:right;">URI</th>
+                            <th style="text-align:right;">H</th>
+                            <th style="text-align:right;">C<sub>norm</sub></th>
+                            <th class="hide-sm" style="text-align:right;">P<sub>norm</sub></th>
+                            <th class="hide-md" style="text-align:right;">Size</th>
+                            <th style="text-align:right;">Avg GS H-Index</th>
+                            <th style="text-align:right;">Avg GS Citations</th>
+                        </tr>
+                    </thead>
+                    <tbody id="rankings-table-body"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="modal-overlay" onclick="closeModal()">
+        <div class="modal" onclick="event.stopPropagation()">
+            <button class="modal-close" onclick="closeModal()" aria-label="Close">×</button>
+            <div class="modal-header">
+                <h2 class="modal-title" id="modal-univ-name">University Name</h2>
+                <div class="modal-subtitle" id="modal-univ-domains">domains</div>
+            </div>
+
+            <div class="modal-summary" id="modal-summary"></div>
+
+            <div class="modal-body">
+                <table class="faculty-table">
+                    <thead>
+                        <tr>
+                            <th style="width:36px; text-align:center;">#</th>
+                            <th style="min-width:200px;">Faculty Member</th>
+                            <th class="num">GS Cit.</th>
+                            <th class="num">GS H</th>
+                            <th class="num hide-sm">GS i10</th>
+                            <th class="num">S2 Cit.</th>
+                            <th class="num">S2 H</th>
+                            <th class="num hide-sm">S2 Pap.</th>
+                            <th>Links</th>
+                        </tr>
+                    </thead>
+                    <tbody id="faculty-table-body"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="rankings_data.js"></script>
+    <script>
+        let data = [];
+        if (typeof rankingsData !== 'undefined') {
+            data = rankingsData;
+        }
+
+        const TABLE_COLSPAN = 10;
+        let metadata = typeof rankingsMetadata !== 'undefined' ? rankingsMetadata : null;
+
+        let activeRankings = [];
+        let rawDataByUniv = {};
+
+        window.addEventListener('DOMContentLoaded', async () => {
+            if (data.length === 0) {
+                try {
+                    const response = await fetch('rankings_summary.json');
+                    const payload = await response.json();
+                    if (payload.universities) {
+                        data = payload.universities;
+                        metadata = payload.metadata || null;
+                    } else {
+                        data = payload;
+                    }
+                } catch (err) {
+                    console.error("Failed to load rankings data:", err);
+                    document.getElementById('rankings-table-body').innerHTML = `
+                        <tr>
+                            <td colspan="${TABLE_COLSPAN}" style="text-align:center;color:#b91c1c;padding:3rem;">
+                                <strong>Error loading rankings data.</strong><br>
+                                Please ensure <code>rankings_data.js</code> or <code>rankings_summary.json</code> is present.
+                            </td>
+                        </tr>
+                    `;
+                    return;
+                }
+            }
+
+            data.forEach(univ => {
+                rawDataByUniv[univ.university] = univ;
+            });
+
+            document.getElementById('stat-total-univ').textContent = data.length;
+            document.getElementById('stat-total-faculty').textContent =
+                data.reduce((acc, curr) => acc + curr.faculty_count, 0);
+
+            renderMethodology();
+            renderGlobalQuality();
+            calculateAndRender();
+        });
+
+        function getUriSystem(univ) {
+            return univ.uri_system || {
+                uri: univ.ranking_system?.score ?? 0,
+                rank: univ.ranking_system?.rank ?? 0,
+                uri_base: 0,
+                size_factor: Math.log1p(univ.faculty_count || 0),
+                components: univ.ranking_system?.metrics || {}
+            };
+        }
+
+        function renderMethodology() {
+            const dl = document.getElementById('methodology-content');
+            if (!metadata?.methodology) {
+                dl.innerHTML = '<dd>Run <code>py rank_universities.py</code> to generate methodology metadata.</dd>';
+                return;
+            }
+            const m = metadata.methodology;
+            const labels = {
+                formula: 'Formula',
+                aggregation: 'Aggregation',
+                H: 'H-index blend',
+                C: 'Citations',
+                P: 'Papers',
+                size_factor: 'Size factor',
+                missing_values: 'Missing data',
+                s2_priority: 'S2 priority'
+            };
+            dl.innerHTML = Object.entries(labels)
+                .filter(([key]) => m[key])
+                .map(([key, label]) => `<dt>${label}</dt><dd>${m[key]}</dd>`)
+                .join('');
+        }
+
+        function renderGlobalQuality() {
+            const ul = document.getElementById('quality-notes');
+            const notes = metadata?.data_quality?.notes || [];
+            if (notes.length === 0) {
+                ul.innerHTML = '<li>No data quality notes available.</li>';
+                return;
+            }
+            const stats = metadata?.data_quality;
+            let html = '';
+            if (stats) {
+                html += `<li>${stats.total_universities} universities, ${stats.total_authors} authors in dataset.</li>`;
+                html += `<li>${stats.authors_missing_s2} authors (${stats.authors_missing_s2_pct}%) missing Semantic Scholar metrics.</li>`;
+            }
+            html += notes.map(n => `<li>${n}</li>`).join('');
+            ul.innerHTML = html;
+        }
+
+        function calculateAndRender() {
+            const dataset = data.map(univ => {
+                const uri = getUriSystem(univ);
+                const c = uri.components || {};
+                let avgH_GS = 0, avgC_GS = 0;
+                if (univ.researchers && univ.researchers.length > 0) {
+                    avgH_GS = univ.researchers.reduce((sum, r) => sum + (r.hindex_scholar || 0), 0) / univ.researchers.length;
+                    avgC_GS = univ.researchers.reduce((sum, r) => sum + (r.citations_scholar || 0), 0) / univ.researchers.length;
+                }
+
+                return {
+                    university: univ.university,
+                    domains: univ.domains,
+                    faculty_count: univ.faculty_count,
+                    researchers: univ.researchers || [],
+                    data_quality: univ.data_quality || {},
+                    uri: uri.uri,
+                    rank: uri.rank,
+                    uri_base: uri.uri_base,
+                    size_factor: uri.size_factor,
+                    H: c.H,
+                    C_norm: c.C_norm,
+                    P_norm: c.P_norm,
+                    components: c,
+                    avgH_GS: avgH_GS,
+                    avgC_GS: avgC_GS
+                };
+            });
+
+            dataset.sort((a, b) => a.rank - b.rank);
+            activeRankings = dataset;
+
+            document.getElementById('stat-top-univ').textContent =
+                dataset.length > 0 ? dataset[0].university : 'None';
+
+            renderTable(dataset);
+        }
+
+        function renderTable(rankingsList) {
+            const tbody = document.getElementById('rankings-table-body');
+
+            if (rankingsList.length === 0) {
+                tbody.innerHTML = `
+                    <tr>
+                        <td colspan="${TABLE_COLSPAN}" style="text-align:center;color:var(--text-muted);padding:3rem;">
+                            No institutions found.
+                        </td>
+                    </tr>
+                `;
+                return;
+            }
+
+            tbody.innerHTML = '';
+
+            rankingsList.forEach(item => {
+                const tr = document.createElement('tr');
+                tr.onclick = () => showUniversityDetail(item.university);
+                const warn = item.data_quality.small_cohort
+                    ? '<span class="warn-badge" title="Fewer than 3 faculty">N&lt;3</span>' : '';
+
+                tr.innerHTML = `
+                    <td class="rank-col">${item.rank}</td>
+                    <td class="univ-col">
+                        <div class="univ-name">${item.university}${warn}</div>
+                        <div class="univ-domains">${item.domains.join(', ')}</div>
+                    </td>
+                    <td class="faculty-col">${item.faculty_count}</td>
+                    <td class="uri-col">${item.uri.toFixed(2)}</td>
+                    <td class="metric-col">${formatMetricValue(item.H, 2)}</td>
+                    <td class="metric-col primary">${formatMetricValue(item.C_norm, 3)}</td>
+                    <td class="metric-col s2 hide-sm">${formatMetricValue(item.P_norm, 3)}</td>
+                    <td class="metric-col hide-md">${formatMetricValue(item.size_factor, 2)}</td>
+                    <td class="metric-col">${formatMetricValue(item.avgH_GS, 2)}</td>
+                    <td class="metric-col">${formatMetricValue(item.avgC_GS, 1)}</td>
+                `;
+
+                tbody.appendChild(tr);
+            });
+        }
+
+        function showUniversityDetail(univName) {
+            const item = activeRankings.find(u => u.university === univName);
+            if (!item) return;
+
+            document.getElementById('modal-univ-name').textContent = item.university;
+            document.getElementById('modal-univ-domains').textContent = item.domains.join(' · ');
+
+            const c = item.components;
+            const dq = item.data_quality;
+            const qualityHtml = (dq.notes && dq.notes.length)
+                ? `<div class="quality-warn" style="padding:0 2rem 0.75rem;font-size:0.82rem;">${dq.notes.map(n => escapeHtml(n)).join(' ')}</div>`
+                : '';
+
+            document.getElementById('modal-summary').innerHTML = `
+                <div class="modal-summary-item">
+                    <span class="modal-summary-val">#${item.rank}</span>
+                    <span class="modal-summary-lbl">URI Rank</span>
+                </div>
+                <div class="modal-summary-item highlight">
+                    <span class="modal-summary-val">${item.uri.toFixed(2)}</span>
+                    <span class="modal-summary-lbl">URI</span>
+                </div>
+                <div class="modal-summary-item">
+                    <span class="modal-summary-val">${formatMetricValue(c.H, 2)}</span>
+                    <span class="modal-summary-lbl">H (0.3 GS + 0.7 S2)</span>
+                </div>
+                <div class="modal-summary-item">
+                    <span class="modal-summary-val">${formatMetricValue(c.C_norm, 3)}</span>
+                    <span class="modal-summary-lbl">C norm</span>
+                </div>
+                <div class="modal-summary-item">
+                    <span class="modal-summary-val">${formatMetricValue(c.P_norm, 3)}</span>
+                    <span class="modal-summary-lbl">P norm</span>
+                </div>
+                <div class="modal-summary-item">
+                    <span class="modal-summary-val">${formatMetricValue(item.size_factor, 2)}</span>
+                    <span class="modal-summary-lbl">log(1+N)</span>
+                </div>
+            ` + qualityHtml;
+
+            const researchers = item.researchers.slice().sort(
+                (x, y) => (y.h_index || 0) - (x.h_index || 0) || (y.citation_count || 0) - (x.citation_count || 0)
+            );
+
+            const tbody = document.getElementById('faculty-table-body');
+            if (researchers.length === 0) {
+                tbody.innerHTML = `
+                    <tr>
+                        <td colspan="9" style="text-align:center;color:var(--text-muted);padding:2rem;">
+                            No faculty records available.
+                        </td>
+                    </tr>
+                `;
+            } else {
+                tbody.innerHTML = researchers.map((r, i) => {
+                    const noS2 = !r.citation_count && !r.h_index && !r.paper_count;
+                    const links = [];
+                    if (r.profile_url)
+                        links.push(`<a class="f-link" href="${r.profile_url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">GS</a>`);
+                    if (r.orcid_url || (r.orcid && r.orcid !== 'nan'))
+                        links.push(`<a class="f-link" href="${r.orcid_url || 'https://orcid.org/' + r.orcid}" target="_blank" rel="noopener" onclick="event.stopPropagation()">ORCID</a>`);
+                    if (r.s2_profile_url)
+                        links.push(`<a class="f-link s2-link" href="${r.s2_profile_url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">S2</a>`);
+                    if (r.scopus_url)
+                        links.push(`<a class="f-link scopus-link" href="${r.scopus_url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Scopus</a>`);
+
+                    return `
+                        <tr>
+                            <td style="text-align:center;color:var(--text-light);font-size:0.8rem;">${i + 1}</td>
+                            <td>
+                                <div class="f-name">${r.clean_name || r.name || '—'}</div>
+                                <div class="f-affil" title="${escapeHtml(r.affiliation || '')}">${escapeHtml(r.affiliation || '')}</div>
+                            </td>
+                            <td class="f-num gs">${r.citations_scholar > 0 ? formatMetricValue(r.citations_scholar, 0) : '<span class="no-data">—</span>'}</td>
+                            <td class="f-num gs">${r.hindex_scholar > 0 ? formatMetricValue(r.hindex_scholar, 0) : '<span class="no-data">—</span>'}</td>
+                            <td class="f-num gs hide-sm">${r.i10_scholar > 0 ? formatMetricValue(r.i10_scholar, 0) : '<span class="no-data">—</span>'}</td>
+                            <td class="f-num s2">${noS2 ? '<span class="no-data">—</span>' : formatMetricValue(r.citation_count, 0)}</td>
+                            <td class="f-num s2">${noS2 ? '<span class="no-data">—</span>' : formatMetricValue(r.h_index, 0)}</td>
+                            <td class="f-num s2 hide-sm">${noS2 ? '<span class="no-data">—</span>' : formatMetricValue(r.paper_count, 0)}</td>
+                            <td><div class="f-links">${links.join('')}</div></td>
+                        </tr>
+                    `;
+                }).join('');
+            }
+
+            document.getElementById('modal-overlay').classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function formatMetricValue(val, decimals = 2) {
+            if (val === undefined || val === null) return '0';
+            if (val % 1 !== 0) return val.toFixed(decimals);
+            return val.toLocaleString();
+        }
+
+        function escapeHtml(str) {
+            return str
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;');
+        }
+
+        function closeModal() {
+            document.getElementById('modal-overlay').classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        window.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeModal();
+        });
+    </script>
+</body>
+</html>
