@@ -1,11 +1,13 @@
+import os
 import pandas as pd
 import numpy as np
 import json
 
-INPUT_FILE = "scholar_full_sync_output.csv"
-OUTPUT_JSON = "rankings_summary.json"
-OUTPUT_CSV = "rankings_summary.csv"
-OUTPUT_JS = "rankings_data.js"
+_ROOT = os.path.join(os.path.dirname(__file__), "..")
+INPUT_FILE = os.path.join(_ROOT, "scholar_full_sync_output.csv")
+OUTPUT_JSON = os.path.join(_ROOT, "rankings_summary.json")
+OUTPUT_CSV = os.path.join(_ROOT, "rankings_summary.csv")
+OUTPUT_JS = os.path.join(_ROOT, "rankings_data.js")
 
 university_names = {
     "puthisastra.edu.kh": "University of Puthisastra",

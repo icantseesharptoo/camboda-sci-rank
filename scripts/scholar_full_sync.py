@@ -45,14 +45,14 @@ from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
 # Configuration
 # ─────────────────────────────────────────────────────────────────────────────
 
-EXISTING_CSV = "merged_with_s2_metrics_fixed2_corrected.csv"
-OUTPUT_CSV   = "scholar_full_sync_output.csv"
+_ROOT = os.path.join(os.path.dirname(__file__), "..")
+EXISTING_CSV = os.path.join(_ROOT, "data", "legacy", "merged_with_s2_metrics_fixed2_corrected.csv")
+OUTPUT_CSV   = os.path.join(_ROOT, "scholar_full_sync_output.csv")
 
 S2_API_BASE  = "https://api.semanticscholar.org/graph/v1"
-S2_API_KEY   = os.environ.get("S2_API_KEY", "s2k-FShcrmhCdVNMSOlsDvk1kvUMotFlTEIyIqqgE3Fl")   # set this env var if you have one
+S2_API_KEY   = os.environ.get("S2_API_KEY", "s2k-FShcrmhCdVNMSOlsDvk1kvUMotFlTEIyIqqgE3Fl")
 
-# Persistent browser profile directory (keeps cookies / login state)
-PROFILE_DIR  = "./scholar_profile"
+PROFILE_DIR  = os.path.join(_ROOT, "scholar_profile")
 
 MAX_S2_CANDIDATES = 5
 

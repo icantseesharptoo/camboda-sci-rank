@@ -34,8 +34,9 @@ print = partial(print, flush=True)
 S2_API_BASE = "https://api.semanticscholar.org/graph/v1"
 S2_API_KEY = os.environ.get("S2_API_KEY", "s2k-FShcrmhCdVNMSOlsDvk1kvUMotFlTEIyIqqgE3Fl")
 
-INPUT_FILE = r"scholar_full_sync_output.csv"
-OUTPUT_FILE = r"scholar_full_sync_output.csv"
+_ROOT = os.path.join(os.path.dirname(__file__), "..")
+INPUT_FILE = os.path.join(_ROOT, "scholar_full_sync_output.csv")
+OUTPUT_FILE = os.path.join(_ROOT, "scholar_full_sync_output.csv")
 
 MAX_CANDIDATES = 15
 API_SLEEP = 1.2

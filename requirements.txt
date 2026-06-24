@@ -1,0 +1,5 @@
+pandas>=2.0
+numpy>=1.24
+beautifulsoup4>=4.12
+playwright>=1.40
+rapidfuzz>=3.0

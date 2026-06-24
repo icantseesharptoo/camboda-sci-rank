@@ -1,0 +1,11 @@
+# Legacy files
+scripts/legacy/
+data/legacy/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Playwright browser profile
+scholar_profile/
