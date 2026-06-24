@@ -61,7 +61,8 @@ const rankingsData = [
                 "paper_count_s2": 7.0,
                 "h_index": 3.0,
                 "citation_count": 24.0,
-                "paper_count": 7.0
+                "paper_count": 7.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Pisith Hok",
@@ -80,7 +81,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Mr.Moly",
@@ -99,17 +101,18 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             }
         ],
         "uri_system": {
-            "uri": 1.2081651715168942,
-            "rank": 22,
-            "uri_base": 0.8715069507610935,
+            "uri": 1.209117000127522,
+            "rank": 19,
+            "uri_base": 0.8721935499692581,
             "size_factor": 1.3862943611198906,
             "components": {
                 "H": 1.8691257348501207,
-                "C_norm": 0.016483113163544432,
+                "C_norm": 0.01800888918168811,
                 "P_norm": 0.22982969154944288,
                 "C_blend": 4.2026977222506705,
                 "P_term": 1.1247482629090362,
@@ -132,11 +135,11 @@ const rankingsData = [
             ]
         },
         "ranking_system": {
-            "score": 1.2081651715168942,
-            "rank": 22,
+            "score": 1.209117000127522,
+            "rank": 19,
             "metrics": {
                 "H": 1.8691257348501207,
-                "C_norm": 0.016483113163544432,
+                "C_norm": 0.01800888918168811,
                 "P_norm": 0.22982969154944288,
                 "H_GS": 2.995732273553991,
                 "H_S2": 1.3862943611198906,
@@ -146,11 +149,11 @@ const rankingsData = [
             }
         },
         "weighted_sum_system": {
-            "score": 1.2081651715168942,
-            "rank": 22,
+            "score": 1.209117000127522,
+            "rank": 19,
             "metrics": {
                 "H": 1.8691257348501207,
-                "C_norm": 0.016483113163544432,
+                "C_norm": 0.01800888918168811,
                 "P_norm": 0.22982969154944288,
                 "C_blend": 4.2026977222506705,
                 "P_term": 1.1247482629090362,
@@ -186,7 +189,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "DR.P.MUTHUKUMARAN",
@@ -205,7 +209,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Prohim Tam, PhD",
@@ -224,7 +229,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Panha Vorng",
@@ -243,7 +249,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Sovannara UK",
@@ -262,7 +269,8 @@ const rankingsData = [
                 "paper_count_s2": 15.0,
                 "h_index": 6.0,
                 "citation_count": 218.0,
-                "paper_count": 15.0
+                "paper_count": 15.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Aleksei Gudkov",
@@ -281,7 +289,8 @@ const rankingsData = [
                 "paper_count_s2": 16.0,
                 "h_index": 2.0,
                 "citation_count": 24.0,
-                "paper_count": 16.0
+                "paper_count": 16.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Kuntha Pin",
@@ -300,7 +309,8 @@ const rankingsData = [
                 "paper_count_s2": 7.0,
                 "h_index": 4.0,
                 "citation_count": 100.0,
-                "paper_count": 7.0
+                "paper_count": 7.0,
+                "gs_suspect": ""
             },
             {
                 "name": "DINESH ELANGO",
@@ -319,7 +329,8 @@ const rankingsData = [
                 "paper_count_s2": 11.0,
                 "h_index": 2.0,
                 "citation_count": 21.0,
-                "paper_count": 11.0
+                "paper_count": 11.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Yu sing ong",
@@ -338,7 +349,8 @@ const rankingsData = [
                 "paper_count_s2": 15.0,
                 "h_index": 3.0,
                 "citation_count": 18.0,
-                "paper_count": 15.0
+                "paper_count": 15.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Ilya Bystrov",
@@ -357,7 +369,8 @@ const rankingsData = [
                 "paper_count_s2": 8.0,
                 "h_index": 1.0,
                 "citation_count": 7.0,
-                "paper_count": 8.0
+                "paper_count": 8.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Kimsy Tor",
@@ -376,7 +389,8 @@ const rankingsData = [
                 "paper_count_s2": 11.0,
                 "h_index": 4.0,
                 "citation_count": 49.0,
-                "paper_count": 11.0
+                "paper_count": 11.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Banchongsan Charoensook",
@@ -395,7 +409,8 @@ const rankingsData = [
                 "paper_count_s2": 17.0,
                 "h_index": 2.0,
                 "citation_count": 6.0,
-                "paper_count": 17.0
+                "paper_count": 17.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Raimund WEISS",
@@ -414,7 +429,8 @@ const rankingsData = [
                 "paper_count_s2": 10.0,
                 "h_index": 1.0,
                 "citation_count": 2.0,
-                "paper_count": 10.0
+                "paper_count": 10.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Tammy Wee",
@@ -433,7 +449,8 @@ const rankingsData = [
                 "paper_count_s2": 10.0,
                 "h_index": 3.0,
                 "citation_count": 268.0,
-                "paper_count": 10.0
+                "paper_count": 10.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sokvy Rim",
@@ -452,7 +469,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "G Kabin Antony",
@@ -471,7 +489,8 @@ const rankingsData = [
                 "paper_count_s2": 5.0,
                 "h_index": 2.0,
                 "citation_count": 12.0,
-                "paper_count": 5.0
+                "paper_count": 5.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Monyrath Buntoun",
@@ -490,7 +509,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 1.0,
                 "citation_count": 1.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Ketsela Hailu",
@@ -509,7 +529,8 @@ const rankingsData = [
                 "paper_count_s2": 3.0,
                 "h_index": 1.0,
                 "citation_count": 2.0,
-                "paper_count": 3.0
+                "paper_count": 3.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Tom Pearson",
@@ -528,7 +549,8 @@ const rankingsData = [
                 "paper_count_s2": 4.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 4.0
+                "paper_count": 4.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Joshua Wilwohl",
@@ -547,23 +569,24 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             }
         ],
         "uri_system": {
-            "uri": 28.669905103063485,
+            "uri": 24.16884610658445,
             "rank": 8,
-            "uri_base": 9.416880870321895,
+            "uri_base": 7.938468709285318,
             "size_factor": 3.044522437723423,
             "components": {
-                "H": 20.5689269238357,
-                "C_norm": 0.19941792326832944,
+                "H": 17.29875179043218,
+                "C_norm": 0.18423269881278437,
                 "P_norm": 0.7112568912508297,
-                "C_blend": 50.84556804168348,
+                "C_blend": 42.99400900594603,
                 "P_term": 3.480772860648218,
-                "H_GS": 33.3194604089428,
+                "H_GS": 22.418876630931074,
                 "H_S2": 15.104412573075514,
-                "C_GS": 80.24466118354,
+                "C_GS": 54.07279773108184,
                 "C_S2": 38.24595669517355,
                 "P_S2": 31.484818614522677
             }
@@ -580,31 +603,31 @@ const rankingsData = [
             ]
         },
         "ranking_system": {
-            "score": 28.669905103063485,
+            "score": 24.16884610658445,
             "rank": 8,
             "metrics": {
-                "H": 20.5689269238357,
-                "C_norm": 0.19941792326832944,
+                "H": 17.29875179043218,
+                "C_norm": 0.18423269881278437,
                 "P_norm": 0.7112568912508297,
-                "H_GS": 33.3194604089428,
+                "H_GS": 22.418876630931074,
                 "H_S2": 15.104412573075514,
-                "C_GS": 80.24466118354,
+                "C_GS": 54.07279773108184,
                 "C_S2": 38.24595669517355,
                 "P_S2": 31.484818614522677
             }
         },
         "weighted_sum_system": {
-            "score": 28.669905103063485,
+            "score": 24.16884610658445,
             "rank": 8,
             "metrics": {
-                "H": 20.5689269238357,
-                "C_norm": 0.19941792326832944,
+                "H": 17.29875179043218,
+                "C_norm": 0.18423269881278437,
                 "P_norm": 0.7112568912508297,
-                "C_blend": 50.84556804168348,
+                "C_blend": 42.99400900594603,
                 "P_term": 3.480772860648218,
-                "H_GS": 33.3194604089428,
+                "H_GS": 22.418876630931074,
                 "H_S2": 15.104412573075514,
-                "C_GS": 80.24466118354,
+                "C_GS": 54.07279773108184,
                 "C_S2": 38.24595669517355,
                 "P_S2": 31.484818614522677
             }
@@ -634,23 +657,24 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             }
         ],
         "uri_system": {
-            "uri": 0.16941451668013863,
-            "rank": 29,
-            "uri_base": 0.24441348306903657,
+            "uri": 0.0,
+            "rank": 33,
+            "uri_base": 0.0,
             "size_factor": 0.6931471805599453,
             "components": {
-                "H": 0.5375278407684164,
-                "C_norm": 0.005613232718331494,
+                "H": 0.0,
+                "C_norm": 0.0,
                 "P_norm": 0.0,
-                "C_blend": 1.4312053873396995,
+                "C_blend": 0.0,
                 "P_term": 0.0,
-                "H_GS": 1.791759469228055,
+                "H_GS": 0.0,
                 "H_S2": 0.0,
-                "C_GS": 4.770684624465665,
+                "C_GS": 0.0,
                 "C_S2": 0.0,
                 "P_S2": 0.0
             }
@@ -669,31 +693,31 @@ const rankingsData = [
             ]
         },
         "ranking_system": {
-            "score": 0.16941451668013863,
-            "rank": 29,
+            "score": 0.0,
+            "rank": 33,
             "metrics": {
-                "H": 0.5375278407684164,
-                "C_norm": 0.005613232718331494,
+                "H": 0.0,
+                "C_norm": 0.0,
                 "P_norm": 0.0,
-                "H_GS": 1.791759469228055,
+                "H_GS": 0.0,
                 "H_S2": 0.0,
-                "C_GS": 4.770684624465665,
+                "C_GS": 0.0,
                 "C_S2": 0.0,
                 "P_S2": 0.0
             }
         },
         "weighted_sum_system": {
-            "score": 0.16941451668013863,
-            "rank": 29,
+            "score": 0.0,
+            "rank": 33,
             "metrics": {
-                "H": 0.5375278407684164,
-                "C_norm": 0.005613232718331494,
+                "H": 0.0,
+                "C_norm": 0.0,
                 "P_norm": 0.0,
-                "C_blend": 1.4312053873396995,
+                "C_blend": 0.0,
                 "P_term": 0.0,
-                "H_GS": 1.791759469228055,
+                "H_GS": 0.0,
                 "H_S2": 0.0,
-                "C_GS": 4.770684624465665,
+                "C_GS": 0.0,
                 "C_S2": 0.0,
                 "P_S2": 0.0
             }
@@ -723,23 +747,24 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             }
         ],
         "uri_system": {
-            "uri": 0.1308029334404118,
-            "rank": 30,
-            "uri_base": 0.18870874340821125,
+            "uri": 0.0,
+            "rank": 34,
+            "uri_base": 0.0,
             "size_factor": 0.6931471805599453,
             "components": {
-                "H": 0.4158883083359672,
-                "C_norm": 0.003464454793391174,
+                "H": 0.0,
+                "C_norm": 0.0,
                 "P_norm": 0.0,
-                "C_blend": 0.883331693749932,
+                "C_blend": 0.0,
                 "P_term": 0.0,
-                "H_GS": 1.3862943611198906,
+                "H_GS": 0.0,
                 "H_S2": 0.0,
-                "C_GS": 2.9444389791664403,
+                "C_GS": 0.0,
                 "C_S2": 0.0,
                 "P_S2": 0.0
             }
@@ -758,31 +783,31 @@ const rankingsData = [
             ]
         },
         "ranking_system": {
-            "score": 0.1308029334404118,
-            "rank": 30,
+            "score": 0.0,
+            "rank": 34,
             "metrics": {
-                "H": 0.4158883083359672,
-                "C_norm": 0.003464454793391174,
+                "H": 0.0,
+                "C_norm": 0.0,
                 "P_norm": 0.0,
-                "H_GS": 1.3862943611198906,
+                "H_GS": 0.0,
                 "H_S2": 0.0,
-                "C_GS": 2.9444389791664403,
+                "C_GS": 0.0,
                 "C_S2": 0.0,
                 "P_S2": 0.0
             }
         },
         "weighted_sum_system": {
-            "score": 0.1308029334404118,
-            "rank": 30,
+            "score": 0.0,
+            "rank": 34,
             "metrics": {
-                "H": 0.4158883083359672,
-                "C_norm": 0.003464454793391174,
+                "H": 0.0,
+                "C_norm": 0.0,
                 "P_norm": 0.0,
-                "C_blend": 0.883331693749932,
+                "C_blend": 0.0,
                 "P_term": 0.0,
-                "H_GS": 1.3862943611198906,
+                "H_GS": 0.0,
                 "H_S2": 0.0,
-                "C_GS": 2.9444389791664403,
+                "C_GS": 0.0,
                 "C_S2": 0.0,
                 "P_S2": 0.0
             }
@@ -812,12 +837,13 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             }
         ],
         "uri_system": {
             "uri": 0.007458441283827392,
-            "rank": 34,
+            "rank": 32,
             "uri_base": 0.010760256252939292,
             "size_factor": 0.6931471805599453,
             "components": {
@@ -848,7 +874,7 @@ const rankingsData = [
         },
         "ranking_system": {
             "score": 0.007458441283827392,
-            "rank": 34,
+            "rank": 32,
             "metrics": {
                 "H": 0.0,
                 "C_norm": 0.0,
@@ -862,7 +888,7 @@ const rankingsData = [
         },
         "weighted_sum_system": {
             "score": 0.007458441283827392,
-            "rank": 34,
+            "rank": 32,
             "metrics": {
                 "H": 0.0,
                 "C_norm": 0.0,
@@ -901,7 +927,8 @@ const rankingsData = [
                 "paper_count_s2": 3.0,
                 "h_index": 2.0,
                 "citation_count": 28.0,
-                "paper_count": 3.0
+                "paper_count": 3.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Lim Kim Eav",
@@ -920,7 +947,8 @@ const rankingsData = [
                 "paper_count_s2": 11.0,
                 "h_index": 2.0,
                 "citation_count": 9.0,
-                "paper_count": 11.0
+                "paper_count": 11.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Kong Chantha",
@@ -939,17 +967,18 @@ const rankingsData = [
                 "paper_count_s2": 2.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 2.0
+                "paper_count": 2.0,
+                "gs_suspect": ""
             }
         ],
         "uri_system": {
-            "uri": 1.696948383911554,
-            "rank": 19,
-            "uri_base": 1.22408950905687,
+            "uri": 1.6984470999715733,
+            "rank": 18,
+            "uri_base": 1.2251706041706152,
             "size_factor": 1.3862943611198906,
             "components": {
                 "H": 2.6131128856721864,
-                "C_norm": 0.02595373383556997,
+                "C_norm": 0.02835616742167061,
                 "P_norm": 0.3650953027837954,
                 "C_blend": 6.617420932102311,
                 "P_term": 1.7867156538126496,
@@ -970,11 +999,11 @@ const rankingsData = [
             "notes": []
         },
         "ranking_system": {
-            "score": 1.696948383911554,
-            "rank": 19,
+            "score": 1.6984470999715733,
+            "rank": 18,
             "metrics": {
                 "H": 2.6131128856721864,
-                "C_norm": 0.02595373383556997,
+                "C_norm": 0.02835616742167061,
                 "P_norm": 0.3650953027837954,
                 "H_GS": 3.58351893845611,
                 "H_S2": 2.1972245773362196,
@@ -984,11 +1013,11 @@ const rankingsData = [
             }
         },
         "weighted_sum_system": {
-            "score": 1.696948383911554,
-            "rank": 19,
+            "score": 1.6984470999715733,
+            "rank": 18,
             "metrics": {
                 "H": 2.6131128856721864,
-                "C_norm": 0.02595373383556997,
+                "C_norm": 0.02835616742167061,
                 "P_norm": 0.3650953027837954,
                 "C_blend": 6.617420932102311,
                 "P_term": 1.7867156538126496,
@@ -1024,7 +1053,8 @@ const rankingsData = [
                 "paper_count_s2": 36.0,
                 "h_index": 6.0,
                 "citation_count": 118.0,
-                "paper_count": 36.0
+                "paper_count": 36.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Hongly Va",
@@ -1043,7 +1073,8 @@ const rankingsData = [
                 "paper_count_s2": 13.0,
                 "h_index": 4.0,
                 "citation_count": 69.0,
-                "paper_count": 13.0
+                "paper_count": 13.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Ratha Yeu",
@@ -1062,7 +1093,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 1.0,
                 "citation_count": 30.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Kor Sokchea",
@@ -1081,7 +1113,8 @@ const rankingsData = [
                 "paper_count_s2": 3.0,
                 "h_index": 2.0,
                 "citation_count": 12.0,
-                "paper_count": 3.0
+                "paper_count": 3.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Bonpagna Kann",
@@ -1100,7 +1133,8 @@ const rankingsData = [
                 "paper_count_s2": 7.0,
                 "h_index": 2.0,
                 "citation_count": 50.0,
-                "paper_count": 7.0
+                "paper_count": 7.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sonita Te",
@@ -1119,7 +1153,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sotheara Leang",
@@ -1138,7 +1173,8 @@ const rankingsData = [
                 "paper_count_s2": 4.0,
                 "h_index": 1.0,
                 "citation_count": 4.0,
-                "paper_count": 4.0
+                "paper_count": 4.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Saly KEO",
@@ -1157,7 +1193,8 @@ const rankingsData = [
                 "paper_count_s2": 4.0,
                 "h_index": 2.0,
                 "citation_count": 4.0,
-                "paper_count": 4.0
+                "paper_count": 4.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Rottana Ly",
@@ -1176,7 +1213,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 1.0,
                 "citation_count": 1.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Phannet Pov",
@@ -1195,7 +1233,8 @@ const rankingsData = [
                 "paper_count_s2": 2.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 2.0
+                "paper_count": 2.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Dariya Kong",
@@ -1214,17 +1253,18 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             }
         ],
         "uri_system": {
-            "uri": 11.229755407120393,
+            "uri": 11.23994695865803,
             "rank": 10,
-            "uri_base": 4.519186025792341,
+            "uri_base": 4.523287407845669,
             "size_factor": 2.4849066497880004,
             "components": {
                 "H": 9.817099552883699,
-                "C_norm": 0.09846143675673819,
+                "C_norm": 0.1075756190974664,
                 "P_norm": 0.5718358045414452,
                 "C_blend": 25.104702727047837,
                 "P_term": 2.7984692643109486,
@@ -1247,11 +1287,11 @@ const rankingsData = [
             ]
         },
         "ranking_system": {
-            "score": 11.229755407120393,
+            "score": 11.23994695865803,
             "rank": 10,
             "metrics": {
                 "H": 9.817099552883699,
-                "C_norm": 0.09846143675673819,
+                "C_norm": 0.1075756190974664,
                 "P_norm": 0.5718358045414452,
                 "H_GS": 11.885536748207313,
                 "H_S2": 8.930626469173578,
@@ -1261,11 +1301,11 @@ const rankingsData = [
             }
         },
         "weighted_sum_system": {
-            "score": 11.229755407120393,
+            "score": 11.23994695865803,
             "rank": 10,
             "metrics": {
                 "H": 9.817099552883699,
-                "C_norm": 0.09846143675673819,
+                "C_norm": 0.1075756190974664,
                 "P_norm": 0.5718358045414452,
                 "C_blend": 25.104702727047837,
                 "P_term": 2.7984692643109486,
@@ -1301,7 +1341,8 @@ const rankingsData = [
                 "paper_count_s2": 17.0,
                 "h_index": 10.0,
                 "citation_count": 458.0,
-                "paper_count": 17.0
+                "paper_count": 17.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Monireach Tang",
@@ -1320,7 +1361,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "May Thu",
@@ -1339,7 +1381,8 @@ const rankingsData = [
                 "paper_count_s2": 9.0,
                 "h_index": 5.0,
                 "citation_count": 271.0,
-                "paper_count": 9.0
+                "paper_count": 9.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Vatana  Chea",
@@ -1358,7 +1401,8 @@ const rankingsData = [
                 "paper_count_s2": 10.0,
                 "h_index": 2.0,
                 "citation_count": 35.0,
-                "paper_count": 10.0
+                "paper_count": 10.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Nou Chanrachna",
@@ -1377,7 +1421,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 1.0,
                 "citation_count": 5.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Ros Sayumphu",
@@ -1396,7 +1441,8 @@ const rankingsData = [
                 "paper_count_s2": 6.0,
                 "h_index": 2.0,
                 "citation_count": 7.0,
-                "paper_count": 6.0
+                "paper_count": 6.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Pakrigna Long",
@@ -1415,7 +1461,8 @@ const rankingsData = [
                 "paper_count_s2": 4.0,
                 "h_index": 1.0,
                 "citation_count": 5.0,
-                "paper_count": 4.0
+                "paper_count": 4.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Kimsreng Lim",
@@ -1434,7 +1481,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Mut Somoeun",
@@ -1453,7 +1501,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sopheak Yeng",
@@ -1472,7 +1521,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Cholsa Kosal",
@@ -1491,7 +1541,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Kea Meanhor",
@@ -1510,23 +1561,24 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             }
         ],
         "uri_system": {
-            "uri": 10.717573757699995,
+            "uri": 10.0456428801977,
             "rank": 11,
-            "uri_base": 4.178473826986938,
+            "uri_base": 3.916507299052333,
             "size_factor": 2.5649493574615367,
             "components": {
-                "H": 9.073825666194232,
-                "C_norm": 0.09337801671718687,
+                "H": 8.490052621477636,
+                "C_norm": 0.09500322157910208,
                 "P_norm": 0.5323216967680044,
-                "C_blend": 23.808583625668586,
+                "C_blend": 22.170707971425337,
                 "P_term": 2.6050937966811842,
-                "H_GS": 12.108680299521524,
-                "H_S2": 7.773173680482536,
-                "C_GS": 30.405504797348552,
+                "H_GS": 10.16277015046621,
+                "H_S2": 7.773173680482534,
+                "C_GS": 24.94591928320439,
                 "C_S2": 20.9813316949486,
                 "P_S2": 12.532494546297885
             }
@@ -1543,31 +1595,31 @@ const rankingsData = [
             ]
         },
         "ranking_system": {
-            "score": 10.717573757699995,
+            "score": 10.0456428801977,
             "rank": 11,
             "metrics": {
-                "H": 9.073825666194232,
-                "C_norm": 0.09337801671718687,
+                "H": 8.490052621477636,
+                "C_norm": 0.09500322157910208,
                 "P_norm": 0.5323216967680044,
-                "H_GS": 12.108680299521524,
-                "H_S2": 7.773173680482536,
-                "C_GS": 30.405504797348552,
+                "H_GS": 10.16277015046621,
+                "H_S2": 7.773173680482534,
+                "C_GS": 24.94591928320439,
                 "C_S2": 20.9813316949486,
                 "P_S2": 12.532494546297885
             }
         },
         "weighted_sum_system": {
-            "score": 10.717573757699995,
+            "score": 10.0456428801977,
             "rank": 11,
             "metrics": {
-                "H": 9.073825666194232,
-                "C_norm": 0.09337801671718687,
+                "H": 8.490052621477636,
+                "C_norm": 0.09500322157910208,
                 "P_norm": 0.5323216967680044,
-                "C_blend": 23.808583625668586,
+                "C_blend": 22.170707971425337,
                 "P_term": 2.6050937966811842,
-                "H_GS": 12.108680299521524,
-                "H_S2": 7.773173680482536,
-                "C_GS": 30.405504797348552,
+                "H_GS": 10.16277015046621,
+                "H_S2": 7.773173680482534,
+                "C_GS": 24.94591928320439,
                 "C_S2": 20.9813316949486,
                 "P_S2": 12.532494546297885
             }
@@ -1597,7 +1649,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Romny Ly",
@@ -1616,23 +1669,24 @@ const rankingsData = [
                 "paper_count_s2": 23.0,
                 "h_index": 8.0,
                 "citation_count": 276.0,
-                "paper_count": 23.0
+                "paper_count": 23.0,
+                "gs_suspect": ""
             }
         ],
         "uri_system": {
-            "uri": 1.5051852176514389,
+            "uri": 1.1462097652523942,
             "rank": 20,
-            "uri_base": 1.3700786284451936,
+            "uri_base": 1.043325090275468,
             "size_factor": 1.0986122886681098,
             "components": {
-                "H": 2.9482013138730787,
-                "C_norm": 0.03149054946632228,
+                "H": 2.2288327320335672,
+                "C_norm": 0.024740157595333146,
                 "P_norm": 0.29217289942462893,
-                "C_blend": 8.029142262230028,
+                "C_blend": 5.773560097185452,
                 "P_term": 1.4298455472897516,
-                "H_GS": 4.700480365792417,
+                "H_GS": 2.302585092994046,
                 "H_S2": 2.1972245773362196,
-                "C_GS": 13.641100026329639,
+                "C_GS": 6.1224928095143865,
                 "C_S2": 5.6240175061873385,
                 "P_S2": 3.1780538303479458
             }
@@ -1650,31 +1704,31 @@ const rankingsData = [
             ]
         },
         "ranking_system": {
-            "score": 1.5051852176514389,
+            "score": 1.1462097652523942,
             "rank": 20,
             "metrics": {
-                "H": 2.9482013138730787,
-                "C_norm": 0.03149054946632228,
+                "H": 2.2288327320335672,
+                "C_norm": 0.024740157595333146,
                 "P_norm": 0.29217289942462893,
-                "H_GS": 4.700480365792417,
+                "H_GS": 2.302585092994046,
                 "H_S2": 2.1972245773362196,
-                "C_GS": 13.641100026329639,
+                "C_GS": 6.1224928095143865,
                 "C_S2": 5.6240175061873385,
                 "P_S2": 3.1780538303479458
             }
         },
         "weighted_sum_system": {
-            "score": 1.5051852176514389,
+            "score": 1.1462097652523942,
             "rank": 20,
             "metrics": {
-                "H": 2.9482013138730787,
-                "C_norm": 0.03149054946632228,
+                "H": 2.2288327320335672,
+                "C_norm": 0.024740157595333146,
                 "P_norm": 0.29217289942462893,
-                "C_blend": 8.029142262230028,
+                "C_blend": 5.773560097185452,
                 "P_term": 1.4298455472897516,
-                "H_GS": 4.700480365792417,
+                "H_GS": 2.302585092994046,
                 "H_S2": 2.1972245773362196,
-                "C_GS": 13.641100026329639,
+                "C_GS": 6.1224928095143865,
                 "C_S2": 5.6240175061873385,
                 "P_S2": 3.1780538303479458
             }
@@ -1704,17 +1758,18 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             }
         ],
         "uri_system": {
-            "uri": 0.06596060138475288,
-            "rank": 32,
-            "uri_base": 0.09516103251183666,
+            "uri": 0.0660623725758852,
+            "rank": 29,
+            "uri_base": 0.09530785730458863,
             "size_factor": 0.6931471805599453,
             "components": {
                 "H": 0.2079441541679836,
-                "C_norm": 0.0035248069694312025,
+                "C_norm": 0.0038510842866578076,
                 "P_norm": 0.0,
                 "C_blend": 0.8987196820661972,
                 "P_term": 0.0,
@@ -1739,11 +1794,11 @@ const rankingsData = [
             ]
         },
         "ranking_system": {
-            "score": 0.06596060138475288,
-            "rank": 32,
+            "score": 0.0660623725758852,
+            "rank": 29,
             "metrics": {
                 "H": 0.2079441541679836,
-                "C_norm": 0.0035248069694312025,
+                "C_norm": 0.0038510842866578076,
                 "P_norm": 0.0,
                 "H_GS": 0.6931471805599453,
                 "H_S2": 0.0,
@@ -1753,11 +1808,11 @@ const rankingsData = [
             }
         },
         "weighted_sum_system": {
-            "score": 0.06596060138475288,
-            "rank": 32,
+            "score": 0.0660623725758852,
+            "rank": 29,
             "metrics": {
                 "H": 0.2079441541679836,
-                "C_norm": 0.0035248069694312025,
+                "C_norm": 0.0038510842866578076,
                 "P_norm": 0.0,
                 "C_blend": 0.8987196820661972,
                 "P_term": 0.0,
@@ -1793,17 +1848,18 @@ const rankingsData = [
                 "paper_count_s2": 57.0,
                 "h_index": 21.0,
                 "citation_count": 1311.0,
-                "paper_count": 57.0
+                "paper_count": 57.0,
+                "gs_suspect": ""
             }
         ],
         "uri_system": {
-            "uri": 0.9962719637647294,
-            "rank": 23,
-            "uri_base": 1.437316621500084,
+            "uri": 0.9971198579278935,
+            "rank": 22,
+            "uri_base": 1.4385398742044797,
             "size_factor": 0.6931471805599453,
             "components": {
                 "H": 3.0910424533583156,
-                "C_norm": 0.029366495787348162,
+                "C_norm": 0.03208483513044942,
                 "P_norm": 0.3313259438453543,
                 "C_blend": 7.487572507172718,
                 "P_term": 1.6214540309583532,
@@ -1826,11 +1882,11 @@ const rankingsData = [
             ]
         },
         "ranking_system": {
-            "score": 0.9962719637647294,
-            "rank": 23,
+            "score": 0.9971198579278935,
+            "rank": 22,
             "metrics": {
                 "H": 3.0910424533583156,
-                "C_norm": 0.029366495787348162,
+                "C_norm": 0.03208483513044942,
                 "P_norm": 0.3313259438453543,
                 "H_GS": 3.091042453358316,
                 "H_S2": 3.091042453358316,
@@ -1840,11 +1896,11 @@ const rankingsData = [
             }
         },
         "weighted_sum_system": {
-            "score": 0.9962719637647294,
-            "rank": 23,
+            "score": 0.9971198579278935,
+            "rank": 22,
             "metrics": {
                 "H": 3.0910424533583156,
-                "C_norm": 0.029366495787348162,
+                "C_norm": 0.03208483513044942,
                 "P_norm": 0.3313259438453543,
                 "C_blend": 7.487572507172718,
                 "P_term": 1.6214540309583532,
@@ -1880,7 +1936,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Hasika Mith",
@@ -1899,7 +1956,8 @@ const rankingsData = [
                 "paper_count_s2": 25.0,
                 "h_index": 10.0,
                 "citation_count": 560.0,
-                "paper_count": 25.0
+                "paper_count": 25.0,
+                "gs_suspect": ""
             },
             {
                 "name": "SOK Ty",
@@ -1918,7 +1976,8 @@ const rankingsData = [
                 "paper_count_s2": 34.0,
                 "h_index": 12.0,
                 "citation_count": 405.0,
-                "paper_count": 34.0
+                "paper_count": 34.0,
+                "gs_suspect": ""
             },
             {
                 "name": "PHAT Chanvorleak",
@@ -1937,7 +1996,8 @@ const rankingsData = [
                 "paper_count_s2": 24.0,
                 "h_index": 7.0,
                 "citation_count": 476.0,
-                "paper_count": 24.0
+                "paper_count": 24.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Long Bun",
@@ -1956,7 +2016,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "PHUN Vengkheang",
@@ -1975,7 +2036,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Pichmony Ek",
@@ -1994,7 +2056,8 @@ const rankingsData = [
                 "paper_count_s2": 18.0,
                 "h_index": 9.0,
                 "citation_count": 258.0,
-                "paper_count": 18.0
+                "paper_count": 18.0,
+                "gs_suspect": ""
             },
             {
                 "name": "TAN Reasmey",
@@ -2013,7 +2076,8 @@ const rankingsData = [
                 "paper_count_s2": 17.0,
                 "h_index": 9.0,
                 "citation_count": 314.0,
-                "paper_count": 17.0
+                "paper_count": 17.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Vannak Vai",
@@ -2032,7 +2096,8 @@ const rankingsData = [
                 "paper_count_s2": 50.0,
                 "h_index": 10.0,
                 "citation_count": 320.0,
-                "paper_count": 50.0
+                "paper_count": 50.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Dona Valy",
@@ -2051,7 +2116,8 @@ const rankingsData = [
                 "paper_count_s2": 24.0,
                 "h_index": 10.0,
                 "citation_count": 242.0,
-                "paper_count": 24.0
+                "paper_count": 24.0,
+                "gs_suspect": ""
             },
             {
                 "name": "chhun sophea",
@@ -2070,7 +2136,8 @@ const rankingsData = [
                 "paper_count_s2": 16.0,
                 "h_index": 7.0,
                 "citation_count": 176.0,
-                "paper_count": 16.0
+                "paper_count": 16.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Layheang Song",
@@ -2089,7 +2156,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Chanmoly Or",
@@ -2108,7 +2176,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Khy Eam EANG",
@@ -2127,7 +2196,8 @@ const rankingsData = [
                 "paper_count_s2": 13.0,
                 "h_index": 4.0,
                 "citation_count": 137.0,
-                "paper_count": 13.0
+                "paper_count": 13.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sothoan Yoang",
@@ -2146,7 +2216,8 @@ const rankingsData = [
                 "paper_count_s2": 4.0,
                 "h_index": 4.0,
                 "citation_count": 155.0,
-                "paper_count": 4.0
+                "paper_count": 4.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Dr. Vannak ANN, Eco-hydrologist, Remote Sensing/GIS User",
@@ -2165,7 +2236,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Kong CHHUON",
@@ -2184,7 +2256,8 @@ const rankingsData = [
                 "paper_count_s2": 13.0,
                 "h_index": 6.0,
                 "citation_count": 115.0,
-                "paper_count": 13.0
+                "paper_count": 13.0,
+                "gs_suspect": ""
             },
             {
                 "name": "chhith chhlonh",
@@ -2203,7 +2276,8 @@ const rankingsData = [
                 "paper_count_s2": 22.0,
                 "h_index": 5.0,
                 "citation_count": 123.0,
-                "paper_count": 22.0
+                "paper_count": 22.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Kimhuy Sok",
@@ -2222,7 +2296,8 @@ const rankingsData = [
                 "paper_count_s2": 7.0,
                 "h_index": 3.0,
                 "citation_count": 87.0,
-                "paper_count": 7.0
+                "paper_count": 7.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Saret Bun",
@@ -2241,7 +2316,8 @@ const rankingsData = [
                 "paper_count_s2": 21.0,
                 "h_index": 6.0,
                 "citation_count": 110.0,
-                "paper_count": 21.0
+                "paper_count": 21.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Rattana Chhin",
@@ -2260,7 +2336,8 @@ const rankingsData = [
                 "paper_count_s2": 11.0,
                 "h_index": 4.0,
                 "citation_count": 62.0,
-                "paper_count": 11.0
+                "paper_count": 11.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Ket Pinnara",
@@ -2279,7 +2356,8 @@ const rankingsData = [
                 "paper_count_s2": 19.0,
                 "h_index": 7.0,
                 "citation_count": 102.0,
-                "paper_count": 19.0
+                "paper_count": 19.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Rathborey Chan",
@@ -2298,7 +2376,8 @@ const rankingsData = [
                 "paper_count_s2": 13.0,
                 "h_index": 6.0,
                 "citation_count": 111.0,
-                "paper_count": 13.0
+                "paper_count": 13.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Piseth Doung",
@@ -2317,7 +2396,8 @@ const rankingsData = [
                 "paper_count_s2": 13.0,
                 "h_index": 4.0,
                 "citation_count": 105.0,
-                "paper_count": 13.0
+                "paper_count": 13.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sambo LUN",
@@ -2336,7 +2416,8 @@ const rankingsData = [
                 "paper_count_s2": 11.0,
                 "h_index": 6.0,
                 "citation_count": 90.0,
-                "paper_count": 11.0
+                "paper_count": 11.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Kimheng SOK",
@@ -2355,7 +2436,8 @@ const rankingsData = [
                 "paper_count_s2": 7.0,
                 "h_index": 5.0,
                 "citation_count": 95.0,
-                "paper_count": 7.0
+                "paper_count": 7.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Am Sokchea",
@@ -2374,7 +2456,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Chanthol Peng",
@@ -2393,7 +2476,8 @@ const rankingsData = [
                 "paper_count_s2": 5.0,
                 "h_index": 3.0,
                 "citation_count": 69.0,
-                "paper_count": 5.0
+                "paper_count": 5.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Ken Pisal",
@@ -2412,7 +2496,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "phanny yos",
@@ -2431,7 +2516,8 @@ const rankingsData = [
                 "paper_count_s2": 5.0,
                 "h_index": 3.0,
                 "citation_count": 64.0,
-                "paper_count": 5.0
+                "paper_count": 5.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Porsry UNG",
@@ -2450,7 +2536,8 @@ const rankingsData = [
                 "paper_count_s2": 5.0,
                 "h_index": 3.0,
                 "citation_count": 69.0,
-                "paper_count": 5.0
+                "paper_count": 5.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Khoeurn Kimleang",
@@ -2469,7 +2556,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Eng Samphors",
@@ -2488,7 +2576,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Sopheap Sam",
@@ -2507,7 +2596,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Phok Chrin",
@@ -2526,7 +2616,8 @@ const rankingsData = [
                 "paper_count_s2": 21.0,
                 "h_index": 6.0,
                 "citation_count": 74.0,
-                "paper_count": 21.0
+                "paper_count": 21.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sievlong Suk",
@@ -2545,7 +2636,8 @@ const rankingsData = [
                 "paper_count_s2": 8.0,
                 "h_index": 3.0,
                 "citation_count": 67.0,
-                "paper_count": 8.0
+                "paper_count": 8.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sereyvath Yoeun",
@@ -2564,7 +2656,8 @@ const rankingsData = [
                 "paper_count_s2": 12.0,
                 "h_index": 4.0,
                 "citation_count": 62.0,
-                "paper_count": 12.0
+                "paper_count": 12.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Tola SREU, PhD",
@@ -2583,7 +2676,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Sochan Sao",
@@ -2602,7 +2696,8 @@ const rankingsData = [
                 "paper_count_s2": 8.0,
                 "h_index": 4.0,
                 "citation_count": 60.0,
-                "paper_count": 8.0
+                "paper_count": 8.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Rothna Pec",
@@ -2621,7 +2716,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Kosorl Thourn",
@@ -2640,7 +2736,8 @@ const rankingsData = [
                 "paper_count_s2": 22.0,
                 "h_index": 3.0,
                 "citation_count": 33.0,
-                "paper_count": 22.0
+                "paper_count": 22.0,
+                "gs_suspect": ""
             },
             {
                 "name": "CHANN Kimsan",
@@ -2659,7 +2756,8 @@ const rankingsData = [
                 "paper_count_s2": 3.0,
                 "h_index": 3.0,
                 "citation_count": 46.0,
-                "paper_count": 3.0
+                "paper_count": 3.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Kimsrornn KHON",
@@ -2678,7 +2776,8 @@ const rankingsData = [
                 "paper_count_s2": 13.0,
                 "h_index": 5.0,
                 "citation_count": 54.0,
-                "paper_count": 13.0
+                "paper_count": 13.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Lyda CHIN",
@@ -2697,7 +2796,8 @@ const rankingsData = [
                 "paper_count_s2": 2.0,
                 "h_index": 1.0,
                 "citation_count": 18.0,
-                "paper_count": 2.0
+                "paper_count": 2.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Ratha MUON",
@@ -2716,7 +2816,8 @@ const rankingsData = [
                 "paper_count_s2": 10.0,
                 "h_index": 4.0,
                 "citation_count": 40.0,
-                "paper_count": 10.0
+                "paper_count": 10.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Tokla EOM, PhD",
@@ -2735,7 +2836,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Chea Rotha",
@@ -2754,7 +2856,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "TO Dara",
@@ -2773,7 +2876,8 @@ const rankingsData = [
                 "paper_count_s2": 5.0,
                 "h_index": 2.0,
                 "citation_count": 23.0,
-                "paper_count": 5.0
+                "paper_count": 5.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Saran MEAS",
@@ -2792,7 +2896,8 @@ const rankingsData = [
                 "paper_count_s2": 7.0,
                 "h_index": 3.0,
                 "citation_count": 34.0,
-                "paper_count": 7.0
+                "paper_count": 7.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Raveth HIN",
@@ -2811,7 +2916,8 @@ const rankingsData = [
                 "paper_count_s2": 2.0,
                 "h_index": 1.0,
                 "citation_count": 1.0,
-                "paper_count": 2.0
+                "paper_count": 2.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Narith Saum",
@@ -2830,7 +2936,8 @@ const rankingsData = [
                 "paper_count_s2": 8.0,
                 "h_index": 3.0,
                 "citation_count": 32.0,
-                "paper_count": 8.0
+                "paper_count": 8.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Channmuny Thanh",
@@ -2849,7 +2956,8 @@ const rankingsData = [
                 "paper_count_s2": 5.0,
                 "h_index": 3.0,
                 "citation_count": 29.0,
-                "paper_count": 5.0
+                "paper_count": 5.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Rathpisey Heng",
@@ -2868,7 +2976,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 1.0,
                 "citation_count": 26.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Khemrath Vithean",
@@ -2887,7 +2996,8 @@ const rankingsData = [
                 "paper_count_s2": 5.0,
                 "h_index": 2.0,
                 "citation_count": 30.0,
-                "paper_count": 5.0
+                "paper_count": 5.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Boeut Sophea",
@@ -2906,7 +3016,8 @@ const rankingsData = [
                 "paper_count_s2": 13.0,
                 "h_index": 3.0,
                 "citation_count": 35.0,
-                "paper_count": 13.0
+                "paper_count": 13.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sim Tepmony",
@@ -2925,7 +3036,8 @@ const rankingsData = [
                 "paper_count_s2": 7.0,
                 "h_index": 4.0,
                 "citation_count": 33.0,
-                "paper_count": 7.0
+                "paper_count": 7.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Samon Rotana",
@@ -2944,7 +3056,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Sothea HAS",
@@ -2963,7 +3076,8 @@ const rankingsData = [
                 "paper_count_s2": 13.0,
                 "h_index": 2.0,
                 "citation_count": 15.0,
-                "paper_count": 13.0
+                "paper_count": 13.0,
+                "gs_suspect": ""
             },
             {
                 "name": "NOU Sotheany",
@@ -2982,7 +3096,8 @@ const rankingsData = [
                 "paper_count_s2": 2.0,
                 "h_index": 2.0,
                 "citation_count": 16.0,
-                "paper_count": 2.0
+                "paper_count": 2.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Ngin Kimlong",
@@ -3001,7 +3116,8 @@ const rankingsData = [
                 "paper_count_s2": 8.0,
                 "h_index": 2.0,
                 "citation_count": 21.0,
-                "paper_count": 8.0
+                "paper_count": 8.0,
+                "gs_suspect": ""
             },
             {
                 "name": "MUTH Boravy",
@@ -3020,7 +3136,8 @@ const rankingsData = [
                 "paper_count_s2": 5.0,
                 "h_index": 2.0,
                 "citation_count": 11.0,
-                "paper_count": 5.0
+                "paper_count": 5.0,
+                "gs_suspect": ""
             },
             {
                 "name": "kim lengthong",
@@ -3039,7 +3156,8 @@ const rankingsData = [
                 "paper_count_s2": 3.0,
                 "h_index": 1.0,
                 "citation_count": 11.0,
-                "paper_count": 3.0
+                "paper_count": 3.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sokleap Heang",
@@ -3058,7 +3176,8 @@ const rankingsData = [
                 "paper_count_s2": 7.0,
                 "h_index": 3.0,
                 "citation_count": 21.0,
-                "paper_count": 7.0
+                "paper_count": 7.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Chanthan Hel",
@@ -3077,7 +3196,8 @@ const rankingsData = [
                 "paper_count_s2": 10.0,
                 "h_index": 2.0,
                 "citation_count": 11.0,
-                "paper_count": 10.0
+                "paper_count": 10.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sarin Chan",
@@ -3096,7 +3216,8 @@ const rankingsData = [
                 "paper_count_s2": 2.0,
                 "h_index": 2.0,
                 "citation_count": 12.0,
-                "paper_count": 2.0
+                "paper_count": 2.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sreyvich SIENG, M.Eng",
@@ -3115,7 +3236,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Monychottepy CHANTO",
@@ -3134,7 +3256,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 1.0,
                 "citation_count": 10.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Thaileng Oeng",
@@ -3153,7 +3276,8 @@ const rankingsData = [
                 "paper_count_s2": 4.0,
                 "h_index": 2.0,
                 "citation_count": 12.0,
-                "paper_count": 4.0
+                "paper_count": 4.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Molika Yin",
@@ -3172,7 +3296,8 @@ const rankingsData = [
                 "paper_count_s2": 2.0,
                 "h_index": 1.0,
                 "citation_count": 6.0,
-                "paper_count": 2.0
+                "paper_count": 2.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Chan Daraly Chin",
@@ -3191,7 +3316,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Monika MICH",
@@ -3210,7 +3336,8 @@ const rankingsData = [
                 "paper_count_s2": 2.0,
                 "h_index": 1.0,
                 "citation_count": 7.0,
-                "paper_count": 2.0
+                "paper_count": 2.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Kinnaleth Vongchanh",
@@ -3229,7 +3356,8 @@ const rankingsData = [
                 "paper_count_s2": 4.0,
                 "h_index": 1.0,
                 "citation_count": 5.0,
-                "paper_count": 4.0
+                "paper_count": 4.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Pakrigna LONG",
@@ -3248,7 +3376,8 @@ const rankingsData = [
                 "paper_count_s2": 4.0,
                 "h_index": 1.0,
                 "citation_count": 5.0,
-                "paper_count": 4.0
+                "paper_count": 4.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Monyvathna Chheng",
@@ -3267,7 +3396,8 @@ const rankingsData = [
                 "paper_count_s2": 2.0,
                 "h_index": 1.0,
                 "citation_count": 3.0,
-                "paper_count": 2.0
+                "paper_count": 2.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Seyha DOEURN",
@@ -3286,7 +3416,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 1.0,
                 "citation_count": 2.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "kay sopheak",
@@ -3305,7 +3436,8 @@ const rankingsData = [
                 "paper_count_s2": 2.0,
                 "h_index": 1.0,
                 "citation_count": 3.0,
-                "paper_count": 2.0
+                "paper_count": 2.0,
+                "gs_suspect": ""
             },
             {
                 "name": "CHEA Rothvichea",
@@ -3324,7 +3456,8 @@ const rankingsData = [
                 "paper_count_s2": 2.0,
                 "h_index": 1.0,
                 "citation_count": 2.0,
-                "paper_count": 2.0
+                "paper_count": 2.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sovichea Tep",
@@ -3343,7 +3476,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Kean Jeudy",
@@ -3362,7 +3496,8 @@ const rankingsData = [
                 "paper_count_s2": 3.0,
                 "h_index": 1.0,
                 "citation_count": 1.0,
-                "paper_count": 3.0
+                "paper_count": 3.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Heng Ratha",
@@ -3381,7 +3516,8 @@ const rankingsData = [
                 "paper_count_s2": 2.0,
                 "h_index": 1.0,
                 "citation_count": 1.0,
-                "paper_count": 2.0
+                "paper_count": 2.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Vuthy Chork",
@@ -3400,7 +3536,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Bun Tha SUN",
@@ -3419,7 +3556,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Vanda Chhiev",
@@ -3438,7 +3576,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "PLACK Sokhit",
@@ -3457,7 +3596,8 @@ const rankingsData = [
                 "paper_count_s2": 2.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 2.0
+                "paper_count": 2.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Panha Yang",
@@ -3476,23 +3616,24 @@ const rankingsData = [
                 "paper_count_s2": 5.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 5.0
+                "paper_count": 5.0,
+                "gs_suspect": ""
             }
         ],
         "uri_system": {
-            "uri": 200.82296555737986,
+            "uri": 183.68982141384825,
             "rank": 1,
-            "uri_base": 45.08471212522863,
+            "uri_base": 41.23832498834281,
             "size_factor": 4.454347296253507,
             "components": {
-                "H": 98.96602694495249,
+                "H": 90.41849997409513,
                 "C_norm": 1.0,
                 "P_norm": 1.0,
-                "C_blend": 254.9699004400299,
+                "C_blend": 233.36795955877608,
                 "P_term": 4.893833583147245,
-                "H_GS": 130.38042596511482,
-                "H_S2": 85.50271307916863,
-                "C_GS": 339.7628319074511,
+                "H_GS": 101.88866939559028,
+                "H_S2": 85.50271307916864,
+                "C_GS": 267.75636230327166,
                 "C_S2": 218.630072668278,
                 "P_S2": 132.4642408485339
             }
@@ -3509,31 +3650,31 @@ const rankingsData = [
             ]
         },
         "ranking_system": {
-            "score": 200.82296555737986,
+            "score": 183.68982141384825,
             "rank": 1,
             "metrics": {
-                "H": 98.96602694495249,
+                "H": 90.41849997409513,
                 "C_norm": 1.0,
                 "P_norm": 1.0,
-                "H_GS": 130.38042596511482,
-                "H_S2": 85.50271307916863,
-                "C_GS": 339.7628319074511,
+                "H_GS": 101.88866939559028,
+                "H_S2": 85.50271307916864,
+                "C_GS": 267.75636230327166,
                 "C_S2": 218.630072668278,
                 "P_S2": 132.4642408485339
             }
         },
         "weighted_sum_system": {
-            "score": 200.82296555737986,
+            "score": 183.68982141384825,
             "rank": 1,
             "metrics": {
-                "H": 98.96602694495249,
+                "H": 90.41849997409513,
                 "C_norm": 1.0,
                 "P_norm": 1.0,
-                "C_blend": 254.9699004400299,
+                "C_blend": 233.36795955877608,
                 "P_term": 4.893833583147245,
-                "H_GS": 130.38042596511482,
-                "H_S2": 85.50271307916863,
-                "C_GS": 339.7628319074511,
+                "H_GS": 101.88866939559028,
+                "H_S2": 85.50271307916864,
+                "C_GS": 267.75636230327166,
                 "C_S2": 218.630072668278,
                 "P_S2": 132.4642408485339
             }
@@ -3563,7 +3704,8 @@ const rankingsData = [
                 "paper_count_s2": 47.0,
                 "h_index": 13.0,
                 "citation_count": 1039.0,
-                "paper_count": 47.0
+                "paper_count": 47.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Panha Chhim",
@@ -3582,17 +3724,18 @@ const rankingsData = [
                 "paper_count_s2": 4.0,
                 "h_index": 3.0,
                 "citation_count": 25.0,
-                "paper_count": 4.0
+                "paper_count": 4.0,
+                "gs_suspect": ""
             }
         ],
         "uri_system": {
-            "uri": 2.1052273833644604,
+            "uri": 2.107110143361175,
             "rank": 17,
-            "uri_base": 1.9162605453073067,
+            "uri_base": 1.9179743073106401,
             "size_factor": 1.0986122886681098,
             "components": {
                 "H": 4.132354173916768,
-                "C_norm": 0.041142099641850456,
+                "C_norm": 0.04495045964925785,
                 "P_norm": 0.3818722220592797,
                 "C_blend": 10.4899970495764,
                 "P_term": 1.868819104784765,
@@ -3615,11 +3758,11 @@ const rankingsData = [
             ]
         },
         "ranking_system": {
-            "score": 2.1052273833644604,
+            "score": 2.107110143361175,
             "rank": 17,
             "metrics": {
                 "H": 4.132354173916768,
-                "C_norm": 0.041142099641850456,
+                "C_norm": 0.04495045964925785,
                 "P_norm": 0.3818722220592797,
                 "H_GS": 4.382026634673881,
                 "H_S2": 4.025351690735149,
@@ -3629,11 +3772,11 @@ const rankingsData = [
             }
         },
         "weighted_sum_system": {
-            "score": 2.1052273833644604,
+            "score": 2.107110143361175,
             "rank": 17,
             "metrics": {
                 "H": 4.132354173916768,
-                "C_norm": 0.041142099641850456,
+                "C_norm": 0.04495045964925785,
                 "P_norm": 0.3818722220592797,
                 "C_blend": 10.4899970495764,
                 "P_term": 1.868819104784765,
@@ -3669,7 +3812,8 @@ const rankingsData = [
                 "paper_count_s2": 13.0,
                 "h_index": 4.0,
                 "citation_count": 52.0,
-                "paper_count": 13.0
+                "paper_count": 13.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Savrin THY",
@@ -3688,7 +3832,8 @@ const rankingsData = [
                 "paper_count_s2": 6.0,
                 "h_index": 4.0,
                 "citation_count": 25.0,
-                "paper_count": 6.0
+                "paper_count": 6.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Vutheavy Chim",
@@ -3707,7 +3852,8 @@ const rankingsData = [
                 "paper_count_s2": 5.0,
                 "h_index": 3.0,
                 "citation_count": 10.0,
-                "paper_count": 5.0
+                "paper_count": 5.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Ngoeurn",
@@ -3726,7 +3872,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Rany im",
@@ -3745,7 +3892,8 @@ const rankingsData = [
                 "paper_count_s2": 4.0,
                 "h_index": 3.0,
                 "citation_count": 23.0,
-                "paper_count": 4.0
+                "paper_count": 4.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Chanponna Chea",
@@ -3764,7 +3912,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 1.0,
                 "citation_count": 7.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sieng Veasna",
@@ -3783,7 +3932,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 1.0,
                 "citation_count": 4.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Somara Sun",
@@ -3802,7 +3952,8 @@ const rankingsData = [
                 "paper_count_s2": 4.0,
                 "h_index": 1.0,
                 "citation_count": 4.0,
-                "paper_count": 4.0
+                "paper_count": 4.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Robraw Ann",
@@ -3821,7 +3972,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sokchea Ly",
@@ -3840,7 +3992,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Keun Im",
@@ -3859,7 +4012,8 @@ const rankingsData = [
                 "paper_count_s2": 3.0,
                 "h_index": 1.0,
                 "citation_count": 2.0,
-                "paper_count": 3.0
+                "paper_count": 3.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Huy Hang",
@@ -3878,17 +4032,18 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             }
         ],
         "uri_system": {
-            "uri": 12.243780373202817,
+            "uri": 12.253853438734824,
             "rank": 9,
-            "uri_base": 4.773497900683765,
+            "uri_base": 4.777425099286226,
             "size_factor": 2.5649493574615367,
             "components": {
                 "H": 10.391273840903843,
-                "C_norm": 0.09427983343168046,
+                "C_norm": 0.10300694143715057,
                 "P_norm": 0.5499874723277941,
                 "C_blend": 24.03851974357817,
                 "P_term": 2.6915471623880247,
@@ -3911,11 +4066,11 @@ const rankingsData = [
             ]
         },
         "ranking_system": {
-            "score": 12.243780373202817,
+            "score": 12.253853438734824,
             "rank": 9,
             "metrics": {
                 "H": 10.391273840903843,
-                "C_norm": 0.09427983343168046,
+                "C_norm": 0.10300694143715057,
                 "P_norm": 0.5499874723277941,
                 "H_GS": 14.18812184120136,
                 "H_S2": 8.764053269347762,
@@ -3925,11 +4080,11 @@ const rankingsData = [
             }
         },
         "weighted_sum_system": {
-            "score": 12.243780373202817,
+            "score": 12.253853438734824,
             "rank": 9,
             "metrics": {
                 "H": 10.391273840903843,
-                "C_norm": 0.09427983343168046,
+                "C_norm": 0.10300694143715057,
                 "P_norm": 0.5499874723277941,
                 "C_blend": 24.03851974357817,
                 "P_term": 2.6915471623880247,
@@ -3965,7 +4120,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Veu Thangrak.PhD",
@@ -3984,7 +4140,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Sopheak TITH",
@@ -4003,23 +4160,24 @@ const rankingsData = [
                 "paper_count_s2": 3.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 3.0
+                "paper_count": 3.0,
+                "gs_suspect": ""
             }
         ],
         "uri_system": {
-            "uri": 0.834719741519691,
-            "rank": 25,
-            "uri_base": 0.6021230158112878,
+            "uri": 0.23229946209985677,
+            "rank": 26,
+            "uri_base": 0.16756864098631855,
             "size_factor": 1.3862943611198906,
             "components": {
-                "H": 1.2829998357048165,
-                "C_norm": 0.01555754211308185,
+                "H": 0.3295836866004329,
+                "C_norm": 0.00329730271753376,
                 "P_norm": 0.17772195793233517,
-                "C_blend": 3.9667049636640517,
+                "C_blend": 0.769484807238461,
                 "P_term": 0.8697416861919438,
-                "H_GS": 4.276666119016055,
+                "H_GS": 1.0986122886681098,
                 "H_S2": 0.0,
-                "C_GS": 13.222349878880173,
+                "C_GS": 2.5649493574615367,
                 "C_S2": 0.0,
                 "P_S2": 1.3862943611198906
             }
@@ -4037,31 +4195,31 @@ const rankingsData = [
             ]
         },
         "ranking_system": {
-            "score": 0.834719741519691,
-            "rank": 25,
+            "score": 0.23229946209985677,
+            "rank": 26,
             "metrics": {
-                "H": 1.2829998357048165,
-                "C_norm": 0.01555754211308185,
+                "H": 0.3295836866004329,
+                "C_norm": 0.00329730271753376,
                 "P_norm": 0.17772195793233517,
-                "H_GS": 4.276666119016055,
+                "H_GS": 1.0986122886681098,
                 "H_S2": 0.0,
-                "C_GS": 13.222349878880173,
+                "C_GS": 2.5649493574615367,
                 "C_S2": 0.0,
                 "P_S2": 1.3862943611198906
             }
         },
         "weighted_sum_system": {
-            "score": 0.834719741519691,
-            "rank": 25,
+            "score": 0.23229946209985677,
+            "rank": 26,
             "metrics": {
-                "H": 1.2829998357048165,
-                "C_norm": 0.01555754211308185,
+                "H": 0.3295836866004329,
+                "C_norm": 0.00329730271753376,
                 "P_norm": 0.17772195793233517,
-                "C_blend": 3.9667049636640517,
+                "C_blend": 0.769484807238461,
                 "P_term": 0.8697416861919438,
-                "H_GS": 4.276666119016055,
+                "H_GS": 1.0986122886681098,
                 "H_S2": 0.0,
-                "C_GS": 13.222349878880173,
+                "C_GS": 2.5649493574615367,
                 "C_S2": 0.0,
                 "P_S2": 1.3862943611198906
             }
@@ -4091,7 +4249,8 @@ const rankingsData = [
                 "paper_count_s2": 10.0,
                 "h_index": 9.0,
                 "citation_count": 872.0,
-                "paper_count": 10.0
+                "paper_count": 10.0,
+                "gs_suspect": ""
             },
             {
                 "name": "SAR SARY",
@@ -4110,7 +4269,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Chivon Choeung",
@@ -4129,7 +4289,8 @@ const rankingsData = [
                 "paper_count_s2": 34.0,
                 "h_index": 9.0,
                 "citation_count": 152.0,
-                "paper_count": 34.0
+                "paper_count": 34.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Heng Tang",
@@ -4148,7 +4309,8 @@ const rankingsData = [
                 "paper_count_s2": 18.0,
                 "h_index": 8.0,
                 "citation_count": 228.0,
-                "paper_count": 18.0
+                "paper_count": 18.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Panha Soth",
@@ -4167,7 +4329,8 @@ const rankingsData = [
                 "paper_count_s2": 16.0,
                 "h_index": 7.0,
                 "citation_count": 75.0,
-                "paper_count": 16.0
+                "paper_count": 16.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Phanam Pech, Ph.D.",
@@ -4186,7 +4349,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Oum Saokosal",
@@ -4205,7 +4369,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "sovann ang",
@@ -4224,7 +4389,8 @@ const rankingsData = [
                 "paper_count_s2": 4.0,
                 "h_index": 3.0,
                 "citation_count": 23.0,
-                "paper_count": 4.0
+                "paper_count": 4.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Channareth Srun",
@@ -4243,7 +4409,8 @@ const rankingsData = [
                 "paper_count_s2": 21.0,
                 "h_index": 5.0,
                 "citation_count": 75.0,
-                "paper_count": 21.0
+                "paper_count": 21.0,
+                "gs_suspect": ""
             },
             {
                 "name": "SEVEN SIREN",
@@ -4262,7 +4429,8 @@ const rankingsData = [
                 "paper_count_s2": 12.0,
                 "h_index": 4.0,
                 "citation_count": 34.0,
-                "paper_count": 12.0
+                "paper_count": 12.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Socheat YAY",
@@ -4281,7 +4449,8 @@ const rankingsData = [
                 "paper_count_s2": 10.0,
                 "h_index": 4.0,
                 "citation_count": 31.0,
-                "paper_count": 10.0
+                "paper_count": 10.0,
+                "gs_suspect": ""
             },
             {
                 "name": "UN Sokoeun",
@@ -4300,7 +4469,8 @@ const rankingsData = [
                 "paper_count_s2": 6.0,
                 "h_index": 3.0,
                 "citation_count": 15.0,
-                "paper_count": 6.0
+                "paper_count": 6.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sokun Ieng",
@@ -4319,7 +4489,8 @@ const rankingsData = [
                 "paper_count_s2": 3.0,
                 "h_index": 2.0,
                 "citation_count": 15.0,
-                "paper_count": 3.0
+                "paper_count": 3.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sokna San",
@@ -4338,7 +4509,8 @@ const rankingsData = [
                 "paper_count_s2": 10.0,
                 "h_index": 2.0,
                 "citation_count": 18.0,
-                "paper_count": 10.0
+                "paper_count": 10.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Bunne So",
@@ -4357,7 +4529,8 @@ const rankingsData = [
                 "paper_count_s2": 3.0,
                 "h_index": 3.0,
                 "citation_count": 22.0,
-                "paper_count": 3.0
+                "paper_count": 3.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Tan Hor",
@@ -4376,7 +4549,8 @@ const rankingsData = [
                 "paper_count_s2": 35.0,
                 "h_index": 2.0,
                 "citation_count": 26.0,
-                "paper_count": 35.0
+                "paper_count": 35.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sokvan In",
@@ -4395,7 +4569,8 @@ const rankingsData = [
                 "paper_count_s2": 5.0,
                 "h_index": 3.0,
                 "citation_count": 24.0,
-                "paper_count": 5.0
+                "paper_count": 5.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sros Nhek",
@@ -4414,7 +4589,8 @@ const rankingsData = [
                 "paper_count_s2": 6.0,
                 "h_index": 3.0,
                 "citation_count": 18.0,
-                "paper_count": 6.0
+                "paper_count": 6.0,
+                "gs_suspect": ""
             },
             {
                 "name": "srey sophyn",
@@ -4433,7 +4609,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 1.0,
                 "citation_count": 1.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Khoem sambath",
@@ -4452,7 +4629,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Kakada Sovan",
@@ -4471,7 +4649,8 @@ const rankingsData = [
                 "paper_count_s2": 3.0,
                 "h_index": 1.0,
                 "citation_count": 10.0,
-                "paper_count": 3.0
+                "paper_count": 3.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Soeng Saban",
@@ -4490,7 +4669,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 1.0,
                 "citation_count": 9.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "DARA SENG HUO",
@@ -4509,7 +4689,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sophea Nam",
@@ -4528,7 +4709,8 @@ const rankingsData = [
                 "paper_count_s2": 3.0,
                 "h_index": 1.0,
                 "citation_count": 4.0,
-                "paper_count": 3.0
+                "paper_count": 3.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Born Chhaytep",
@@ -4547,7 +4729,8 @@ const rankingsData = [
                 "paper_count_s2": 2.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 2.0
+                "paper_count": 2.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Hut Sovannarith",
@@ -4566,7 +4749,8 @@ const rankingsData = [
                 "paper_count_s2": 2.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 2.0
+                "paper_count": 2.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Mengseu Pheng",
@@ -4585,7 +4769,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "SOK Piseth",
@@ -4604,7 +4789,8 @@ const rankingsData = [
                 "paper_count_s2": 2.0,
                 "h_index": 1.0,
                 "citation_count": 9.0,
-                "paper_count": 2.0
+                "paper_count": 2.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Lim Lorn",
@@ -4623,25 +4809,26 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             }
         ],
         "uri_system": {
-            "uri": 49.32661749725031,
+            "uri": 47.127455744419805,
             "rank": 6,
-            "uri_base": 14.50272123670298,
+            "uri_base": 13.856136664843824,
             "size_factor": 3.4011973816621555,
             "components": {
-                "H": 31.750511791894752,
-                "C_norm": 0.30492285696262095,
+                "H": 30.29962721980931,
+                "C_norm": 0.3189528249166017,
                 "P_norm": 0.7777564471716155,
-                "C_blend": 77.74615048164894,
+                "C_blend": 74.43336994629489,
                 "P_term": 3.806210620677738,
-                "H_GS": 41.468834901473386,
+                "H_GS": 36.63255299452191,
                 "H_S2": 27.58551617350391,
-                "C_GS": 104.01840503158496,
-                "C_S2": 66.48661281739065,
-                "P_S2": 43.97967048431965
+                "C_GS": 92.9758032470714,
+                "C_S2": 66.48661281739066,
+                "P_S2": 43.979670484319655
             }
         },
         "data_quality": {
@@ -4656,33 +4843,33 @@ const rankingsData = [
             ]
         },
         "ranking_system": {
-            "score": 49.32661749725031,
+            "score": 47.127455744419805,
             "rank": 6,
             "metrics": {
-                "H": 31.750511791894752,
-                "C_norm": 0.30492285696262095,
+                "H": 30.29962721980931,
+                "C_norm": 0.3189528249166017,
                 "P_norm": 0.7777564471716155,
-                "H_GS": 41.468834901473386,
+                "H_GS": 36.63255299452191,
                 "H_S2": 27.58551617350391,
-                "C_GS": 104.01840503158496,
-                "C_S2": 66.48661281739065,
-                "P_S2": 43.97967048431965
+                "C_GS": 92.9758032470714,
+                "C_S2": 66.48661281739066,
+                "P_S2": 43.979670484319655
             }
         },
         "weighted_sum_system": {
-            "score": 49.32661749725031,
+            "score": 47.127455744419805,
             "rank": 6,
             "metrics": {
-                "H": 31.750511791894752,
-                "C_norm": 0.30492285696262095,
+                "H": 30.29962721980931,
+                "C_norm": 0.3189528249166017,
                 "P_norm": 0.7777564471716155,
-                "C_blend": 77.74615048164894,
+                "C_blend": 74.43336994629489,
                 "P_term": 3.806210620677738,
-                "H_GS": 41.468834901473386,
+                "H_GS": 36.63255299452191,
                 "H_S2": 27.58551617350391,
-                "C_GS": 104.01840503158496,
-                "C_S2": 66.48661281739065,
-                "P_S2": 43.97967048431965
+                "C_GS": 92.9758032470714,
+                "C_S2": 66.48661281739066,
+                "P_S2": 43.979670484319655
             }
         }
     },
@@ -4710,17 +4897,18 @@ const rankingsData = [
                 "paper_count_s2": 3.0,
                 "h_index": 3.0,
                 "citation_count": 184.0,
-                "paper_count": 3.0
+                "paper_count": 3.0,
+                "gs_suspect": ""
             }
         ],
         "uri_system": {
-            "uri": 0.4511989908403915,
-            "rank": 27,
-            "uri_base": 0.6509425465395376,
+            "uri": 0.4517981272011918,
+            "rank": 24,
+            "uri_base": 0.6518069175960804,
             "size_factor": 0.6931471805599453,
             "components": {
                 "H": 1.3862943611198906,
-                "C_norm": 0.020750862760785242,
+                "C_norm": 0.022671687330880503,
                 "P_norm": 0.17772195793233517,
                 "C_blend": 5.290845412162137,
                 "P_term": 0.8697416861919438,
@@ -4743,11 +4931,11 @@ const rankingsData = [
             ]
         },
         "ranking_system": {
-            "score": 0.4511989908403915,
-            "rank": 27,
+            "score": 0.4517981272011918,
+            "rank": 24,
             "metrics": {
                 "H": 1.3862943611198906,
-                "C_norm": 0.020750862760785242,
+                "C_norm": 0.022671687330880503,
                 "P_norm": 0.17772195793233517,
                 "H_GS": 1.3862943611198906,
                 "H_S2": 1.3862943611198906,
@@ -4757,11 +4945,11 @@ const rankingsData = [
             }
         },
         "weighted_sum_system": {
-            "score": 0.4511989908403915,
-            "rank": 27,
+            "score": 0.4517981272011918,
+            "rank": 24,
             "metrics": {
                 "H": 1.3862943611198906,
-                "C_norm": 0.020750862760785242,
+                "C_norm": 0.022671687330880503,
                 "P_norm": 0.17772195793233517,
                 "C_blend": 5.290845412162137,
                 "P_term": 0.8697416861919438,
@@ -4797,7 +4985,8 @@ const rankingsData = [
                 "paper_count_s2": 48.0,
                 "h_index": 13.0,
                 "citation_count": 669.0,
-                "paper_count": 48.0
+                "paper_count": 48.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Rany Sam, PhD",
@@ -4816,7 +5005,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Chan HUM",
@@ -4835,7 +5025,8 @@ const rankingsData = [
                 "paper_count_s2": 24.0,
                 "h_index": 7.0,
                 "citation_count": 296.0,
-                "paper_count": 24.0
+                "paper_count": 24.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Morin Tieng",
@@ -4854,7 +5045,8 @@ const rankingsData = [
                 "paper_count_s2": 7.0,
                 "h_index": 3.0,
                 "citation_count": 22.0,
-                "paper_count": 7.0
+                "paper_count": 7.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Ry Hour",
@@ -4873,7 +5065,8 @@ const rankingsData = [
                 "paper_count_s2": 9.0,
                 "h_index": 2.0,
                 "citation_count": 15.0,
-                "paper_count": 9.0
+                "paper_count": 9.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Ratha Rien",
@@ -4892,7 +5085,8 @@ const rankingsData = [
                 "paper_count_s2": 5.0,
                 "h_index": 3.0,
                 "citation_count": 34.0,
-                "paper_count": 5.0
+                "paper_count": 5.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Kheuy Sinoeurn",
@@ -4911,7 +5105,8 @@ const rankingsData = [
                 "paper_count_s2": 7.0,
                 "h_index": 3.0,
                 "citation_count": 21.0,
-                "paper_count": 7.0
+                "paper_count": 7.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sarith Chiv",
@@ -4930,7 +5125,8 @@ const rankingsData = [
                 "paper_count_s2": 4.0,
                 "h_index": 2.0,
                 "citation_count": 7.0,
-                "paper_count": 4.0
+                "paper_count": 4.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Hoeurn Sokha",
@@ -4949,7 +5145,8 @@ const rankingsData = [
                 "paper_count_s2": 4.0,
                 "h_index": 2.0,
                 "citation_count": 16.0,
-                "paper_count": 4.0
+                "paper_count": 4.0,
+                "gs_suspect": ""
             },
             {
                 "name": "khin sophary",
@@ -4968,7 +5165,8 @@ const rankingsData = [
                 "paper_count_s2": 9.0,
                 "h_index": 2.0,
                 "citation_count": 19.0,
-                "paper_count": 9.0
+                "paper_count": 9.0,
+                "gs_suspect": ""
             },
             {
                 "name": "LY Sovann",
@@ -4987,7 +5185,8 @@ const rankingsData = [
                 "paper_count_s2": 4.0,
                 "h_index": 2.0,
                 "citation_count": 8.0,
-                "paper_count": 4.0
+                "paper_count": 4.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Chhor Chang",
@@ -5006,7 +5205,8 @@ const rankingsData = [
                 "paper_count_s2": 2.0,
                 "h_index": 2.0,
                 "citation_count": 8.0,
-                "paper_count": 2.0
+                "paper_count": 2.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Rasmeikhema Norng",
@@ -5025,7 +5225,8 @@ const rankingsData = [
                 "paper_count_s2": 2.0,
                 "h_index": 2.0,
                 "citation_count": 8.0,
-                "paper_count": 2.0
+                "paper_count": 2.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Soeurn Chenda",
@@ -5044,7 +5245,8 @@ const rankingsData = [
                 "paper_count_s2": 6.0,
                 "h_index": 1.0,
                 "citation_count": 4.0,
-                "paper_count": 6.0
+                "paper_count": 6.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Ey Doeurn",
@@ -5063,7 +5265,8 @@ const rankingsData = [
                 "paper_count_s2": 3.0,
                 "h_index": 2.0,
                 "citation_count": 11.0,
-                "paper_count": 3.0
+                "paper_count": 3.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Voithna Nhean",
@@ -5082,7 +5285,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Eng Titya",
@@ -5101,7 +5305,8 @@ const rankingsData = [
                 "paper_count_s2": 3.0,
                 "h_index": 2.0,
                 "citation_count": 17.0,
-                "paper_count": 3.0
+                "paper_count": 3.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Thay Sovannpitou",
@@ -5120,7 +5325,8 @@ const rankingsData = [
                 "paper_count_s2": 2.0,
                 "h_index": 2.0,
                 "citation_count": 5.0,
-                "paper_count": 2.0
+                "paper_count": 2.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Phearom YEA",
@@ -5139,7 +5345,8 @@ const rankingsData = [
                 "paper_count_s2": 2.0,
                 "h_index": 1.0,
                 "citation_count": 7.0,
-                "paper_count": 2.0
+                "paper_count": 2.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Morm Sophany",
@@ -5158,7 +5365,8 @@ const rankingsData = [
                 "paper_count_s2": 8.0,
                 "h_index": 1.0,
                 "citation_count": 5.0,
-                "paper_count": 8.0
+                "paper_count": 8.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Ron Seihak",
@@ -5177,7 +5385,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 1.0,
                 "citation_count": 1.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sopharath KHEAV",
@@ -5196,7 +5405,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Hoeurng Heak",
@@ -5215,7 +5425,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sreynget LO",
@@ -5234,7 +5445,8 @@ const rankingsData = [
                 "paper_count_s2": 3.0,
                 "h_index": 2.0,
                 "citation_count": 5.0,
-                "paper_count": 3.0
+                "paper_count": 3.0,
+                "gs_suspect": ""
             },
             {
                 "name": "sothea rien",
@@ -5253,7 +5465,8 @@ const rankingsData = [
                 "paper_count_s2": 3.0,
                 "h_index": 1.0,
                 "citation_count": 2.0,
-                "paper_count": 3.0
+                "paper_count": 3.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sek Vimon",
@@ -5272,7 +5485,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "sovanna seav",
@@ -5291,7 +5505,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 1.0,
                 "citation_count": 3.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Bonsak Yoeum",
@@ -5310,7 +5525,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "No Sinath",
@@ -5329,7 +5545,8 @@ const rankingsData = [
                 "paper_count_s2": 7.0,
                 "h_index": 1.0,
                 "citation_count": 1.0,
-                "paper_count": 7.0
+                "paper_count": 7.0,
+                "gs_suspect": ""
             },
             {
                 "name": "KOEM Kim",
@@ -5348,7 +5565,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Ratha CHEY",
@@ -5367,7 +5585,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 1.0,
                 "citation_count": 3.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sopheaktra Hien",
@@ -5386,7 +5605,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Vuthea DA",
@@ -5405,7 +5625,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Em Chenda",
@@ -5424,7 +5645,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Rachana Thav",
@@ -5443,25 +5665,26 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             }
         ],
         "uri_system": {
-            "uri": 51.22871405478648,
+            "uri": 49.91486610635057,
             "rank": 5,
-            "uri_base": 14.295644849265784,
+            "uri_base": 13.929008598418466,
             "size_factor": 3.58351893845611,
             "components": {
-                "H": 31.314503317059312,
-                "C_norm": 0.2819519080401029,
+                "H": 30.482726700387374,
+                "C_norm": 0.2989813006068925,
                 "P_norm": 0.7723999797104687,
-                "C_blend": 71.8892499218615,
+                "C_blend": 69.77265606885956,
                 "P_term": 3.7799969603293424,
-                "H_GS": 42.531323716402795,
-                "H_S2": 26.507294574483534,
-                "C_GS": 102.07505611984104,
-                "C_S2": 58.952475837013125,
-                "P_S2": 42.815908549439996
+                "H_GS": 39.75873499416301,
+                "H_S2": 26.507294574483538,
+                "C_GS": 95.01974327650129,
+                "C_S2": 58.95247583701312,
+                "P_S2": 42.81590854943999
             }
         },
         "data_quality": {
@@ -5476,33 +5699,33 @@ const rankingsData = [
             ]
         },
         "ranking_system": {
-            "score": 51.22871405478648,
+            "score": 49.91486610635057,
             "rank": 5,
             "metrics": {
-                "H": 31.314503317059312,
-                "C_norm": 0.2819519080401029,
+                "H": 30.482726700387374,
+                "C_norm": 0.2989813006068925,
                 "P_norm": 0.7723999797104687,
-                "H_GS": 42.531323716402795,
-                "H_S2": 26.507294574483534,
-                "C_GS": 102.07505611984104,
-                "C_S2": 58.952475837013125,
-                "P_S2": 42.815908549439996
+                "H_GS": 39.75873499416301,
+                "H_S2": 26.507294574483538,
+                "C_GS": 95.01974327650129,
+                "C_S2": 58.95247583701312,
+                "P_S2": 42.81590854943999
             }
         },
         "weighted_sum_system": {
-            "score": 51.22871405478648,
+            "score": 49.91486610635057,
             "rank": 5,
             "metrics": {
-                "H": 31.314503317059312,
-                "C_norm": 0.2819519080401029,
+                "H": 30.482726700387374,
+                "C_norm": 0.2989813006068925,
                 "P_norm": 0.7723999797104687,
-                "C_blend": 71.8892499218615,
+                "C_blend": 69.77265606885956,
                 "P_term": 3.7799969603293424,
-                "H_GS": 42.531323716402795,
-                "H_S2": 26.507294574483534,
-                "C_GS": 102.07505611984104,
-                "C_S2": 58.952475837013125,
-                "P_S2": 42.815908549439996
+                "H_GS": 39.75873499416301,
+                "H_S2": 26.507294574483538,
+                "C_GS": 95.01974327650129,
+                "C_S2": 58.95247583701312,
+                "P_S2": 42.81590854943999
             }
         }
     },
@@ -5530,7 +5753,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Phal Chea",
@@ -5549,7 +5773,8 @@ const rankingsData = [
                 "paper_count_s2": 16.0,
                 "h_index": 4.0,
                 "citation_count": 104.0,
-                "paper_count": 16.0
+                "paper_count": 16.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Dr. Md Jamirul Haque",
@@ -5568,7 +5793,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Tum Nhim",
@@ -5587,7 +5813,8 @@ const rankingsData = [
                 "paper_count_s2": 9.0,
                 "h_index": 3.0,
                 "citation_count": 53.0,
-                "paper_count": 9.0
+                "paper_count": 9.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sum Sochenda",
@@ -5606,7 +5833,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 1.0,
                 "citation_count": 3.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sreng Vichet",
@@ -5625,23 +5853,24 @@ const rankingsData = [
                 "paper_count_s2": 2.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 2.0
+                "paper_count": 2.0,
+                "gs_suspect": ""
             }
         ],
         "uri_system": {
-            "uri": 5.092371790369436,
-            "rank": 13,
-            "uri_base": 2.616961421801333,
+            "uri": 3.6418266021400028,
+            "rank": 14,
+            "uri_base": 1.871528654037809,
             "size_factor": 1.9459101490553132,
             "components": {
-                "H": 5.662654817716966,
-                "C_norm": 0.05880350077394336,
+                "H": 4.018463140714369,
+                "C_norm": 0.04647791607982176,
                 "P_norm": 0.42305178480423417,
-                "C_blend": 14.993122737857561,
+                "C_blend": 10.846456440092034,
                 "P_term": 2.0703450318853425,
-                "H_GS": 10.268130666124035,
+                "H_GS": 4.787491742782046,
                 "H_S2": 3.6888794541139363,
-                "C_GS": 26.575518691227934,
+                "C_GS": 12.753297698676171,
                 "C_S2": 10.02923875784169,
                 "P_S2": 6.9275579062783175
             }
@@ -5658,31 +5887,31 @@ const rankingsData = [
             ]
         },
         "ranking_system": {
-            "score": 5.092371790369436,
-            "rank": 13,
+            "score": 3.6418266021400028,
+            "rank": 14,
             "metrics": {
-                "H": 5.662654817716966,
-                "C_norm": 0.05880350077394336,
+                "H": 4.018463140714369,
+                "C_norm": 0.04647791607982176,
                 "P_norm": 0.42305178480423417,
-                "H_GS": 10.268130666124035,
+                "H_GS": 4.787491742782046,
                 "H_S2": 3.6888794541139363,
-                "C_GS": 26.575518691227934,
+                "C_GS": 12.753297698676171,
                 "C_S2": 10.02923875784169,
                 "P_S2": 6.9275579062783175
             }
         },
         "weighted_sum_system": {
-            "score": 5.092371790369436,
-            "rank": 13,
+            "score": 3.6418266021400028,
+            "rank": 14,
             "metrics": {
-                "H": 5.662654817716966,
-                "C_norm": 0.05880350077394336,
+                "H": 4.018463140714369,
+                "C_norm": 0.04647791607982176,
                 "P_norm": 0.42305178480423417,
-                "C_blend": 14.993122737857561,
+                "C_blend": 10.846456440092034,
                 "P_term": 2.0703450318853425,
-                "H_GS": 10.268130666124035,
+                "H_GS": 4.787491742782046,
                 "H_S2": 3.6888794541139363,
-                "C_GS": 26.575518691227934,
+                "C_GS": 12.753297698676171,
                 "C_S2": 10.02923875784169,
                 "P_S2": 6.9275579062783175
             }
@@ -5712,7 +5941,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Koemhong Sol",
@@ -5731,7 +5961,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Meas Nearyroth",
@@ -5750,7 +5981,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Dr. Vanna Nourn",
@@ -5769,7 +6001,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Horn Ken",
@@ -5788,7 +6021,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Thou Pol",
@@ -5807,23 +6041,24 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             }
         ],
         "uri_system": {
-            "uri": 1.9817247089182108,
-            "rank": 18,
-            "uri_base": 1.0184050429462452,
+            "uri": 0.38947280517110167,
+            "rank": 25,
+            "uri_base": 0.200149428975526,
             "size_factor": 1.9459101490553132,
             "components": {
-                "H": 2.217054428467929,
-                "C_norm": 0.022156208628306157,
+                "H": 0.4158883083359672,
+                "C_norm": 0.004976519936447689,
                 "P_norm": 0.10760256252939292,
-                "C_blend": 5.649166308087753,
+                "C_blend": 1.1613603032723672,
                 "P_term": 0.5265890341390445,
-                "H_GS": 7.39018142822643,
+                "H_GS": 1.3862943611198906,
                 "H_S2": 0.0,
-                "C_GS": 18.83055436029251,
+                "C_GS": 3.8712010109078907,
                 "C_S2": 0.0,
                 "P_S2": 0.6931471805599453
             }
@@ -5841,31 +6076,31 @@ const rankingsData = [
             ]
         },
         "ranking_system": {
-            "score": 1.9817247089182108,
-            "rank": 18,
+            "score": 0.38947280517110167,
+            "rank": 25,
             "metrics": {
-                "H": 2.217054428467929,
-                "C_norm": 0.022156208628306157,
+                "H": 0.4158883083359672,
+                "C_norm": 0.004976519936447689,
                 "P_norm": 0.10760256252939292,
-                "H_GS": 7.39018142822643,
+                "H_GS": 1.3862943611198906,
                 "H_S2": 0.0,
-                "C_GS": 18.83055436029251,
+                "C_GS": 3.8712010109078907,
                 "C_S2": 0.0,
                 "P_S2": 0.6931471805599453
             }
         },
         "weighted_sum_system": {
-            "score": 1.9817247089182108,
-            "rank": 18,
+            "score": 0.38947280517110167,
+            "rank": 25,
             "metrics": {
-                "H": 2.217054428467929,
-                "C_norm": 0.022156208628306157,
+                "H": 0.4158883083359672,
+                "C_norm": 0.004976519936447689,
                 "P_norm": 0.10760256252939292,
-                "C_blend": 5.649166308087753,
+                "C_blend": 1.1613603032723672,
                 "P_term": 0.5265890341390445,
-                "H_GS": 7.39018142822643,
+                "H_GS": 1.3862943611198906,
                 "H_S2": 0.0,
-                "C_GS": 18.83055436029251,
+                "C_GS": 3.8712010109078907,
                 "C_S2": 0.0,
                 "P_S2": 0.6931471805599453
             }
@@ -5895,7 +6130,8 @@ const rankingsData = [
                 "paper_count_s2": 21.0,
                 "h_index": 9.0,
                 "citation_count": 196.0,
-                "paper_count": 21.0
+                "paper_count": 21.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Kashif Hasan Khan",
@@ -5914,7 +6150,8 @@ const rankingsData = [
                 "paper_count_s2": 20.0,
                 "h_index": 6.0,
                 "citation_count": 109.0,
-                "paper_count": 20.0
+                "paper_count": 20.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Meirambek Zhaparov",
@@ -5933,7 +6170,8 @@ const rankingsData = [
                 "paper_count_s2": 19.0,
                 "h_index": 6.0,
                 "citation_count": 106.0,
-                "paper_count": 19.0
+                "paper_count": 19.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Nurmurat Kandymov",
@@ -5952,7 +6190,8 @@ const rankingsData = [
                 "paper_count_s2": 10.0,
                 "h_index": 6.0,
                 "citation_count": 188.0,
-                "paper_count": 10.0
+                "paper_count": 10.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Ruslan Isaev",
@@ -5971,7 +6210,8 @@ const rankingsData = [
                 "paper_count_s2": 23.0,
                 "h_index": 6.0,
                 "citation_count": 109.0,
-                "paper_count": 23.0
+                "paper_count": 23.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sok Udom DETH, Ph.D",
@@ -5990,7 +6230,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Mengleang Lay",
@@ -6009,7 +6250,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Haksrun Lao",
@@ -6028,7 +6270,8 @@ const rankingsData = [
                 "paper_count_s2": 6.0,
                 "h_index": 4.0,
                 "citation_count": 36.0,
-                "paper_count": 6.0
+                "paper_count": 6.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sodiq Akinsanya",
@@ -6047,7 +6290,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Renz E. Ferrera",
@@ -6066,7 +6310,8 @@ const rankingsData = [
                 "paper_count_s2": 3.0,
                 "h_index": 2.0,
                 "citation_count": 14.0,
-                "paper_count": 3.0
+                "paper_count": 3.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Vichera Heang",
@@ -6085,7 +6330,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Flordeliza P. Poncio",
@@ -6104,7 +6350,8 @@ const rankingsData = [
                 "paper_count_s2": 2.0,
                 "h_index": 2.0,
                 "citation_count": 13.0,
-                "paper_count": 2.0
+                "paper_count": 2.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Thay Sinachettra",
@@ -6123,7 +6370,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 1.0,
                 "citation_count": 7.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Phanny ITH",
@@ -6142,7 +6390,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Ranysakol Thuon",
@@ -6161,7 +6410,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 1.0,
                 "citation_count": 3.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Chakrey Duong",
@@ -6180,7 +6430,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Vannak RO",
@@ -6199,7 +6450,8 @@ const rankingsData = [
                 "paper_count_s2": 3.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 3.0
+                "paper_count": 3.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sreyteav Sry",
@@ -6218,7 +6470,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 1.0,
                 "citation_count": 3.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "NEIL IAN UY",
@@ -6237,7 +6490,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 1.0,
                 "citation_count": 1.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Daniiar Satybaldiev",
@@ -6256,7 +6510,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 1.0,
                 "citation_count": 1.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sodiq Olayemi Akinsanya",
@@ -6275,7 +6530,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Abdulkasim Akhmedov",
@@ -6294,7 +6550,8 @@ const rankingsData = [
                 "paper_count_s2": 5.0,
                 "h_index": 1.0,
                 "citation_count": 1.0,
-                "paper_count": 5.0
+                "paper_count": 5.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Bekzhan Tolybay",
@@ -6313,7 +6570,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 1.0,
                 "citation_count": 1.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Vuthy LIM",
@@ -6332,7 +6590,8 @@ const rankingsData = [
                 "paper_count_s2": 2.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 2.0
+                "paper_count": 2.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Ensophea Toch",
@@ -6351,7 +6610,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Ratana Soth",
@@ -6370,7 +6630,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Keita Yamamoto",
@@ -6389,7 +6650,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Heng Lim",
@@ -6408,24 +6670,25 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             }
         ],
         "uri_system": {
-            "uri": 33.42087576284659,
+            "uri": 32.4402318694827,
             "rank": 7,
-            "uri_base": 9.925137989132613,
+            "uri_base": 9.63391204912727,
             "size_factor": 3.367295829986474,
             "components": {
-                "H": 21.702968486483137,
-                "C_norm": 0.19957367345201235,
+                "H": 21.04380111328227,
+                "C_norm": 0.21157229108544848,
                 "P_norm": 0.6899401716179476,
-                "C_blend": 50.885279650510626,
+                "C_blend": 49.37419386978654,
                 "P_term": 3.3764523822262857,
-                "H_GS": 28.605085254831568,
+                "H_GS": 26.40786067749535,
                 "H_S2": 18.744918442905238,
-                "C_GS": 73.52770110984935,
-                "C_S2": 41.181384739365456,
+                "C_GS": 68.49074850743571,
+                "C_S2": 41.18138473936546,
                 "P_S2": 28.266759449561032
             }
         },
@@ -6441,32 +6704,32 @@ const rankingsData = [
             ]
         },
         "ranking_system": {
-            "score": 33.42087576284659,
+            "score": 32.4402318694827,
             "rank": 7,
             "metrics": {
-                "H": 21.702968486483137,
-                "C_norm": 0.19957367345201235,
+                "H": 21.04380111328227,
+                "C_norm": 0.21157229108544848,
                 "P_norm": 0.6899401716179476,
-                "H_GS": 28.605085254831568,
+                "H_GS": 26.40786067749535,
                 "H_S2": 18.744918442905238,
-                "C_GS": 73.52770110984935,
-                "C_S2": 41.181384739365456,
+                "C_GS": 68.49074850743571,
+                "C_S2": 41.18138473936546,
                 "P_S2": 28.266759449561032
             }
         },
         "weighted_sum_system": {
-            "score": 33.42087576284659,
+            "score": 32.4402318694827,
             "rank": 7,
             "metrics": {
-                "H": 21.702968486483137,
-                "C_norm": 0.19957367345201235,
+                "H": 21.04380111328227,
+                "C_norm": 0.21157229108544848,
                 "P_norm": 0.6899401716179476,
-                "C_blend": 50.885279650510626,
+                "C_blend": 49.37419386978654,
                 "P_term": 3.3764523822262857,
-                "H_GS": 28.605085254831568,
+                "H_GS": 26.40786067749535,
                 "H_S2": 18.744918442905238,
-                "C_GS": 73.52770110984935,
-                "C_S2": 41.181384739365456,
+                "C_GS": 68.49074850743571,
+                "C_S2": 41.18138473936546,
                 "P_S2": 28.266759449561032
             }
         }
@@ -6495,7 +6758,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Ashli Josh Aurellano",
@@ -6514,7 +6778,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "kang kay",
@@ -6533,23 +6798,24 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             }
         ],
         "uri_system": {
-            "uri": 0.5253670636465559,
-            "rank": 26,
-            "uri_base": 0.3789722286846413,
+            "uri": 0.1327197427705454,
+            "rank": 27,
+            "uri_base": 0.09573705736156235,
             "size_factor": 1.3862943611198906,
             "components": {
-                "H": 0.8317766166719344,
-                "C_norm": 0.010383891516157408,
+                "H": 0.2079441541679836,
+                "C_norm": 0.004804862191043837,
                 "P_norm": 0.0,
-                "C_blend": 2.647579786054725,
+                "C_blend": 1.1213008854850104,
                 "P_term": 0.0,
-                "H_GS": 2.772588722239781,
+                "H_GS": 0.6931471805599453,
                 "H_S2": 0.0,
-                "C_GS": 8.825265953515752,
+                "C_GS": 3.7376696182833684,
                 "C_S2": 0.0,
                 "P_S2": 0.0
             }
@@ -6567,31 +6833,31 @@ const rankingsData = [
             ]
         },
         "ranking_system": {
-            "score": 0.5253670636465559,
-            "rank": 26,
+            "score": 0.1327197427705454,
+            "rank": 27,
             "metrics": {
-                "H": 0.8317766166719344,
-                "C_norm": 0.010383891516157408,
+                "H": 0.2079441541679836,
+                "C_norm": 0.004804862191043837,
                 "P_norm": 0.0,
-                "H_GS": 2.772588722239781,
+                "H_GS": 0.6931471805599453,
                 "H_S2": 0.0,
-                "C_GS": 8.825265953515752,
+                "C_GS": 3.7376696182833684,
                 "C_S2": 0.0,
                 "P_S2": 0.0
             }
         },
         "weighted_sum_system": {
-            "score": 0.5253670636465559,
-            "rank": 26,
+            "score": 0.1327197427705454,
+            "rank": 27,
             "metrics": {
-                "H": 0.8317766166719344,
-                "C_norm": 0.010383891516157408,
+                "H": 0.2079441541679836,
+                "C_norm": 0.004804862191043837,
                 "P_norm": 0.0,
-                "C_blend": 2.647579786054725,
+                "C_blend": 1.1213008854850104,
                 "P_term": 0.0,
-                "H_GS": 2.772588722239781,
+                "H_GS": 0.6931471805599453,
                 "H_S2": 0.0,
-                "C_GS": 8.825265953515752,
+                "C_GS": 3.7376696182833684,
                 "C_S2": 0.0,
                 "P_S2": 0.0
             }
@@ -6621,7 +6887,8 @@ const rankingsData = [
                 "paper_count_s2": 3.0,
                 "h_index": 3.0,
                 "citation_count": 19.0,
-                "paper_count": 3.0
+                "paper_count": 3.0,
+                "gs_suspect": ""
             },
             {
                 "name": "OUSSA EM",
@@ -6640,7 +6907,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 1.0,
                 "citation_count": 3.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Tangkin HONG",
@@ -6659,17 +6927,18 @@ const rankingsData = [
                 "paper_count_s2": 6.0,
                 "h_index": 2.0,
                 "citation_count": 6.0,
-                "paper_count": 6.0
+                "paper_count": 6.0,
+                "gs_suspect": ""
             }
         ],
         "uri_system": {
-            "uri": 2.1760179959609767,
+            "uri": 2.1776830849266697,
             "rank": 16,
-            "uri_base": 1.569665185829021,
+            "uri_base": 1.570866293625743,
             "size_factor": 1.3862943611198906,
             "components": {
                 "H": 3.385997984515929,
-                "C_norm": 0.028834865376419744,
+                "C_norm": 0.03150399381357973,
                 "P_norm": 0.32990403377464056,
                 "C_blend": 7.3520227542274075,
                 "P_term": 1.614495439702079,
@@ -6690,11 +6959,11 @@ const rankingsData = [
             "notes": []
         },
         "ranking_system": {
-            "score": 2.1760179959609767,
+            "score": 2.1776830849266697,
             "rank": 16,
             "metrics": {
                 "H": 3.385997984515929,
-                "C_norm": 0.028834865376419744,
+                "C_norm": 0.03150399381357973,
                 "P_norm": 0.32990403377464056,
                 "H_GS": 3.8712010109078907,
                 "H_S2": 3.1780538303479453,
@@ -6704,11 +6973,11 @@ const rankingsData = [
             }
         },
         "weighted_sum_system": {
-            "score": 2.1760179959609767,
+            "score": 2.1776830849266697,
             "rank": 16,
             "metrics": {
                 "H": 3.385997984515929,
-                "C_norm": 0.028834865376419744,
+                "C_norm": 0.03150399381357973,
                 "P_norm": 0.32990403377464056,
                 "C_blend": 7.3520227542274075,
                 "P_term": 1.614495439702079,
@@ -6744,7 +7013,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             }
         ],
         "uri_system": {
@@ -6834,17 +7104,18 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             }
         ],
         "uri_system": {
-            "uri": 0.06545182637431422,
-            "rank": 33,
-            "uri_base": 0.0944270253273486,
+            "uri": 0.06550650229273589,
+            "rank": 30,
+            "uri_base": 0.09450590600371157,
             "size_factor": 0.6931471805599453,
             "components": {
                 "H": 0.2079441541679836,
-                "C_norm": 0.0018936798927910875,
+                "C_norm": 0.002068970284708789,
                 "P_norm": 0.0,
                 "C_blend": 0.48283137373023005,
                 "P_term": 0.0,
@@ -6869,11 +7140,11 @@ const rankingsData = [
             ]
         },
         "ranking_system": {
-            "score": 0.06545182637431422,
-            "rank": 33,
+            "score": 0.06550650229273589,
+            "rank": 30,
             "metrics": {
                 "H": 0.2079441541679836,
-                "C_norm": 0.0018936798927910875,
+                "C_norm": 0.002068970284708789,
                 "P_norm": 0.0,
                 "H_GS": 0.6931471805599453,
                 "H_S2": 0.0,
@@ -6883,11 +7154,11 @@ const rankingsData = [
             }
         },
         "weighted_sum_system": {
-            "score": 0.06545182637431422,
-            "rank": 33,
+            "score": 0.06550650229273589,
+            "rank": 30,
             "metrics": {
                 "H": 0.2079441541679836,
-                "C_norm": 0.0018936798927910875,
+                "C_norm": 0.002068970284708789,
                 "P_norm": 0.0,
                 "C_blend": 0.48283137373023005,
                 "P_term": 0.0,
@@ -6923,7 +7194,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Lyda Hok",
@@ -6942,7 +7214,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Borarin Buntong",
@@ -6961,7 +7234,8 @@ const rankingsData = [
                 "paper_count_s2": 37.0,
                 "h_index": 6.0,
                 "citation_count": 371.0,
-                "paper_count": 37.0
+                "paper_count": 37.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Samkol",
@@ -6980,7 +7254,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Dyna Theng",
@@ -6999,7 +7274,8 @@ const rankingsData = [
                 "paper_count_s2": 18.0,
                 "h_index": 7.0,
                 "citation_count": 279.0,
-                "paper_count": 18.0
+                "paper_count": 18.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Keo Sath",
@@ -7018,7 +7294,8 @@ const rankingsData = [
                 "paper_count_s2": 11.0,
                 "h_index": 5.0,
                 "citation_count": 79.0,
-                "paper_count": 11.0
+                "paper_count": 11.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Samol Chhuoy",
@@ -7037,7 +7314,8 @@ const rankingsData = [
                 "paper_count_s2": 18.0,
                 "h_index": 7.0,
                 "citation_count": 185.0,
-                "paper_count": 18.0
+                "paper_count": 18.0,
+                "gs_suspect": ""
             },
             {
                 "name": "kim Soben",
@@ -7056,7 +7334,8 @@ const rankingsData = [
                 "paper_count_s2": 9.0,
                 "h_index": 5.0,
                 "citation_count": 156.0,
-                "paper_count": 9.0
+                "paper_count": 9.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Ro Sophoanrith",
@@ -7075,7 +7354,8 @@ const rankingsData = [
                 "paper_count_s2": 13.0,
                 "h_index": 7.0,
                 "citation_count": 141.0,
-                "paper_count": 13.0
+                "paper_count": 13.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Nareth Nut",
@@ -7094,7 +7374,8 @@ const rankingsData = [
                 "paper_count_s2": 9.0,
                 "h_index": 5.0,
                 "citation_count": 136.0,
-                "paper_count": 9.0
+                "paper_count": 9.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Kakada Pin",
@@ -7113,7 +7394,8 @@ const rankingsData = [
                 "paper_count_s2": 7.0,
                 "h_index": 6.0,
                 "citation_count": 136.0,
-                "paper_count": 7.0
+                "paper_count": 7.0,
+                "gs_suspect": ""
             },
             {
                 "name": "SENG Mom",
@@ -7132,7 +7414,8 @@ const rankingsData = [
                 "paper_count_s2": 14.0,
                 "h_index": 4.0,
                 "citation_count": 75.0,
-                "paper_count": 14.0
+                "paper_count": 14.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Kim Khuy Khun",
@@ -7151,7 +7434,8 @@ const rankingsData = [
                 "paper_count_s2": 7.0,
                 "h_index": 5.0,
                 "citation_count": 118.0,
-                "paper_count": 7.0
+                "paper_count": 7.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Chrun Rithy",
@@ -7170,7 +7454,8 @@ const rankingsData = [
                 "paper_count_s2": 13.0,
                 "h_index": 5.0,
                 "citation_count": 99.0,
-                "paper_count": 13.0
+                "paper_count": 13.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sophorn Uy",
@@ -7189,7 +7474,8 @@ const rankingsData = [
                 "paper_count_s2": 10.0,
                 "h_index": 5.0,
                 "citation_count": 83.0,
-                "paper_count": 10.0
+                "paper_count": 10.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Nguon Samnang",
@@ -7208,7 +7494,8 @@ const rankingsData = [
                 "paper_count_s2": 10.0,
                 "h_index": 5.0,
                 "citation_count": 69.0,
-                "paper_count": 10.0
+                "paper_count": 10.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Kouch Theng",
@@ -7227,7 +7514,8 @@ const rankingsData = [
                 "paper_count_s2": 7.0,
                 "h_index": 3.0,
                 "citation_count": 21.0,
-                "paper_count": 7.0
+                "paper_count": 7.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Tho Kim Eang",
@@ -7246,7 +7534,8 @@ const rankingsData = [
                 "paper_count_s2": 2.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 2.0
+                "paper_count": 2.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Chhaun Molikoy",
@@ -7265,7 +7554,8 @@ const rankingsData = [
                 "paper_count_s2": 5.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 5.0
+                "paper_count": 5.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Lyhour Hin",
@@ -7284,7 +7574,8 @@ const rankingsData = [
                 "paper_count_s2": 17.0,
                 "h_index": 3.0,
                 "citation_count": 30.0,
-                "paper_count": 17.0
+                "paper_count": 17.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sopheap Ek",
@@ -7303,7 +7594,8 @@ const rankingsData = [
                 "paper_count_s2": 8.0,
                 "h_index": 3.0,
                 "citation_count": 17.0,
-                "paper_count": 8.0
+                "paper_count": 8.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Theng Dyna",
@@ -7322,7 +7614,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Mr. Punlork MEN",
@@ -7341,7 +7634,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Chan Makara Mean",
@@ -7360,7 +7654,8 @@ const rankingsData = [
                 "paper_count_s2": 3.0,
                 "h_index": 2.0,
                 "citation_count": 17.0,
-                "paper_count": 3.0
+                "paper_count": 3.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Mouylin Chem",
@@ -7379,7 +7674,8 @@ const rankingsData = [
                 "paper_count_s2": 2.0,
                 "h_index": 2.0,
                 "citation_count": 28.0,
-                "paper_count": 2.0
+                "paper_count": 2.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Nhean Sophea",
@@ -7398,7 +7694,8 @@ const rankingsData = [
                 "paper_count_s2": 7.0,
                 "h_index": 2.0,
                 "citation_count": 16.0,
-                "paper_count": 7.0
+                "paper_count": 7.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Soben Sieng",
@@ -7417,7 +7714,8 @@ const rankingsData = [
                 "paper_count_s2": 4.0,
                 "h_index": 2.0,
                 "citation_count": 17.0,
-                "paper_count": 4.0
+                "paper_count": 4.0,
+                "gs_suspect": ""
             },
             {
                 "name": "chhoem chhengven",
@@ -7436,7 +7734,8 @@ const rankingsData = [
                 "paper_count_s2": 2.0,
                 "h_index": 1.0,
                 "citation_count": 8.0,
-                "paper_count": 2.0
+                "paper_count": 2.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sopheap Mao",
@@ -7455,7 +7754,8 @@ const rankingsData = [
                 "paper_count_s2": 5.0,
                 "h_index": 2.0,
                 "citation_count": 11.0,
-                "paper_count": 5.0
+                "paper_count": 5.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Keorimy Ouk",
@@ -7474,7 +7774,8 @@ const rankingsData = [
                 "paper_count_s2": 3.0,
                 "h_index": 2.0,
                 "citation_count": 10.0,
-                "paper_count": 3.0
+                "paper_count": 3.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Syden Reach",
@@ -7493,7 +7794,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 1.0,
                 "citation_count": 3.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Mecta Sup",
@@ -7512,7 +7814,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 1.0,
                 "citation_count": 8.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Ek Sopheap",
@@ -7531,7 +7834,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Teamhy Sien",
@@ -7550,7 +7854,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 1.0,
                 "citation_count": 3.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "RATHA HEM",
@@ -7569,7 +7874,8 @@ const rankingsData = [
                 "paper_count_s2": 2.0,
                 "h_index": 1.0,
                 "citation_count": 2.0,
-                "paper_count": 2.0
+                "paper_count": 2.0,
+                "gs_suspect": ""
             },
             {
                 "name": "MengChhay Kim",
@@ -7588,7 +7894,8 @@ const rankingsData = [
                 "paper_count_s2": 3.0,
                 "h_index": 1.0,
                 "citation_count": 8.0,
-                "paper_count": 3.0
+                "paper_count": 3.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Bora Samoeun",
@@ -7607,7 +7914,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "sophal var",
@@ -7626,7 +7934,8 @@ const rankingsData = [
                 "paper_count_s2": 3.0,
                 "h_index": 1.0,
                 "citation_count": 1.0,
-                "paper_count": 3.0
+                "paper_count": 3.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Nuch SEK",
@@ -7645,7 +7954,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 1.0,
                 "citation_count": 1.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Phanit SUN",
@@ -7664,7 +7974,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Kimsreang Tang",
@@ -7683,25 +7994,26 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             }
         ],
         "uri_system": {
-            "uri": 81.39038423383764,
+            "uri": 76.17631011949368,
             "rank": 4,
-            "uri_base": 21.775703191021602,
+            "uri_base": 20.380696503207748,
             "size_factor": 3.7376696182833684,
             "components": {
-                "H": 47.73283616037119,
-                "C_norm": 0.46941269509085914,
+                "H": 44.62078880583664,
+                "C_norm": 0.4814451878168497,
                 "P_norm": 0.8469120606367755,
-                "C_blend": 119.68610813260247,
+                "C_blend": 112.35388112020993,
                 "P_term": 4.144646684316688,
-                "H_GS": 64.4283093145041,
+                "H_GS": 54.05481813272226,
                 "H_S2": 40.577633380028516,
-                "C_GS": 162.035297205215,
+                "C_GS": 137.59454049723993,
                 "C_S2": 101.53645567291139,
-                "P_S2": 62.09532539511844
+                "P_S2": 62.095325395118444
             }
         },
         "data_quality": {
@@ -7716,33 +8028,33 @@ const rankingsData = [
             ]
         },
         "ranking_system": {
-            "score": 81.39038423383764,
+            "score": 76.17631011949368,
             "rank": 4,
             "metrics": {
-                "H": 47.73283616037119,
-                "C_norm": 0.46941269509085914,
+                "H": 44.62078880583664,
+                "C_norm": 0.4814451878168497,
                 "P_norm": 0.8469120606367755,
-                "H_GS": 64.4283093145041,
+                "H_GS": 54.05481813272226,
                 "H_S2": 40.577633380028516,
-                "C_GS": 162.035297205215,
+                "C_GS": 137.59454049723993,
                 "C_S2": 101.53645567291139,
-                "P_S2": 62.09532539511844
+                "P_S2": 62.095325395118444
             }
         },
         "weighted_sum_system": {
-            "score": 81.39038423383764,
+            "score": 76.17631011949368,
             "rank": 4,
             "metrics": {
-                "H": 47.73283616037119,
-                "C_norm": 0.46941269509085914,
+                "H": 44.62078880583664,
+                "C_norm": 0.4814451878168497,
                 "P_norm": 0.8469120606367755,
-                "C_blend": 119.68610813260247,
+                "C_blend": 112.35388112020993,
                 "P_term": 4.144646684316688,
-                "H_GS": 64.4283093145041,
+                "H_GS": 54.05481813272226,
                 "H_S2": 40.577633380028516,
-                "C_GS": 162.035297205215,
+                "C_GS": 137.59454049723993,
                 "C_S2": 101.53645567291139,
-                "P_S2": 62.09532539511844
+                "P_S2": 62.095325395118444
             }
         }
     },
@@ -7770,7 +8082,8 @@ const rankingsData = [
                 "paper_count_s2": 2.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 2.0
+                "paper_count": 2.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Kong Sopheak",
@@ -7789,17 +8102,18 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             }
         ],
         "uri_system": {
-            "uri": 0.1203795354855822,
-            "rank": 31,
-            "uri_base": 0.10957417528209426,
+            "uri": 0.120466194765973,
+            "rank": 28,
+            "uri_base": 0.10965305595845723,
             "size_factor": 1.0986122886681098,
             "components": {
                 "H": 0.2079441541679836,
-                "C_norm": 0.0018936798927910875,
+                "C_norm": 0.002068970284708789,
                 "P_norm": 0.15147149954745648,
                 "C_blend": 0.48283137373023005,
                 "P_term": 0.7412763113750153,
@@ -7824,11 +8138,11 @@ const rankingsData = [
             ]
         },
         "ranking_system": {
-            "score": 0.1203795354855822,
-            "rank": 31,
+            "score": 0.120466194765973,
+            "rank": 28,
             "metrics": {
                 "H": 0.2079441541679836,
-                "C_norm": 0.0018936798927910875,
+                "C_norm": 0.002068970284708789,
                 "P_norm": 0.15147149954745648,
                 "H_GS": 0.6931471805599453,
                 "H_S2": 0.0,
@@ -7838,11 +8152,11 @@ const rankingsData = [
             }
         },
         "weighted_sum_system": {
-            "score": 0.1203795354855822,
-            "rank": 31,
+            "score": 0.120466194765973,
+            "rank": 28,
             "metrics": {
                 "H": 0.2079441541679836,
-                "C_norm": 0.0018936798927910875,
+                "C_norm": 0.002068970284708789,
                 "P_norm": 0.15147149954745648,
                 "C_blend": 0.48283137373023005,
                 "P_term": 0.7412763113750153,
@@ -7878,7 +8192,8 @@ const rankingsData = [
                 "paper_count_s2": 9.0,
                 "h_index": 3.0,
                 "citation_count": 736.0,
-                "paper_count": 9.0
+                "paper_count": 9.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Professor, Dr. Sou Veasna",
@@ -7897,7 +8212,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Chan Oeurn Chey, PhD",
@@ -7916,7 +8232,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Beanbonyka Rim",
@@ -7935,7 +8252,8 @@ const rankingsData = [
                 "paper_count_s2": 15.0,
                 "h_index": 10.0,
                 "citation_count": 568.0,
-                "paper_count": 15.0
+                "paper_count": 15.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Say Sok",
@@ -7954,7 +8272,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Mak Sithirith",
@@ -7973,7 +8292,8 @@ const rankingsData = [
                 "paper_count_s2": 42.0,
                 "h_index": 10.0,
                 "citation_count": 253.0,
-                "paper_count": 42.0
+                "paper_count": 42.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Veasna Soum",
@@ -7992,7 +8312,8 @@ const rankingsData = [
                 "paper_count_s2": 18.0,
                 "h_index": 10.0,
                 "citation_count": 400.0,
-                "paper_count": 18.0
+                "paper_count": 18.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sok Serey",
@@ -8011,7 +8332,8 @@ const rankingsData = [
                 "paper_count_s2": 45.0,
                 "h_index": 8.0,
                 "citation_count": 213.0,
-                "paper_count": 45.0
+                "paper_count": 45.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Leang UN",
@@ -8030,7 +8352,8 @@ const rankingsData = [
                 "paper_count_s2": 15.0,
                 "h_index": 6.0,
                 "citation_count": 123.0,
-                "paper_count": 15.0
+                "paper_count": 15.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Vin Spoann",
@@ -8049,7 +8372,8 @@ const rankingsData = [
                 "paper_count_s2": 9.0,
                 "h_index": 6.0,
                 "citation_count": 241.0,
-                "paper_count": 9.0
+                "paper_count": 9.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Tieng Siteng",
@@ -8068,7 +8392,8 @@ const rankingsData = [
                 "paper_count_s2": 16.0,
                 "h_index": 9.0,
                 "citation_count": 264.0,
-                "paper_count": 16.0
+                "paper_count": 16.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Vibol SAN",
@@ -8087,7 +8412,8 @@ const rankingsData = [
                 "paper_count_s2": 11.0,
                 "h_index": 5.0,
                 "citation_count": 206.0,
-                "paper_count": 11.0
+                "paper_count": 11.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Hangsak Huy",
@@ -8106,7 +8432,8 @@ const rankingsData = [
                 "paper_count_s2": 5.0,
                 "h_index": 4.0,
                 "citation_count": 177.0,
-                "paper_count": 5.0
+                "paper_count": 5.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Vutha Ros",
@@ -8125,7 +8452,8 @@ const rankingsData = [
                 "paper_count_s2": 10.0,
                 "h_index": 5.0,
                 "citation_count": 79.0,
-                "paper_count": 10.0
+                "paper_count": 10.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Chou Phanith",
@@ -8144,7 +8472,8 @@ const rankingsData = [
                 "paper_count_s2": 11.0,
                 "h_index": 7.0,
                 "citation_count": 127.0,
-                "paper_count": 11.0
+                "paper_count": 11.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Saveng Ith",
@@ -8163,7 +8492,8 @@ const rankingsData = [
                 "paper_count_s2": 10.0,
                 "h_index": 6.0,
                 "citation_count": 101.0,
-                "paper_count": 10.0
+                "paper_count": 10.0,
+                "gs_suspect": ""
             },
             {
                 "name": "David Ford",
@@ -8182,7 +8512,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Sarath Yam",
@@ -8201,7 +8532,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 1.0,
                 "citation_count": 231.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Chhinh Nyda",
@@ -8220,7 +8552,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Hun Seiha",
@@ -8239,7 +8572,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Huoy Laingshun",
@@ -8258,7 +8592,8 @@ const rankingsData = [
                 "paper_count_s2": 12.0,
                 "h_index": 7.0,
                 "citation_count": 197.0,
-                "paper_count": 12.0
+                "paper_count": 12.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sophany Phauk",
@@ -8277,7 +8612,8 @@ const rankingsData = [
                 "paper_count_s2": 14.0,
                 "h_index": 5.0,
                 "citation_count": 71.0,
-                "paper_count": 14.0
+                "paper_count": 14.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Nil Ean",
@@ -8296,7 +8632,8 @@ const rankingsData = [
                 "paper_count_s2": 18.0,
                 "h_index": 5.0,
                 "citation_count": 99.0,
-                "paper_count": 18.0
+                "paper_count": 18.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Chan Narith Keuk",
@@ -8315,7 +8652,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Tharith Sriv",
@@ -8334,7 +8672,8 @@ const rankingsData = [
                 "paper_count_s2": 18.0,
                 "h_index": 4.0,
                 "citation_count": 152.0,
-                "paper_count": 18.0
+                "paper_count": 18.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Bunthoeun Nim",
@@ -8353,7 +8692,8 @@ const rankingsData = [
                 "paper_count_s2": 9.0,
                 "h_index": 7.0,
                 "citation_count": 150.0,
-                "paper_count": 9.0
+                "paper_count": 9.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Moeun Saut",
@@ -8372,7 +8712,8 @@ const rankingsData = [
                 "paper_count_s2": 5.0,
                 "h_index": 4.0,
                 "citation_count": 97.0,
-                "paper_count": 5.0
+                "paper_count": 5.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sophat Seak",
@@ -8391,7 +8732,8 @@ const rankingsData = [
                 "paper_count_s2": 10.0,
                 "h_index": 4.0,
                 "citation_count": 60.0,
-                "paper_count": 10.0
+                "paper_count": 10.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Nel Nun",
@@ -8410,7 +8752,8 @@ const rankingsData = [
                 "paper_count_s2": 3.0,
                 "h_index": 3.0,
                 "citation_count": 49.0,
-                "paper_count": 3.0
+                "paper_count": 3.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Tharoeun Thap",
@@ -8429,7 +8772,8 @@ const rankingsData = [
                 "paper_count_s2": 16.0,
                 "h_index": 4.0,
                 "citation_count": 105.0,
-                "paper_count": 16.0
+                "paper_count": 16.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sereilakhena Phal",
@@ -8448,7 +8792,8 @@ const rankingsData = [
                 "paper_count_s2": 12.0,
                 "h_index": 6.0,
                 "citation_count": 100.0,
-                "paper_count": 12.0
+                "paper_count": 12.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sothun Nop",
@@ -8467,7 +8812,8 @@ const rankingsData = [
                 "paper_count_s2": 9.0,
                 "h_index": 5.0,
                 "citation_count": 75.0,
-                "paper_count": 9.0
+                "paper_count": 9.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Tak KEAN",
@@ -8486,7 +8832,8 @@ const rankingsData = [
                 "paper_count_s2": 3.0,
                 "h_index": 1.0,
                 "citation_count": 2.0,
-                "paper_count": 3.0
+                "paper_count": 3.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Mark Mun Vong",
@@ -8505,7 +8852,8 @@ const rankingsData = [
                 "paper_count_s2": 3.0,
                 "h_index": 2.0,
                 "citation_count": 17.0,
-                "paper_count": 3.0
+                "paper_count": 3.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Raksmey Chan",
@@ -8524,7 +8872,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Thearom Ret",
@@ -8543,7 +8892,8 @@ const rankingsData = [
                 "paper_count_s2": 6.0,
                 "h_index": 2.0,
                 "citation_count": 52.0,
-                "paper_count": 6.0
+                "paper_count": 6.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sunly Khimphun",
@@ -8562,7 +8912,8 @@ const rankingsData = [
                 "paper_count_s2": 11.0,
                 "h_index": 5.0,
                 "citation_count": 77.0,
-                "paper_count": 11.0
+                "paper_count": 11.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Chanrith Phoeurk",
@@ -8581,7 +8932,8 @@ const rankingsData = [
                 "paper_count_s2": 6.0,
                 "h_index": 4.0,
                 "citation_count": 66.0,
-                "paper_count": 6.0
+                "paper_count": 6.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Neak Chandarith",
@@ -8600,7 +8952,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 1.0,
                 "citation_count": 2.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Kheam S",
@@ -8619,7 +8972,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Heng Sovannarith",
@@ -8638,7 +8992,8 @@ const rankingsData = [
                 "paper_count_s2": 5.0,
                 "h_index": 5.0,
                 "citation_count": 75.0,
-                "paper_count": 5.0
+                "paper_count": 5.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Nary Tao",
@@ -8657,7 +9012,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Pheakdey Nguonphan",
@@ -8676,7 +9032,8 @@ const rankingsData = [
                 "paper_count_s2": 9.0,
                 "h_index": 3.0,
                 "citation_count": 39.0,
-                "paper_count": 9.0
+                "paper_count": 9.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Socheath Mam",
@@ -8695,7 +9052,8 @@ const rankingsData = [
                 "paper_count_s2": 9.0,
                 "h_index": 4.0,
                 "citation_count": 22.0,
-                "paper_count": 9.0
+                "paper_count": 9.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sok Soth",
@@ -8714,7 +9072,8 @@ const rankingsData = [
                 "paper_count_s2": 5.0,
                 "h_index": 2.0,
                 "citation_count": 10.0,
-                "paper_count": 5.0
+                "paper_count": 5.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Yi Liv",
@@ -8733,7 +9092,8 @@ const rankingsData = [
                 "paper_count_s2": 3.0,
                 "h_index": 2.0,
                 "citation_count": 45.0,
-                "paper_count": 3.0
+                "paper_count": 3.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sin Sopha",
@@ -8752,7 +9112,8 @@ const rankingsData = [
                 "paper_count_s2": 5.0,
                 "h_index": 3.0,
                 "citation_count": 13.0,
-                "paper_count": 5.0
+                "paper_count": 5.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Bunleng Se, PhD",
@@ -8771,7 +9132,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Daniel M. Choi",
@@ -8790,7 +9152,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 1.0,
                 "citation_count": 21.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "cheng savuth",
@@ -8809,7 +9172,8 @@ const rankingsData = [
                 "paper_count_s2": 6.0,
                 "h_index": 2.0,
                 "citation_count": 14.0,
-                "paper_count": 6.0
+                "paper_count": 6.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Seanghai Hor",
@@ -8828,7 +9192,8 @@ const rankingsData = [
                 "paper_count_s2": 8.0,
                 "h_index": 2.0,
                 "citation_count": 31.0,
-                "paper_count": 8.0
+                "paper_count": 8.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Thearath Lim",
@@ -8847,7 +9212,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Songleng Chhaing",
@@ -8866,7 +9232,8 @@ const rankingsData = [
                 "paper_count_s2": 3.0,
                 "h_index": 2.0,
                 "citation_count": 14.0,
-                "paper_count": 3.0
+                "paper_count": 3.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Chansok Lak",
@@ -8885,7 +9252,8 @@ const rankingsData = [
                 "paper_count_s2": 2.0,
                 "h_index": 1.0,
                 "citation_count": 2.0,
-                "paper_count": 2.0
+                "paper_count": 2.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sotheara Veng",
@@ -8904,7 +9272,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Chamroeun KHIM",
@@ -8923,7 +9292,8 @@ const rankingsData = [
                 "paper_count_s2": 3.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 3.0
+                "paper_count": 3.0,
+                "gs_suspect": ""
             },
             {
                 "name": "CHEN Tepsam Ol",
@@ -8942,7 +9312,8 @@ const rankingsData = [
                 "paper_count_s2": 3.0,
                 "h_index": 1.0,
                 "citation_count": 5.0,
-                "paper_count": 3.0
+                "paper_count": 3.0,
+                "gs_suspect": ""
             },
             {
                 "name": "SOKMENG CHAN",
@@ -8961,7 +9332,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 1.0,
                 "citation_count": 10.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Bunlot Khoy",
@@ -8980,7 +9352,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Chandara Phat",
@@ -8999,7 +9372,8 @@ const rankingsData = [
                 "paper_count_s2": 7.0,
                 "h_index": 2.0,
                 "citation_count": 19.0,
-                "paper_count": 7.0
+                "paper_count": 7.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Neak Piseth",
@@ -9018,7 +9392,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sothearak SOK",
@@ -9037,7 +9412,8 @@ const rankingsData = [
                 "paper_count_s2": 6.0,
                 "h_index": 2.0,
                 "citation_count": 6.0,
-                "paper_count": 6.0
+                "paper_count": 6.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Kanal Hun",
@@ -9056,7 +9432,8 @@ const rankingsData = [
                 "paper_count_s2": 2.0,
                 "h_index": 2.0,
                 "citation_count": 9.0,
-                "paper_count": 2.0
+                "paper_count": 2.0,
+                "gs_suspect": ""
             },
             {
                 "name": "seang hor eang",
@@ -9075,7 +9452,8 @@ const rankingsData = [
                 "paper_count_s2": 3.0,
                 "h_index": 2.0,
                 "citation_count": 9.0,
-                "paper_count": 3.0
+                "paper_count": 3.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Panharith Nat",
@@ -9094,7 +9472,8 @@ const rankingsData = [
                 "paper_count_s2": 2.0,
                 "h_index": 1.0,
                 "citation_count": 4.0,
-                "paper_count": 2.0
+                "paper_count": 2.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Phearun Rithy",
@@ -9113,7 +9492,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 1.0,
                 "citation_count": 6.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Samnang Chan",
@@ -9132,7 +9512,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Born Doeur",
@@ -9151,7 +9532,8 @@ const rankingsData = [
                 "paper_count_s2": 4.0,
                 "h_index": 1.0,
                 "citation_count": 1.0,
-                "paper_count": 4.0
+                "paper_count": 4.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Leang Ang",
@@ -9170,7 +9552,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Seng Vannak",
@@ -9189,7 +9572,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Socheata Somchan",
@@ -9208,7 +9592,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 1.0,
                 "citation_count": 1.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Kvanthai ING",
@@ -9227,7 +9612,8 @@ const rankingsData = [
                 "paper_count_s2": 3.0,
                 "h_index": 1.0,
                 "citation_count": 2.0,
-                "paper_count": 3.0
+                "paper_count": 3.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Samnang Kuong",
@@ -9246,7 +9632,8 @@ const rankingsData = [
                 "paper_count_s2": 4.0,
                 "h_index": 1.0,
                 "citation_count": 3.0,
-                "paper_count": 4.0
+                "paper_count": 4.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Arechkang Chong",
@@ -9265,7 +9652,8 @@ const rankingsData = [
                 "paper_count_s2": 2.0,
                 "h_index": 1.0,
                 "citation_count": 4.0,
-                "paper_count": 2.0
+                "paper_count": 2.0,
+                "gs_suspect": ""
             },
             {
                 "name": "sdeng chanda",
@@ -9284,7 +9672,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Hun Chhunteng",
@@ -9303,7 +9692,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Cedy Vutha",
@@ -9322,7 +9712,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 1.0,
                 "citation_count": 1.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Chhay LIM",
@@ -9341,7 +9732,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Nhem Darayut",
@@ -9360,7 +9752,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Soy Vitou",
@@ -9379,7 +9772,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Suon Mach",
@@ -9398,7 +9792,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 1.0,
                 "citation_count": 1.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Let Leak",
@@ -9417,7 +9812,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sareth Uy",
@@ -9436,7 +9832,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Koungmeng Eong",
@@ -9455,7 +9852,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Thearith Yone",
@@ -9474,7 +9872,8 @@ const rankingsData = [
                 "paper_count_s2": 2.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 2.0
+                "paper_count": 2.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sophy Soun",
@@ -9493,7 +9892,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Putsaccada Viseth",
@@ -9512,7 +9912,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "An Pheakdey Ouch",
@@ -9531,7 +9932,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Ouk Khean",
@@ -9550,7 +9952,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Kong Saroeum",
@@ -9569,7 +9972,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Lonh Piseth",
@@ -9588,25 +9992,26 @@ const rankingsData = [
                 "paper_count_s2": 2.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 2.0
+                "paper_count": 2.0,
+                "gs_suspect": ""
             }
         ],
         "uri_system": {
-            "uri": 192.96356322832764,
+            "uri": 179.4325383718392,
             "rank": 2,
-            "uri_base": 42.674167520290695,
+            "uri_base": 39.68176205375318,
             "size_factor": 4.5217885770490405,
             "components": {
-                "H": 93.66295714523946,
-                "C_norm": 0.9519164384048809,
-                "P_norm": 0.9747440765073494,
-                "C_blend": 242.71003952732036,
-                "P_term": 4.770235296585514,
-                "H_GS": 129.6402674065103,
-                "H_S2": 78.2441098904091,
-                "C_GS": 340.36440777392477,
-                "C_S2": 200.85816742163274,
-                "P_S2": 116.94699122019534
+                "H": 86.99788929988512,
+                "C_norm": 0.9671943581203201,
+                "P_norm": 0.9747440765073492,
+                "C_blend": 225.71217385129924,
+                "P_term": 4.770235296585513,
+                "H_GS": 107.42337458866248,
+                "H_S2": 78.24410989040912,
+                "C_GS": 283.70485552052116,
+                "C_S2": 200.85816742163271,
+                "P_S2": 116.94699122019533
             }
         },
         "data_quality": {
@@ -9621,33 +10026,33 @@ const rankingsData = [
             ]
         },
         "ranking_system": {
-            "score": 192.96356322832764,
+            "score": 179.4325383718392,
             "rank": 2,
             "metrics": {
-                "H": 93.66295714523946,
-                "C_norm": 0.9519164384048809,
-                "P_norm": 0.9747440765073494,
-                "H_GS": 129.6402674065103,
-                "H_S2": 78.2441098904091,
-                "C_GS": 340.36440777392477,
-                "C_S2": 200.85816742163274,
-                "P_S2": 116.94699122019534
+                "H": 86.99788929988512,
+                "C_norm": 0.9671943581203201,
+                "P_norm": 0.9747440765073492,
+                "H_GS": 107.42337458866248,
+                "H_S2": 78.24410989040912,
+                "C_GS": 283.70485552052116,
+                "C_S2": 200.85816742163271,
+                "P_S2": 116.94699122019533
             }
         },
         "weighted_sum_system": {
-            "score": 192.96356322832764,
+            "score": 179.4325383718392,
             "rank": 2,
             "metrics": {
-                "H": 93.66295714523946,
-                "C_norm": 0.9519164384048809,
-                "P_norm": 0.9747440765073494,
-                "C_blend": 242.71003952732036,
-                "P_term": 4.770235296585514,
-                "H_GS": 129.6402674065103,
-                "H_S2": 78.2441098904091,
-                "C_GS": 340.36440777392477,
-                "C_S2": 200.85816742163274,
-                "P_S2": 116.94699122019534
+                "H": 86.99788929988512,
+                "C_norm": 0.9671943581203201,
+                "P_norm": 0.9747440765073492,
+                "C_blend": 225.71217385129924,
+                "P_term": 4.770235296585513,
+                "H_GS": 107.42337458866248,
+                "H_S2": 78.24410989040912,
+                "C_GS": 283.70485552052116,
+                "C_S2": 200.85816742163271,
+                "P_S2": 116.94699122019533
             }
         }
     },
@@ -9675,7 +10080,8 @@ const rankingsData = [
                 "paper_count_s2": 20.0,
                 "h_index": 8.0,
                 "citation_count": 154.0,
-                "paper_count": 20.0
+                "paper_count": 20.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Bunly Soeung",
@@ -9694,7 +10100,8 @@ const rankingsData = [
                 "paper_count_s2": 6.0,
                 "h_index": 5.0,
                 "citation_count": 116.0,
-                "paper_count": 6.0
+                "paper_count": 6.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Serey Mardy, PhD",
@@ -9713,7 +10120,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Asst. Prof. Dr. Dina Pen",
@@ -9732,7 +10140,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "phearun lay",
@@ -9751,7 +10160,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Tithya Kang",
@@ -9770,7 +10180,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "CHOUN Pheakdey",
@@ -9789,7 +10200,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Chou Manith",
@@ -9808,7 +10220,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 1.0,
                 "citation_count": 1.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "THOK Piseth",
@@ -9827,23 +10240,24 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             }
         ],
         "uri_system": {
-            "uri": 6.82788497047349,
+            "uri": 5.707597637257127,
             "rank": 12,
-            "uri_base": 2.965312765746784,
+            "uri_base": 2.478778158784808,
             "size_factor": 2.302585092994046,
             "components": {
-                "H": 6.441220579803648,
-                "C_norm": 0.05762193776252818,
+                "H": 5.366164898266816,
+                "C_norm": 0.05148960382830282,
                 "P_norm": 0.408336328420048,
-                "C_blend": 14.69185973447341,
+                "C_blend": 12.016023783900774,
                 "P_term": 1.998330037241074,
-                "H_GS": 10.545762402722316,
+                "H_GS": 6.962243464266207,
                 "H_S2": 4.68213122712422,
-                "C_GS": 24.475791239598486,
+                "C_GS": 15.556338071023033,
                 "C_S2": 10.498746232276948,
                 "P_S2": 6.376726947898627
             }
@@ -9860,31 +10274,31 @@ const rankingsData = [
             ]
         },
         "ranking_system": {
-            "score": 6.82788497047349,
+            "score": 5.707597637257127,
             "rank": 12,
             "metrics": {
-                "H": 6.441220579803648,
-                "C_norm": 0.05762193776252818,
+                "H": 5.366164898266816,
+                "C_norm": 0.05148960382830282,
                 "P_norm": 0.408336328420048,
-                "H_GS": 10.545762402722316,
+                "H_GS": 6.962243464266207,
                 "H_S2": 4.68213122712422,
-                "C_GS": 24.475791239598486,
+                "C_GS": 15.556338071023033,
                 "C_S2": 10.498746232276948,
                 "P_S2": 6.376726947898627
             }
         },
         "weighted_sum_system": {
-            "score": 6.82788497047349,
+            "score": 5.707597637257127,
             "rank": 12,
             "metrics": {
-                "H": 6.441220579803648,
-                "C_norm": 0.05762193776252818,
+                "H": 5.366164898266816,
+                "C_norm": 0.05148960382830282,
                 "P_norm": 0.408336328420048,
-                "C_blend": 14.69185973447341,
+                "C_blend": 12.016023783900774,
                 "P_term": 1.998330037241074,
-                "H_GS": 10.545762402722316,
+                "H_GS": 6.962243464266207,
                 "H_S2": 4.68213122712422,
-                "C_GS": 24.475791239598486,
+                "C_GS": 15.556338071023033,
                 "C_S2": 10.498746232276948,
                 "P_S2": 6.376726947898627
             }
@@ -9914,7 +10328,8 @@ const rankingsData = [
                 "paper_count_s2": 5.0,
                 "h_index": 4.0,
                 "citation_count": 36.0,
-                "paper_count": 5.0
+                "paper_count": 5.0,
+                "gs_suspect": ""
             },
             {
                 "name": "sophea pheng",
@@ -9933,7 +10348,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Vathanak Chet",
@@ -9952,7 +10368,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 1.0,
                 "citation_count": 6.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Kroeun Kruy",
@@ -9971,7 +10388,8 @@ const rankingsData = [
                 "paper_count_s2": 2.0,
                 "h_index": 1.0,
                 "citation_count": 1.0,
-                "paper_count": 2.0
+                "paper_count": 2.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sanhei Nhor",
@@ -9990,7 +10408,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Md Nadim Aktar, PhD",
@@ -10009,7 +10428,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sovannara Si",
@@ -10028,7 +10448,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 1.0,
                 "citation_count": 2.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Chhaihong Kor",
@@ -10047,23 +10468,24 @@ const rankingsData = [
                 "paper_count_s2": 2.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 2.0
+                "paper_count": 2.0,
+                "gs_suspect": ""
             }
         ],
         "uri_system": {
-            "uri": 5.000550129063025,
-            "rank": 14,
-            "uri_base": 2.2758484410935296,
+            "uri": 4.522110317002669,
+            "rank": 13,
+            "uri_base": 2.058101098834876,
             "size_factor": 2.1972245773362196,
             "components": {
-                "H": 4.9318198720313955,
-                "C_norm": 0.04150492262210076,
+                "H": 4.448988498301166,
+                "C_norm": 0.04045331355532288,
                 "P_norm": 0.37852283499456374,
-                "C_blend": 10.582505988728176,
+                "C_blend": 9.440507241797079,
                 "P_term": 1.8524277618844993,
-                "H_GS": 7.832014180505469,
+                "H_GS": 6.222576268071369,
                 "H_S2": 3.6888794541139363,
-                "C_GS": 18.128315723596202,
+                "C_GS": 14.32165323382588,
                 "C_S2": 7.348587530927593,
                 "P_S2": 5.375278407684165
             }
@@ -10080,31 +10502,31 @@ const rankingsData = [
             ]
         },
         "ranking_system": {
-            "score": 5.000550129063025,
-            "rank": 14,
+            "score": 4.522110317002669,
+            "rank": 13,
             "metrics": {
-                "H": 4.9318198720313955,
-                "C_norm": 0.04150492262210076,
+                "H": 4.448988498301166,
+                "C_norm": 0.04045331355532288,
                 "P_norm": 0.37852283499456374,
-                "H_GS": 7.832014180505469,
+                "H_GS": 6.222576268071369,
                 "H_S2": 3.6888794541139363,
-                "C_GS": 18.128315723596202,
+                "C_GS": 14.32165323382588,
                 "C_S2": 7.348587530927593,
                 "P_S2": 5.375278407684165
             }
         },
         "weighted_sum_system": {
-            "score": 5.000550129063025,
-            "rank": 14,
+            "score": 4.522110317002669,
+            "rank": 13,
             "metrics": {
-                "H": 4.9318198720313955,
-                "C_norm": 0.04150492262210076,
+                "H": 4.448988498301166,
+                "C_norm": 0.04045331355532288,
                 "P_norm": 0.37852283499456374,
-                "C_blend": 10.582505988728176,
+                "C_blend": 9.440507241797079,
                 "P_term": 1.8524277618844993,
-                "H_GS": 7.832014180505469,
+                "H_GS": 6.222576268071369,
                 "H_S2": 3.6888794541139363,
-                "C_GS": 18.128315723596202,
+                "C_GS": 14.32165323382588,
                 "C_S2": 7.348587530927593,
                 "P_S2": 5.375278407684165
             }
@@ -10134,7 +10556,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "OLIVIER SEGERAL",
@@ -10153,7 +10576,8 @@ const rankingsData = [
                 "paper_count_s2": 19.0,
                 "h_index": 10.0,
                 "citation_count": 401.0,
-                "paper_count": 19.0
+                "paper_count": 19.0,
+                "gs_suspect": ""
             },
             {
                 "name": "DARY CHHAVARATH (PhD., PharmD., MSc., BPharm.)",
@@ -10172,7 +10596,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "HENG MENGHAK",
@@ -10191,7 +10616,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sophal Yem",
@@ -10210,7 +10636,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Leabheng BUNLY",
@@ -10229,7 +10656,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sela Bun",
@@ -10248,23 +10676,24 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             }
         ],
         "uri_system": {
-            "uri": 4.245046322400113,
+            "uri": 2.6276973356209945,
             "rank": 15,
-            "uri_base": 2.0414357592235253,
+            "uri_base": 1.2636553050191837,
             "size_factor": 2.0794415416798357,
             "components": {
-                "H": 4.413994215879373,
-                "C_norm": 0.040602982644292136,
+                "H": 2.698885905457506,
+                "C_norm": 0.02731028372317786,
                 "P_norm": 0.3686701988787566,
-                "C_blend": 10.352538442383429,
+                "C_blend": 6.373345187449271,
                 "P_term": 1.804210600378433,
-                "H_GS": 9.118225083068378,
+                "H_GS": 3.4011973816621555,
                 "H_S2": 2.3978952727983707,
-                "C_GS": 20.51673993450038,
+                "C_GS": 7.252762418053187,
                 "C_S2": 5.996452088619021,
                 "P_S2": 5.075173815233827
             }
@@ -10281,31 +10710,31 @@ const rankingsData = [
             ]
         },
         "ranking_system": {
-            "score": 4.245046322400113,
+            "score": 2.6276973356209945,
             "rank": 15,
             "metrics": {
-                "H": 4.413994215879373,
-                "C_norm": 0.040602982644292136,
+                "H": 2.698885905457506,
+                "C_norm": 0.02731028372317786,
                 "P_norm": 0.3686701988787566,
-                "H_GS": 9.118225083068378,
+                "H_GS": 3.4011973816621555,
                 "H_S2": 2.3978952727983707,
-                "C_GS": 20.51673993450038,
+                "C_GS": 7.252762418053187,
                 "C_S2": 5.996452088619021,
                 "P_S2": 5.075173815233827
             }
         },
         "weighted_sum_system": {
-            "score": 4.245046322400113,
+            "score": 2.6276973356209945,
             "rank": 15,
             "metrics": {
-                "H": 4.413994215879373,
-                "C_norm": 0.040602982644292136,
+                "H": 2.698885905457506,
+                "C_norm": 0.02731028372317786,
                 "P_norm": 0.3686701988787566,
-                "C_blend": 10.352538442383429,
+                "C_blend": 6.373345187449271,
                 "P_term": 1.804210600378433,
-                "H_GS": 9.118225083068378,
+                "H_GS": 3.4011973816621555,
                 "H_S2": 2.3978952727983707,
-                "C_GS": 20.51673993450038,
+                "C_GS": 7.252762418053187,
                 "C_S2": 5.996452088619021,
                 "P_S2": 5.075173815233827
             }
@@ -10335,7 +10764,8 @@ const rankingsData = [
                 "paper_count_s2": 20.0,
                 "h_index": 4.0,
                 "citation_count": 33.0,
-                "paper_count": 20.0
+                "paper_count": 20.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Norm Rorthmony",
@@ -10354,17 +10784,18 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             }
         ],
         "uri_system": {
-            "uri": 0.8846321343651127,
-            "rank": 24,
-            "uri_base": 0.8052268698337486,
+            "uri": 0.8853442478904792,
+            "rank": 23,
+            "uri_base": 0.8058750634983487,
             "size_factor": 1.0986122886681098,
             "components": {
                 "H": 1.710379583420464,
-                "C_norm": 0.01556111541995032,
+                "C_norm": 0.01700154578572841,
                 "P_norm": 0.2855355535556207,
                 "C_blend": 3.9676160493605472,
                 "P_term": 1.3973634811730353,
@@ -10388,11 +10819,11 @@ const rankingsData = [
             ]
         },
         "ranking_system": {
-            "score": 0.8846321343651127,
-            "rank": 24,
+            "score": 0.8853442478904792,
+            "rank": 23,
             "metrics": {
                 "H": 1.710379583420464,
-                "C_norm": 0.01556111541995032,
+                "C_norm": 0.01700154578572841,
                 "P_norm": 0.2855355535556207,
                 "H_GS": 1.9459101490553132,
                 "H_S2": 1.6094379124341003,
@@ -10402,11 +10833,11 @@ const rankingsData = [
             }
         },
         "weighted_sum_system": {
-            "score": 0.8846321343651127,
-            "rank": 24,
+            "score": 0.8853442478904792,
+            "rank": 23,
             "metrics": {
                 "H": 1.710379583420464,
-                "C_norm": 0.01556111541995032,
+                "C_norm": 0.01700154578572841,
                 "P_norm": 0.2855355535556207,
                 "C_blend": 3.9676160493605472,
                 "P_term": 1.3973634811730353,
@@ -10442,7 +10873,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Afeez Abolarinwa Salami",
@@ -10461,7 +10893,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Siddharthan Selvaraj",
@@ -10480,7 +10913,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Prof Dr Mohmed Isaqali Karobari",
@@ -10499,7 +10933,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Francesca Cainelli",
@@ -10518,7 +10953,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Anand Marya",
@@ -10537,7 +10973,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Adith Venugopal",
@@ -10556,7 +10993,8 @@ const rankingsData = [
                 "paper_count_s2": 83.0,
                 "h_index": 17.0,
                 "citation_count": 1057.0,
-                "paper_count": 83.0
+                "paper_count": 83.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sarin Sok",
@@ -10575,7 +11013,8 @@ const rankingsData = [
                 "paper_count_s2": 12.0,
                 "h_index": 6.0,
                 "citation_count": 493.0,
-                "paper_count": 12.0
+                "paper_count": 12.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Chroeng Seyha",
@@ -10594,7 +11033,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sakirin Tam",
@@ -10613,7 +11053,8 @@ const rankingsData = [
                 "paper_count_s2": 9.0,
                 "h_index": 4.0,
                 "citation_count": 137.0,
-                "paper_count": 9.0
+                "paper_count": 9.0,
+                "gs_suspect": ""
             },
             {
                 "name": "PROM Vireak",
@@ -10632,7 +11073,8 @@ const rankingsData = [
                 "paper_count_s2": 6.0,
                 "h_index": 2.0,
                 "citation_count": 320.0,
-                "paper_count": 6.0
+                "paper_count": 6.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Rany Vorn",
@@ -10651,7 +11093,8 @@ const rankingsData = [
                 "paper_count_s2": 29.0,
                 "h_index": 11.0,
                 "citation_count": 311.0,
-                "paper_count": 29.0
+                "paper_count": 29.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Saqib Noor",
@@ -10670,7 +11113,8 @@ const rankingsData = [
                 "paper_count_s2": 35.0,
                 "h_index": 12.0,
                 "citation_count": 421.0,
-                "paper_count": 35.0
+                "paper_count": 35.0,
+                "gs_suspect": ""
             },
             {
                 "name": "POL Sreymom",
@@ -10689,7 +11133,8 @@ const rankingsData = [
                 "paper_count_s2": 17.0,
                 "h_index": 8.0,
                 "citation_count": 195.0,
-                "paper_count": 17.0
+                "paper_count": 17.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Virak Sorn",
@@ -10708,7 +11153,8 @@ const rankingsData = [
                 "paper_count_s2": 24.0,
                 "h_index": 5.0,
                 "citation_count": 156.0,
-                "paper_count": 24.0
+                "paper_count": 24.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Kong Sophannary, DDS, PhD",
@@ -10727,7 +11173,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Sela Kong",
@@ -10746,7 +11193,8 @@ const rankingsData = [
                 "paper_count_s2": 11.0,
                 "h_index": 4.0,
                 "citation_count": 33.0,
-                "paper_count": 11.0
+                "paper_count": 11.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Chanvatanak LY",
@@ -10765,7 +11213,8 @@ const rankingsData = [
                 "paper_count_s2": 3.0,
                 "h_index": 1.0,
                 "citation_count": 5.0,
-                "paper_count": 3.0
+                "paper_count": 3.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Romeo M Caringal",
@@ -10784,7 +11233,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 1.0,
                 "citation_count": 72.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Kalyan Kong",
@@ -10803,7 +11253,8 @@ const rankingsData = [
                 "paper_count_s2": 5.0,
                 "h_index": 3.0,
                 "citation_count": 51.0,
-                "paper_count": 5.0
+                "paper_count": 5.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sokchan LORN",
@@ -10822,7 +11273,8 @@ const rankingsData = [
                 "paper_count_s2": 7.0,
                 "h_index": 3.0,
                 "citation_count": 34.0,
-                "paper_count": 7.0
+                "paper_count": 7.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Pea An",
@@ -10841,7 +11293,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Youhok Lim",
@@ -10860,7 +11313,8 @@ const rankingsData = [
                 "paper_count_s2": 5.0,
                 "h_index": 2.0,
                 "citation_count": 7.0,
-                "paper_count": 5.0
+                "paper_count": 5.0,
+                "gs_suspect": ""
             },
             {
                 "name": "PHA Channary",
@@ -10879,7 +11333,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "CHEM Sokea",
@@ -10898,7 +11353,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 1.0,
                 "citation_count": 14.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Seema Lal-Kumar",
@@ -10917,7 +11373,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 1.0,
                 "citation_count": 1.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Dr. SO Visessakseth, M.Pharm, PhD",
@@ -10936,7 +11393,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "YIM  Sovannra",
@@ -10955,7 +11413,8 @@ const rankingsData = [
                 "paper_count_s2": 2.0,
                 "h_index": 2.0,
                 "citation_count": 18.0,
-                "paper_count": 2.0
+                "paper_count": 2.0,
+                "gs_suspect": ""
             },
             {
                 "name": "CHHON Yanvary",
@@ -10974,7 +11433,8 @@ const rankingsData = [
                 "paper_count_s2": 6.0,
                 "h_index": 2.0,
                 "citation_count": 23.0,
-                "paper_count": 6.0
+                "paper_count": 6.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Amarender Vadivelu",
@@ -10993,7 +11453,8 @@ const rankingsData = [
                 "paper_count_s2": 6.0,
                 "h_index": 2.0,
                 "citation_count": 11.0,
-                "paper_count": 6.0
+                "paper_count": 6.0,
+                "gs_suspect": ""
             },
             {
                 "name": "HONG Samnang",
@@ -11012,7 +11473,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Tun Sreypeov",
@@ -11031,7 +11493,8 @@ const rankingsData = [
                 "paper_count_s2": 2.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 2.0
+                "paper_count": 2.0,
+                "gs_suspect": ""
             },
             {
                 "name": "OUK Rim",
@@ -11050,7 +11513,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Poul philip",
@@ -11069,7 +11533,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "SAY Sreypich",
@@ -11088,7 +11553,8 @@ const rankingsData = [
                 "paper_count_s2": 7.0,
                 "h_index": 2.0,
                 "citation_count": 9.0,
-                "paper_count": 7.0
+                "paper_count": 7.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Kit Thavy",
@@ -11107,7 +11573,8 @@ const rankingsData = [
                 "paper_count_s2": 2.0,
                 "h_index": 2.0,
                 "citation_count": 12.0,
-                "paper_count": 2.0
+                "paper_count": 2.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Thavrith Sara",
@@ -11126,7 +11593,8 @@ const rankingsData = [
                 "paper_count_s2": 2.0,
                 "h_index": 1.0,
                 "citation_count": 1.0,
-                "paper_count": 2.0
+                "paper_count": 2.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Andrea Burke Ryan",
@@ -11145,7 +11613,8 @@ const rankingsData = [
                 "paper_count_s2": 6.0,
                 "h_index": 1.0,
                 "citation_count": 10.0,
-                "paper_count": 6.0
+                "paper_count": 6.0,
+                "gs_suspect": ""
             },
             {
                 "name": "MEAS Sochanwattey",
@@ -11164,7 +11633,8 @@ const rankingsData = [
                 "paper_count_s2": 3.0,
                 "h_index": 3.0,
                 "citation_count": 13.0,
-                "paper_count": 3.0
+                "paper_count": 3.0,
+                "gs_suspect": ""
             },
             {
                 "name": "EAM Mao",
@@ -11183,7 +11653,8 @@ const rankingsData = [
                 "paper_count_s2": 4.0,
                 "h_index": 2.0,
                 "citation_count": 4.0,
-                "paper_count": 4.0
+                "paper_count": 4.0,
+                "gs_suspect": ""
             },
             {
                 "name": "BE Sokkeang",
@@ -11202,7 +11673,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 1.0,
                 "citation_count": 13.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Techly SAN",
@@ -11221,7 +11693,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "EAT Sokhoeun",
@@ -11240,7 +11713,8 @@ const rankingsData = [
                 "paper_count_s2": 6.0,
                 "h_index": 2.0,
                 "citation_count": 11.0,
-                "paper_count": 6.0
+                "paper_count": 6.0,
+                "gs_suspect": ""
             },
             {
                 "name": "SUON Monirath",
@@ -11259,7 +11733,8 @@ const rankingsData = [
                 "paper_count_s2": 3.0,
                 "h_index": 1.0,
                 "citation_count": 3.0,
-                "paper_count": 3.0
+                "paper_count": 3.0,
+                "gs_suspect": ""
             },
             {
                 "name": "PHAN Samnang",
@@ -11278,7 +11753,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Vannary YI",
@@ -11297,7 +11773,8 @@ const rankingsData = [
                 "paper_count_s2": 6.0,
                 "h_index": 1.0,
                 "citation_count": 4.0,
-                "paper_count": 6.0
+                "paper_count": 6.0,
+                "gs_suspect": ""
             },
             {
                 "name": "CHANTHONG YORN",
@@ -11316,7 +11793,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 1.0,
                 "citation_count": 10.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "NOY PISEY",
@@ -11335,7 +11813,8 @@ const rankingsData = [
                 "paper_count_s2": 2.0,
                 "h_index": 1.0,
                 "citation_count": 5.0,
-                "paper_count": 2.0
+                "paper_count": 2.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sokly Mom",
@@ -11354,7 +11833,8 @@ const rankingsData = [
                 "paper_count_s2": 5.0,
                 "h_index": 1.0,
                 "citation_count": 7.0,
-                "paper_count": 5.0
+                "paper_count": 5.0,
+                "gs_suspect": ""
             },
             {
                 "name": "THIM  Pichthida",
@@ -11373,7 +11853,8 @@ const rankingsData = [
                 "paper_count_s2": 5.0,
                 "h_index": 1.0,
                 "citation_count": 1.0,
-                "paper_count": 5.0
+                "paper_count": 5.0,
+                "gs_suspect": ""
             },
             {
                 "name": "CHEAB Sambath",
@@ -11392,7 +11873,8 @@ const rankingsData = [
                 "paper_count_s2": 2.0,
                 "h_index": 1.0,
                 "citation_count": 4.0,
-                "paper_count": 2.0
+                "paper_count": 2.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Chhea Sophearom",
@@ -11411,7 +11893,8 @@ const rankingsData = [
                 "paper_count_s2": 3.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 3.0
+                "paper_count": 3.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sok Sanith",
@@ -11430,7 +11913,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Kem Sokunthea",
@@ -11449,7 +11933,8 @@ const rankingsData = [
                 "paper_count_s2": 2.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 2.0
+                "paper_count": 2.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Rotha KOL",
@@ -11468,7 +11953,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Tricia J. Hester",
@@ -11487,7 +11973,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "MUK Lykeang",
@@ -11506,7 +11993,8 @@ const rankingsData = [
                 "paper_count_s2": 2.0,
                 "h_index": 1.0,
                 "citation_count": 1.0,
-                "paper_count": 2.0
+                "paper_count": 2.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Heng MAO",
@@ -11525,7 +12013,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "KHOM Sanchhay",
@@ -11544,7 +12033,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sreynich CHHUN",
@@ -11563,7 +12053,8 @@ const rankingsData = [
                 "paper_count_s2": 7.0,
                 "h_index": 1.0,
                 "citation_count": 13.0,
-                "paper_count": 7.0
+                "paper_count": 7.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Heng Sophea",
@@ -11582,7 +12073,8 @@ const rankingsData = [
                 "paper_count_s2": 2.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 2.0
+                "paper_count": 2.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Vutha Meas",
@@ -11601,7 +12093,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Dr. AN SRIM",
@@ -11620,7 +12113,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Ratanakromanea Ngin",
@@ -11639,7 +12133,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "chea ong",
@@ -11658,7 +12153,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Sophaneth Keo",
@@ -11677,7 +12173,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Michael Renfrew",
@@ -11696,7 +12193,8 @@ const rankingsData = [
                 "paper_count_s2": 3.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 3.0
+                "paper_count": 3.0,
+                "gs_suspect": ""
             },
             {
                 "name": "HENG Sreyly",
@@ -11715,7 +12213,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "YEM  Sokha",
@@ -11734,7 +12233,8 @@ const rankingsData = [
                 "paper_count_s2": 2.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 2.0
+                "paper_count": 2.0,
+                "gs_suspect": ""
             },
             {
                 "name": "SRUY HUY",
@@ -11753,7 +12253,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "Chendavatey Pok",
@@ -11772,7 +12273,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "LAM Pechkethia",
@@ -11791,7 +12293,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "PIT Sovannary",
@@ -11810,7 +12313,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": ""
             },
             {
                 "name": "VANN  Lida",
@@ -11829,7 +12333,8 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             },
             {
                 "name": "NOV Sreyroth",
@@ -11848,24 +12353,25 @@ const rankingsData = [
                 "paper_count_s2": 2.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 2.0
+                "paper_count": 2.0,
+                "gs_suspect": ""
             }
         ],
         "uri_system": {
-            "uri": 112.11113963418181,
+            "uri": 97.82791499775871,
             "rank": 3,
-            "uri_base": 25.887333812792424,
+            "uri_base": 22.589226191259957,
             "size_factor": 4.330733340286331,
             "components": {
-                "H": 56.73959625902749,
-                "C_norm": 0.5896811632664184,
+                "H": 49.437904413870015,
+                "C_norm": 0.5622449605739673,
                 "P_norm": 0.8915897276016265,
-                "C_blend": 150.35094748939972,
+                "C_blend": 131.20995922135126,
                 "P_term": 4.363291751325944,
-                "H_GS": 90.59357936617269,
-                "H_S2": 42.23074635596527,
-                "C_GS": 245.85276112664877,
-                "C_S2": 109.42159878772156,
+                "H_GS": 66.25460654898107,
+                "H_S2": 42.23074635596528,
+                "C_GS": 182.04946689982054,
+                "C_S2": 109.42159878772155,
                 "P_S2": 77.51516189723534
             }
         },
@@ -11881,32 +12387,32 @@ const rankingsData = [
             ]
         },
         "ranking_system": {
-            "score": 112.11113963418181,
+            "score": 97.82791499775871,
             "rank": 3,
             "metrics": {
-                "H": 56.73959625902749,
-                "C_norm": 0.5896811632664184,
+                "H": 49.437904413870015,
+                "C_norm": 0.5622449605739673,
                 "P_norm": 0.8915897276016265,
-                "H_GS": 90.59357936617269,
-                "H_S2": 42.23074635596527,
-                "C_GS": 245.85276112664877,
-                "C_S2": 109.42159878772156,
+                "H_GS": 66.25460654898107,
+                "H_S2": 42.23074635596528,
+                "C_GS": 182.04946689982054,
+                "C_S2": 109.42159878772155,
                 "P_S2": 77.51516189723534
             }
         },
         "weighted_sum_system": {
-            "score": 112.11113963418181,
+            "score": 97.82791499775871,
             "rank": 3,
             "metrics": {
-                "H": 56.73959625902749,
-                "C_norm": 0.5896811632664184,
+                "H": 49.437904413870015,
+                "C_norm": 0.5622449605739673,
                 "P_norm": 0.8915897276016265,
-                "C_blend": 150.35094748939972,
+                "C_blend": 131.20995922135126,
                 "P_term": 4.363291751325944,
-                "H_GS": 90.59357936617269,
-                "H_S2": 42.23074635596527,
-                "C_GS": 245.85276112664877,
-                "C_S2": 109.42159878772156,
+                "H_GS": 66.25460654898107,
+                "H_S2": 42.23074635596528,
+                "C_GS": 182.04946689982054,
+                "C_S2": 109.42159878772155,
                 "P_S2": 77.51516189723534
             }
         }
@@ -11935,7 +12441,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Sengthai Lay",
@@ -11954,23 +12461,24 @@ const rankingsData = [
                 "paper_count_s2": 2.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 2.0
+                "paper_count": 2.0,
+                "gs_suspect": ""
             }
         ],
         "uri_system": {
-            "uri": 0.42220939029557303,
-            "rank": 28,
-            "uri_base": 0.3843115488972309,
+            "uri": 0.016640845078582173,
+            "rank": 31,
+            "uri_base": 0.01514714995474565,
             "size_factor": 1.0986122886681098,
             "components": {
-                "H": 0.812415060330663,
-                "C_norm": 0.007950270652637464,
+                "H": 0.0,
+                "C_norm": 0.0,
                 "P_norm": 0.15147149954745648,
-                "C_blend": 2.027079716774266,
+                "C_blend": 0.0,
                 "P_term": 0.7412763113750153,
-                "H_GS": 2.70805020110221,
+                "H_GS": 0.0,
                 "H_S2": 0.0,
-                "C_GS": 6.756932389247553,
+                "C_GS": 0.0,
                 "C_S2": 0.0,
                 "P_S2": 1.0986122886681098
             }
@@ -11989,31 +12497,31 @@ const rankingsData = [
             ]
         },
         "ranking_system": {
-            "score": 0.42220939029557303,
-            "rank": 28,
+            "score": 0.016640845078582173,
+            "rank": 31,
             "metrics": {
-                "H": 0.812415060330663,
-                "C_norm": 0.007950270652637464,
+                "H": 0.0,
+                "C_norm": 0.0,
                 "P_norm": 0.15147149954745648,
-                "H_GS": 2.70805020110221,
+                "H_GS": 0.0,
                 "H_S2": 0.0,
-                "C_GS": 6.756932389247553,
+                "C_GS": 0.0,
                 "C_S2": 0.0,
                 "P_S2": 1.0986122886681098
             }
         },
         "weighted_sum_system": {
-            "score": 0.42220939029557303,
-            "rank": 28,
+            "score": 0.016640845078582173,
+            "rank": 31,
             "metrics": {
-                "H": 0.812415060330663,
-                "C_norm": 0.007950270652637464,
+                "H": 0.0,
+                "C_norm": 0.0,
                 "P_norm": 0.15147149954745648,
-                "C_blend": 2.027079716774266,
+                "C_blend": 0.0,
                 "P_term": 0.7412763113750153,
-                "H_GS": 2.70805020110221,
+                "H_GS": 0.0,
                 "H_S2": 0.0,
-                "C_GS": 6.756932389247553,
+                "C_GS": 0.0,
                 "C_S2": 0.0,
                 "P_S2": 1.0986122886681098
             }
@@ -12043,7 +12551,8 @@ const rankingsData = [
                 "paper_count_s2": 0.0,
                 "h_index": 0.0,
                 "citation_count": 0.0,
-                "paper_count": 0.0
+                "paper_count": 0.0,
+                "gs_suspect": "unverified"
             },
             {
                 "name": "Sovang Long",
@@ -12062,7 +12571,8 @@ const rankingsData = [
                 "paper_count_s2": 5.0,
                 "h_index": 1.0,
                 "citation_count": 4.0,
-                "paper_count": 5.0
+                "paper_count": 5.0,
+                "gs_suspect": ""
             },
             {
                 "name": "hok thavuth",
@@ -12081,23 +12591,24 @@ const rankingsData = [
                 "paper_count_s2": 1.0,
                 "h_index": 1.0,
                 "citation_count": 2.0,
-                "paper_count": 1.0
+                "paper_count": 1.0,
+                "gs_suspect": ""
             }
         ],
         "uri_system": {
-            "uri": 1.420248374860329,
+            "uri": 1.1167356637756944,
             "rank": 21,
-            "uri_base": 1.024492643620803,
+            "uri_base": 0.8055545020565196,
             "size_factor": 1.3862943611198906,
             "components": {
-                "H": 2.1987094214505536,
-                "C_norm": 0.021250904911434446,
+                "H": 1.7158780477203233,
+                "C_norm": 0.0175530751654792,
                 "P_norm": 0.25510496757908396,
-                "C_blend": 5.418341109528983,
+                "C_blend": 4.096325335349707,
                 "P_term": 1.2484412575662103,
-                "H_GS": 4.0943445622221,
+                "H_GS": 2.4849066497880004,
                 "H_S2": 1.3862943611198906,
-                "C_GS": 11.742353229191455,
+                "C_GS": 7.335633981927202,
                 "C_S2": 2.70805020110221,
                 "P_S2": 2.4849066497880004
             }
@@ -12114,31 +12625,31 @@ const rankingsData = [
             ]
         },
         "ranking_system": {
-            "score": 1.420248374860329,
+            "score": 1.1167356637756944,
             "rank": 21,
             "metrics": {
-                "H": 2.1987094214505536,
-                "C_norm": 0.021250904911434446,
+                "H": 1.7158780477203233,
+                "C_norm": 0.0175530751654792,
                 "P_norm": 0.25510496757908396,
-                "H_GS": 4.0943445622221,
+                "H_GS": 2.4849066497880004,
                 "H_S2": 1.3862943611198906,
-                "C_GS": 11.742353229191455,
+                "C_GS": 7.335633981927202,
                 "C_S2": 2.70805020110221,
                 "P_S2": 2.4849066497880004
             }
         },
         "weighted_sum_system": {
-            "score": 1.420248374860329,
+            "score": 1.1167356637756944,
             "rank": 21,
             "metrics": {
-                "H": 2.1987094214505536,
-                "C_norm": 0.021250904911434446,
+                "H": 1.7158780477203233,
+                "C_norm": 0.0175530751654792,
                 "P_norm": 0.25510496757908396,
-                "C_blend": 5.418341109528983,
+                "C_blend": 4.096325335349707,
                 "P_term": 1.2484412575662103,
-                "H_GS": 4.0943445622221,
+                "H_GS": 2.4849066497880004,
                 "H_S2": 1.3862943611198906,
-                "C_GS": 11.742353229191455,
+                "C_GS": 7.335633981927202,
                 "C_S2": 2.70805020110221,
                 "P_S2": 2.4849066497880004
             }

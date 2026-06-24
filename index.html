@@ -462,6 +462,10 @@
         .f-link.scopus-link { color: #e16c00; }
         .f-link.scopus-link:hover { border-bottom-color: #e16c00; }
 
+        .f-link.gs-suspect { color: #b91c1c; }
+        .suspect-row td { opacity: 0.55; }
+        .suspect-row td:last-child { opacity: 1; }
+
         .no-data {
             color: var(--text-light);
         }
@@ -907,9 +911,16 @@
             } else {
                 tbody.innerHTML = researchers.map((r, i) => {
                     const noS2 = !r.citation_count && !r.h_index && !r.paper_count;
+                    const suspect = r.gs_suspect || '';
+                    const suspectBadge = suspect
+                        ? `<span class="warn-badge" title="GS profile not verified against S2 — excluded from ranking">unverified</span>`
+                        : '';
+                    const gsClass = suspect ? 'f-link gs-suspect' : 'f-link';
+                    const rowClass = suspect ? ' class="suspect-row"' : '';
+
                     const links = [];
                     if (r.profile_url)
-                        links.push(`<a class="f-link" href="${r.profile_url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">GS</a>`);
+                        links.push(`<a class="${gsClass}" href="${r.profile_url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">GS</a>${suspectBadge}`);
                     if (r.orcid_url || (r.orcid && r.orcid !== 'nan'))
                         links.push(`<a class="f-link" href="${r.orcid_url || 'https://orcid.org/' + r.orcid}" target="_blank" rel="noopener" onclick="event.stopPropagation()">ORCID</a>`);
                     if (r.s2_profile_url)
@@ -918,7 +929,7 @@
                         links.push(`<a class="f-link scopus-link" href="${r.scopus_url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Scopus</a>`);
 
                     return `
-                        <tr>
+                        <tr${rowClass}>
                             <td style="text-align:center;color:var(--text-light);font-size:0.8rem;">${i + 1}</td>
                             <td>
                                 <div class="f-name">${r.clean_name || r.name || '—'}</div>

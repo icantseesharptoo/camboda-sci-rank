@@ -136,14 +136,16 @@ def main():
                 "h_index": float(row["h_index"]),
                 "citation_count": float(row["citation_count"]),
                 "paper_count": float(row["paper_count"]),
+                "gs_suspect": _str("gs_suspect"),
             })
         researchers.sort(key=lambda x: x["citations_scholar"], reverse=True)
 
-        h_gs = log_aggregate([r["hindex_scholar"] for r in researchers])
-        h_s2 = log_aggregate([r["hindex_s2"] for r in researchers])
-        c_gs = log_aggregate([r["citations_scholar"] for r in researchers])
-        c_s2 = log_aggregate([r["citations_s2"] for r in researchers])
-        p_s2 = log_aggregate([r["paper_count_s2"] for r in researchers])
+        ranked = [r for r in researchers if not r.get("gs_suspect")]
+        h_gs = log_aggregate([r["hindex_scholar"] for r in ranked])
+        h_s2 = log_aggregate([r["hindex_s2"] for r in ranked])
+        c_gs = log_aggregate([r["citations_scholar"] for r in ranked])
+        c_s2 = log_aggregate([r["citations_s2"] for r in ranked])
+        p_s2 = log_aggregate([r["paper_count_s2"] for r in ranked])
 
         quality = assess_data_quality(researchers, faculty_count)
         global_missing_s2 += quality["missing_s2_count"]
