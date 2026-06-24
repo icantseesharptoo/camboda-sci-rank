@@ -9,41 +9,16 @@ OUTPUT_JSON = os.path.join(_ROOT, "rankings_summary.json")
 OUTPUT_CSV = os.path.join(_ROOT, "rankings_summary.csv")
 OUTPUT_JS = os.path.join(_ROOT, "rankings_data.js")
 
-university_names = {
-    "puthisastra.edu.kh": "University of Puthisastra",
-    "nubb.edu.kh": "National University of Battambang",
-    "npic.edu.kh": "National Polytechnic Institute of Cambodia",
-    "camtech.edu.kh": "Cambodia University of Technology and Science",
-    "nie.edu.kh": "National Institute of Education",
-    "cadt.edu.kh": "Cambodia Academy of Digital Technology",
-    "dmu.ac.uk": "De Montfort University",
-    "itc.edu.kh": "Institute of Technology of Cambodia",
-    "paragoniu.edu.kh": "Paragon International University",
-    "rua.edu.kh": "Royal University of Agriculture",
-    "rupp.edu.kh": "Royal University of Phnom Penh",
-    "aupp.edu.kh": "American University of Phnom Penh",
-    "sru.edu.kh": "Svay Rieng University",
-    "uc.edu.kh": "The University of Cambodia",
-    "uhs.edu.kh": "University of Health Sciences",
-    "puc.edu.kh": "Paññāsāstra University of Cambodia",
-    "num.edu.kh": "National University of Management",
-    "nmu.edu.kh": "National Meanchey University",
-    "bbu.edu.kh": "Build Bright University",
-    "westernuniversity.edu.kh": "Western University Cambodia",
-    "ppua.edu.kh": "Phnom Penh University of the Arts",
-    "psbu.edu.kh": "Preah Sihamoniraja Buddhist University",
-    "mekong.edu.kh": "Cambodian Mekong University",
-    "ume.edu.kh": "University of Management and Economics",
-    "usea.edu.kh": "University of South-East Asia",
-    "aub.edu.kh": "ACLEDA University of Business",
-    "aib.edu.kh": "ACLEDA University of Business",
-    "rule.edu.kh": "Royal University of Law and Economics",
-    "rac.gov.kh": "Royal Academy of Cambodia",
-    "ntti.edu.kh": "National Technical Training Institute",
-    "diu.edu.kh": "Dewey International University",
-    "angkor.edu.kh": "Angkor University",
-    "eamu.edu.kh": "East Asia Management University",
-}
+def _load_university_names():
+    import csv as _csv
+    path = os.path.join(_ROOT, "institutions.csv")
+    mapping = {}
+    with open(path, encoding="utf-8") as f:
+        for row in _csv.DictReader(f):
+            mapping[row["domain"]] = row["name"]
+    return mapping
+
+university_names = _load_university_names()
 
 # Canonical field names (CSV column → logical name)
 FIELD_MAP = {

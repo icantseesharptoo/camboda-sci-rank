@@ -38,7 +38,7 @@
     },
     "universities": [
         {
-            "university": "ACLEDA University of Business",
+            "university": "ACLEDA Institute of Business",
             "domains": [
                 "aub.edu.kh",
                 "aib.edu.kh"
@@ -697,6 +697,184 @@
                     "C_GS": 4.770684624465665,
                     "C_S2": 0.0,
                     "P_S2": 0.0
+                }
+            }
+        },
+        {
+            "university": "Asia Euro University",
+            "domains": [
+                "aeu.edu.kh"
+            ],
+            "faculty_count": 1,
+            "researchers": [
+                {
+                    "name": "Professor, Dr. Chanthuch Try",
+                    "clean_name": "Chanthuch Try",
+                    "affiliation": "Dean of Postgraduate School and Director of Research and Development Center, Asia Euro University",
+                    "profile_url": "https://scholar.google.com/citations?hl=en&user=j-uQEgoAAAAJ",
+                    "orcid": "",
+                    "orcid_url": "",
+                    "scopus_url": "",
+                    "s2_profile_url": "",
+                    "citations_scholar": 18.0,
+                    "hindex_scholar": 3.0,
+                    "i10_scholar": 0.0,
+                    "hindex_s2": 0.0,
+                    "citations_s2": 0.0,
+                    "paper_count_s2": 0.0,
+                    "h_index": 0.0,
+                    "citation_count": 0.0,
+                    "paper_count": 0.0
+                }
+            ],
+            "uri_system": {
+                "uri": 0.1308029334404118,
+                "rank": 30,
+                "uri_base": 0.18870874340821125,
+                "size_factor": 0.6931471805599453,
+                "components": {
+                    "H": 0.4158883083359672,
+                    "C_norm": 0.003464454793391174,
+                    "P_norm": 0.0,
+                    "C_blend": 0.883331693749932,
+                    "P_term": 0.0,
+                    "H_GS": 1.3862943611198906,
+                    "H_S2": 0.0,
+                    "C_GS": 2.9444389791664403,
+                    "C_S2": 0.0,
+                    "P_S2": 0.0
+                }
+            },
+            "data_quality": {
+                "faculty_count": 1,
+                "missing_s2_count": 1,
+                "missing_s2_pct": 100.0,
+                "zero_h_gs_count": 0,
+                "zero_h_s2_count": 1,
+                "small_cohort": true,
+                "notes": [
+                    "Small cohort (N=1): URI less stable with fewer than 3 faculty.",
+                    "1/1 faculty (100.0%) have no Semantic Scholar metrics (all S2 fields zero).",
+                    "All faculty have zero Semantic Scholar h-index."
+                ]
+            },
+            "ranking_system": {
+                "score": 0.1308029334404118,
+                "rank": 30,
+                "metrics": {
+                    "H": 0.4158883083359672,
+                    "C_norm": 0.003464454793391174,
+                    "P_norm": 0.0,
+                    "H_GS": 1.3862943611198906,
+                    "H_S2": 0.0,
+                    "C_GS": 2.9444389791664403,
+                    "C_S2": 0.0,
+                    "P_S2": 0.0
+                }
+            },
+            "weighted_sum_system": {
+                "score": 0.1308029334404118,
+                "rank": 30,
+                "metrics": {
+                    "H": 0.4158883083359672,
+                    "C_norm": 0.003464454793391174,
+                    "P_norm": 0.0,
+                    "C_blend": 0.883331693749932,
+                    "P_term": 0.0,
+                    "H_GS": 1.3862943611198906,
+                    "H_S2": 0.0,
+                    "C_GS": 2.9444389791664403,
+                    "C_S2": 0.0,
+                    "P_S2": 0.0
+                }
+            }
+        },
+        {
+            "university": "Beltei International University",
+            "domains": [
+                "beltei.edu.kh"
+            ],
+            "faculty_count": 1,
+            "researchers": [
+                {
+                    "name": "Ngoeurn Borey",
+                    "clean_name": "Ngoeurn Borey",
+                    "affiliation": "BELTEI International University",
+                    "profile_url": "https://scholar.google.com/citations?hl=en&user=gLyHtrYAAAAJ",
+                    "orcid": "",
+                    "orcid_url": "",
+                    "scopus_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/2428025055",
+                    "citations_scholar": 0.0,
+                    "hindex_scholar": 0.0,
+                    "i10_scholar": NaN,
+                    "hindex_s2": 0.0,
+                    "citations_s2": 0.0,
+                    "paper_count_s2": 1.0,
+                    "h_index": 0.0,
+                    "citation_count": 0.0,
+                    "paper_count": 1.0
+                }
+            ],
+            "uri_system": {
+                "uri": 0.007458441283827392,
+                "rank": 34,
+                "uri_base": 0.010760256252939292,
+                "size_factor": 0.6931471805599453,
+                "components": {
+                    "H": 0.0,
+                    "C_norm": 0.0,
+                    "P_norm": 0.10760256252939292,
+                    "C_blend": 0.0,
+                    "P_term": 0.5265890341390445,
+                    "H_GS": 0.0,
+                    "H_S2": 0.0,
+                    "C_GS": 0.0,
+                    "C_S2": 0.0,
+                    "P_S2": 0.6931471805599453
+                }
+            },
+            "data_quality": {
+                "faculty_count": 1,
+                "missing_s2_count": 0,
+                "missing_s2_pct": 0.0,
+                "zero_h_gs_count": 1,
+                "zero_h_s2_count": 1,
+                "small_cohort": true,
+                "notes": [
+                    "Small cohort (N=1): URI less stable with fewer than 3 faculty.",
+                    "All faculty have zero Google Scholar h-index.",
+                    "All faculty have zero Semantic Scholar h-index."
+                ]
+            },
+            "ranking_system": {
+                "score": 0.007458441283827392,
+                "rank": 34,
+                "metrics": {
+                    "H": 0.0,
+                    "C_norm": 0.0,
+                    "P_norm": 0.10760256252939292,
+                    "H_GS": 0.0,
+                    "H_S2": 0.0,
+                    "C_GS": 0.0,
+                    "C_S2": 0.0,
+                    "P_S2": 0.6931471805599453
+                }
+            },
+            "weighted_sum_system": {
+                "score": 0.007458441283827392,
+                "rank": 34,
+                "metrics": {
+                    "H": 0.0,
+                    "C_norm": 0.0,
+                    "P_norm": 0.10760256252939292,
+                    "C_blend": 0.0,
+                    "P_term": 0.5265890341390445,
+                    "H_GS": 0.0,
+                    "H_S2": 0.0,
+                    "C_GS": 0.0,
+                    "C_S2": 0.0,
+                    "P_S2": 0.6931471805599453
                 }
             }
         },
@@ -3363,6 +3541,112 @@
             }
         },
         {
+            "university": "International University",
+            "domains": [
+                "iu.edu.kh"
+            ],
+            "faculty_count": 2,
+            "researchers": [
+                {
+                    "name": "Kongkea Phan",
+                    "clean_name": "Kongkea Phan",
+                    "affiliation": "Dean of Faculty of Science and Technology, International University, Phnom Penh, Cambodia",
+                    "profile_url": "https://scholar.google.com/citations?hl=en&user=NVxXqwgAAAAJ",
+                    "orcid": "",
+                    "orcid_url": "",
+                    "scopus_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/39144721",
+                    "citations_scholar": 1397.0,
+                    "hindex_scholar": 15.0,
+                    "i10_scholar": 22.0,
+                    "hindex_s2": 13.0,
+                    "citations_s2": 1039.0,
+                    "paper_count_s2": 47.0,
+                    "h_index": 13.0,
+                    "citation_count": 1039.0,
+                    "paper_count": 47.0
+                },
+                {
+                    "name": "Panha Chhim",
+                    "clean_name": "Panha Chhim",
+                    "affiliation": "International University",
+                    "profile_url": "https://scholar.google.com/citations?hl=en&user=DYEeKFsAAAAJ",
+                    "orcid": "",
+                    "orcid_url": "",
+                    "scopus_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/2203329767",
+                    "citations_scholar": 49.0,
+                    "hindex_scholar": 4.0,
+                    "i10_scholar": 2.0,
+                    "hindex_s2": 3.0,
+                    "citations_s2": 25.0,
+                    "paper_count_s2": 4.0,
+                    "h_index": 3.0,
+                    "citation_count": 25.0,
+                    "paper_count": 4.0
+                }
+            ],
+            "uri_system": {
+                "uri": 2.1052273833644604,
+                "rank": 17,
+                "uri_base": 1.9162605453073067,
+                "size_factor": 1.0986122886681098,
+                "components": {
+                    "H": 4.132354173916768,
+                    "C_norm": 0.041142099641850456,
+                    "P_norm": 0.3818722220592797,
+                    "C_blend": 10.4899970495764,
+                    "P_term": 1.868819104784765,
+                    "H_GS": 4.382026634673881,
+                    "H_S2": 4.025351690735149,
+                    "C_GS": 11.154820928221902,
+                    "C_S2": 10.205072530156901,
+                    "P_S2": 5.480638923341991
+                }
+            },
+            "data_quality": {
+                "faculty_count": 2,
+                "missing_s2_count": 0,
+                "missing_s2_pct": 0.0,
+                "zero_h_gs_count": 0,
+                "zero_h_s2_count": 0,
+                "small_cohort": true,
+                "notes": [
+                    "Small cohort (N=2): URI less stable with fewer than 3 faculty."
+                ]
+            },
+            "ranking_system": {
+                "score": 2.1052273833644604,
+                "rank": 17,
+                "metrics": {
+                    "H": 4.132354173916768,
+                    "C_norm": 0.041142099641850456,
+                    "P_norm": 0.3818722220592797,
+                    "H_GS": 4.382026634673881,
+                    "H_S2": 4.025351690735149,
+                    "C_GS": 11.154820928221902,
+                    "C_S2": 10.205072530156901,
+                    "P_S2": 5.480638923341991
+                }
+            },
+            "weighted_sum_system": {
+                "score": 2.1052273833644604,
+                "rank": 17,
+                "metrics": {
+                    "H": 4.132354173916768,
+                    "C_norm": 0.041142099641850456,
+                    "P_norm": 0.3818722220592797,
+                    "C_blend": 10.4899970495764,
+                    "P_term": 1.868819104784765,
+                    "H_GS": 4.382026634673881,
+                    "H_S2": 4.025351690735149,
+                    "C_GS": 11.154820928221902,
+                    "C_S2": 10.205072530156901,
+                    "P_S2": 5.480638923341991
+                }
+            }
+        },
+        {
             "university": "National Institute of Education",
             "domains": [
                 "nie.edu.kh"
@@ -5406,6 +5690,189 @@
             }
         },
         {
+            "university": "Pannasastra University of Cambodia",
+            "domains": [
+                "puc.edu.kh"
+            ],
+            "faculty_count": 6,
+            "researchers": [
+                {
+                    "name": "Kimkong Heng",
+                    "clean_name": "Kimkong Heng",
+                    "affiliation": "Paññāsāstra University of Cambodia",
+                    "profile_url": "https://scholar.google.com/citations?hl=en&user=qrYZkg4AAAAJ",
+                    "orcid": "0000-0003-0884-4788",
+                    "orcid_url": "https://orcid.org/0000-0003-0884-4788",
+                    "scopus_url": "https://www.scopus.com/authid/detail.uri?authorId=57219284385",
+                    "s2_profile_url": "",
+                    "citations_scholar": 3272.0,
+                    "hindex_scholar": 26.0,
+                    "i10_scholar": 60.0,
+                    "hindex_s2": 0.0,
+                    "citations_s2": 0.0,
+                    "paper_count_s2": 0.0,
+                    "h_index": 0.0,
+                    "citation_count": 0.0,
+                    "paper_count": 0.0
+                },
+                {
+                    "name": "Koemhong Sol",
+                    "clean_name": "Koemhong Sol",
+                    "affiliation": "Paññāsāstra University of Cambodia",
+                    "profile_url": "https://scholar.google.com/citations?hl=en&user=mD_vqdgAAAAJ",
+                    "orcid": "0000-0002-1316-929X",
+                    "orcid_url": "https://orcid.org/0000-0002-1316-929X",
+                    "scopus_url": "https://www.scopus.com/authid/detail.uri?authorId=58000264800",
+                    "s2_profile_url": "",
+                    "citations_scholar": 958.0,
+                    "hindex_scholar": 14.0,
+                    "i10_scholar": 18.0,
+                    "hindex_s2": 0.0,
+                    "citations_s2": 0.0,
+                    "paper_count_s2": 0.0,
+                    "h_index": 0.0,
+                    "citation_count": 0.0,
+                    "paper_count": 0.0
+                },
+                {
+                    "name": "Meas Nearyroth",
+                    "clean_name": "Meas Nearyroth",
+                    "affiliation": "Professor",
+                    "profile_url": "https://scholar.google.com/citations?hl=en&user=Dv5bnF0AAAAJ",
+                    "orcid": "0000-0002-9324-9168",
+                    "orcid_url": "https://orcid.org/0000-0002-9324-9168",
+                    "scopus_url": "https://www.scopus.com/authid/detail.uri?authorId=57210149080",
+                    "s2_profile_url": "",
+                    "citations_scholar": 11.0,
+                    "hindex_scholar": 1.0,
+                    "i10_scholar": 1.0,
+                    "hindex_s2": 0.0,
+                    "citations_s2": 0.0,
+                    "paper_count_s2": 0.0,
+                    "h_index": 0.0,
+                    "citation_count": 0.0,
+                    "paper_count": 0.0
+                },
+                {
+                    "name": "Dr. Vanna Nourn",
+                    "clean_name": "Vanna Nourn",
+                    "affiliation": "Vice Dean of faculty of Education, Arts, and Humanities",
+                    "profile_url": "https://scholar.google.com/citations?hl=en&user=k_WlkPoAAAAJ",
+                    "orcid": "0009-0005-5327-9230",
+                    "orcid_url": "https://orcid.org/0009-0005-5327-9230",
+                    "scopus_url": "",
+                    "s2_profile_url": "",
+                    "citations_scholar": 3.0,
+                    "hindex_scholar": 1.0,
+                    "i10_scholar": 0.0,
+                    "hindex_s2": 0.0,
+                    "citations_s2": 0.0,
+                    "paper_count_s2": 0.0,
+                    "h_index": 0.0,
+                    "citation_count": 0.0,
+                    "paper_count": 0.0
+                },
+                {
+                    "name": "Horn Ken",
+                    "clean_name": "Horn Ken",
+                    "affiliation": "Paññāsāstra University of Cambodia",
+                    "profile_url": "https://scholar.google.com/citations?hl=en&user=EjxQ1zsAAAAJ",
+                    "orcid": "0000-0002-1970-9154",
+                    "orcid_url": "https://orcid.org/0000-0002-1970-9154",
+                    "scopus_url": "",
+                    "s2_profile_url": "",
+                    "citations_scholar": 0.0,
+                    "hindex_scholar": 0.0,
+                    "i10_scholar": NaN,
+                    "hindex_s2": 0.0,
+                    "citations_s2": 0.0,
+                    "paper_count_s2": 0.0,
+                    "h_index": 0.0,
+                    "citation_count": 0.0,
+                    "paper_count": 0.0
+                },
+                {
+                    "name": "Thou Pol",
+                    "clean_name": "Thou Pol",
+                    "affiliation": "Paññāsāstra University of Cambodia",
+                    "profile_url": "https://scholar.google.com/citations?hl=en&user=WkcBw7EAAAAJ",
+                    "orcid": "0009-0002-7864-1652",
+                    "orcid_url": "https://orcid.org/0009-0002-7864-1652",
+                    "scopus_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/2351388977",
+                    "citations_scholar": 0.0,
+                    "hindex_scholar": 0.0,
+                    "i10_scholar": NaN,
+                    "hindex_s2": 0.0,
+                    "citations_s2": 0.0,
+                    "paper_count_s2": 1.0,
+                    "h_index": 0.0,
+                    "citation_count": 0.0,
+                    "paper_count": 1.0
+                }
+            ],
+            "uri_system": {
+                "uri": 1.9817247089182108,
+                "rank": 18,
+                "uri_base": 1.0184050429462452,
+                "size_factor": 1.9459101490553132,
+                "components": {
+                    "H": 2.217054428467929,
+                    "C_norm": 0.022156208628306157,
+                    "P_norm": 0.10760256252939292,
+                    "C_blend": 5.649166308087753,
+                    "P_term": 0.5265890341390445,
+                    "H_GS": 7.39018142822643,
+                    "H_S2": 0.0,
+                    "C_GS": 18.83055436029251,
+                    "C_S2": 0.0,
+                    "P_S2": 0.6931471805599453
+                }
+            },
+            "data_quality": {
+                "faculty_count": 6,
+                "missing_s2_count": 5,
+                "missing_s2_pct": 83.3,
+                "zero_h_gs_count": 2,
+                "zero_h_s2_count": 6,
+                "small_cohort": false,
+                "notes": [
+                    "5/6 faculty (83.3%) have no Semantic Scholar metrics (all S2 fields zero).",
+                    "All faculty have zero Semantic Scholar h-index."
+                ]
+            },
+            "ranking_system": {
+                "score": 1.9817247089182108,
+                "rank": 18,
+                "metrics": {
+                    "H": 2.217054428467929,
+                    "C_norm": 0.022156208628306157,
+                    "P_norm": 0.10760256252939292,
+                    "H_GS": 7.39018142822643,
+                    "H_S2": 0.0,
+                    "C_GS": 18.83055436029251,
+                    "C_S2": 0.0,
+                    "P_S2": 0.6931471805599453
+                }
+            },
+            "weighted_sum_system": {
+                "score": 1.9817247089182108,
+                "rank": 18,
+                "metrics": {
+                    "H": 2.217054428467929,
+                    "C_norm": 0.022156208628306157,
+                    "P_norm": 0.10760256252939292,
+                    "C_blend": 5.649166308087753,
+                    "P_term": 0.5265890341390445,
+                    "H_GS": 7.39018142822643,
+                    "H_S2": 0.0,
+                    "C_GS": 18.83055436029251,
+                    "C_S2": 0.0,
+                    "P_S2": 0.6931471805599453
+                }
+            }
+        },
+        {
             "university": "Paragon International University",
             "domains": [
                 "paragoniu.edu.kh"
@@ -6006,190 +6473,7 @@
             }
         },
         {
-            "university": "Paññāsāstra University of Cambodia",
-            "domains": [
-                "puc.edu.kh"
-            ],
-            "faculty_count": 6,
-            "researchers": [
-                {
-                    "name": "Kimkong Heng",
-                    "clean_name": "Kimkong Heng",
-                    "affiliation": "Paññāsāstra University of Cambodia",
-                    "profile_url": "https://scholar.google.com/citations?hl=en&user=qrYZkg4AAAAJ",
-                    "orcid": "0000-0003-0884-4788",
-                    "orcid_url": "https://orcid.org/0000-0003-0884-4788",
-                    "scopus_url": "https://www.scopus.com/authid/detail.uri?authorId=57219284385",
-                    "s2_profile_url": "",
-                    "citations_scholar": 3272.0,
-                    "hindex_scholar": 26.0,
-                    "i10_scholar": 60.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0
-                },
-                {
-                    "name": "Koemhong Sol",
-                    "clean_name": "Koemhong Sol",
-                    "affiliation": "Paññāsāstra University of Cambodia",
-                    "profile_url": "https://scholar.google.com/citations?hl=en&user=mD_vqdgAAAAJ",
-                    "orcid": "0000-0002-1316-929X",
-                    "orcid_url": "https://orcid.org/0000-0002-1316-929X",
-                    "scopus_url": "https://www.scopus.com/authid/detail.uri?authorId=58000264800",
-                    "s2_profile_url": "",
-                    "citations_scholar": 958.0,
-                    "hindex_scholar": 14.0,
-                    "i10_scholar": 18.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0
-                },
-                {
-                    "name": "Meas Nearyroth",
-                    "clean_name": "Meas Nearyroth",
-                    "affiliation": "Professor",
-                    "profile_url": "https://scholar.google.com/citations?hl=en&user=Dv5bnF0AAAAJ",
-                    "orcid": "0000-0002-9324-9168",
-                    "orcid_url": "https://orcid.org/0000-0002-9324-9168",
-                    "scopus_url": "https://www.scopus.com/authid/detail.uri?authorId=57210149080",
-                    "s2_profile_url": "",
-                    "citations_scholar": 11.0,
-                    "hindex_scholar": 1.0,
-                    "i10_scholar": 1.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0
-                },
-                {
-                    "name": "Dr. Vanna Nourn",
-                    "clean_name": "Vanna Nourn",
-                    "affiliation": "Vice Dean of faculty of Education, Arts, and Humanities",
-                    "profile_url": "https://scholar.google.com/citations?hl=en&user=k_WlkPoAAAAJ",
-                    "orcid": "0009-0005-5327-9230",
-                    "orcid_url": "https://orcid.org/0009-0005-5327-9230",
-                    "scopus_url": "",
-                    "s2_profile_url": "",
-                    "citations_scholar": 3.0,
-                    "hindex_scholar": 1.0,
-                    "i10_scholar": 0.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0
-                },
-                {
-                    "name": "Horn Ken",
-                    "clean_name": "Horn Ken",
-                    "affiliation": "Paññāsāstra University of Cambodia",
-                    "profile_url": "https://scholar.google.com/citations?hl=en&user=EjxQ1zsAAAAJ",
-                    "orcid": "0000-0002-1970-9154",
-                    "orcid_url": "https://orcid.org/0000-0002-1970-9154",
-                    "scopus_url": "",
-                    "s2_profile_url": "",
-                    "citations_scholar": 0.0,
-                    "hindex_scholar": 0.0,
-                    "i10_scholar": NaN,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0
-                },
-                {
-                    "name": "Thou Pol",
-                    "clean_name": "Thou Pol",
-                    "affiliation": "Paññāsāstra University of Cambodia",
-                    "profile_url": "https://scholar.google.com/citations?hl=en&user=WkcBw7EAAAAJ",
-                    "orcid": "0009-0002-7864-1652",
-                    "orcid_url": "https://orcid.org/0009-0002-7864-1652",
-                    "scopus_url": "",
-                    "s2_profile_url": "https://www.semanticscholar.org/author/2351388977",
-                    "citations_scholar": 0.0,
-                    "hindex_scholar": 0.0,
-                    "i10_scholar": NaN,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 1.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 1.0
-                }
-            ],
-            "uri_system": {
-                "uri": 1.9817247089182108,
-                "rank": 18,
-                "uri_base": 1.0184050429462452,
-                "size_factor": 1.9459101490553132,
-                "components": {
-                    "H": 2.217054428467929,
-                    "C_norm": 0.022156208628306157,
-                    "P_norm": 0.10760256252939292,
-                    "C_blend": 5.649166308087753,
-                    "P_term": 0.5265890341390445,
-                    "H_GS": 7.39018142822643,
-                    "H_S2": 0.0,
-                    "C_GS": 18.83055436029251,
-                    "C_S2": 0.0,
-                    "P_S2": 0.6931471805599453
-                }
-            },
-            "data_quality": {
-                "faculty_count": 6,
-                "missing_s2_count": 5,
-                "missing_s2_pct": 83.3,
-                "zero_h_gs_count": 2,
-                "zero_h_s2_count": 6,
-                "small_cohort": false,
-                "notes": [
-                    "5/6 faculty (83.3%) have no Semantic Scholar metrics (all S2 fields zero).",
-                    "All faculty have zero Semantic Scholar h-index."
-                ]
-            },
-            "ranking_system": {
-                "score": 1.9817247089182108,
-                "rank": 18,
-                "metrics": {
-                    "H": 2.217054428467929,
-                    "C_norm": 0.022156208628306157,
-                    "P_norm": 0.10760256252939292,
-                    "H_GS": 7.39018142822643,
-                    "H_S2": 0.0,
-                    "C_GS": 18.83055436029251,
-                    "C_S2": 0.0,
-                    "P_S2": 0.6931471805599453
-                }
-            },
-            "weighted_sum_system": {
-                "score": 1.9817247089182108,
-                "rank": 18,
-                "metrics": {
-                    "H": 2.217054428467929,
-                    "C_norm": 0.022156208628306157,
-                    "P_norm": 0.10760256252939292,
-                    "C_blend": 5.649166308087753,
-                    "P_term": 0.5265890341390445,
-                    "H_GS": 7.39018142822643,
-                    "H_S2": 0.0,
-                    "C_GS": 18.83055436029251,
-                    "C_S2": 0.0,
-                    "P_S2": 0.6931471805599453
-                }
-            }
-        },
-        {
-            "university": "Phnom Penh University of the Arts",
+            "university": "Phnom Penh International Institute of the Arts",
             "domains": [
                 "ppua.edu.kh"
             ],
@@ -6311,6 +6595,129 @@
                     "C_GS": 8.825265953515752,
                     "C_S2": 0.0,
                     "P_S2": 0.0
+                }
+            }
+        },
+        {
+            "university": "Phnom Penh International University",
+            "domains": [
+                "ppiu.edu.kh"
+            ],
+            "faculty_count": 3,
+            "researchers": [
+                {
+                    "name": "Ravy Nhor",
+                    "clean_name": "Ravy Nhor",
+                    "affiliation": "Lecturer, Phnom Penh International University and The University of Cambodia",
+                    "profile_url": "https://scholar.google.com/citations?hl=en&user=-eBbwIkAAAAJ",
+                    "orcid": "",
+                    "orcid_url": "",
+                    "scopus_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/2197154310",
+                    "citations_scholar": 62.0,
+                    "hindex_scholar": 3.0,
+                    "i10_scholar": 3.0,
+                    "hindex_s2": 3.0,
+                    "citations_s2": 19.0,
+                    "paper_count_s2": 3.0,
+                    "h_index": 3.0,
+                    "citation_count": 19.0,
+                    "paper_count": 3.0
+                },
+                {
+                    "name": "OUSSA EM",
+                    "clean_name": "OUSSA EM",
+                    "affiliation": "Lecturer of Research Methodology",
+                    "profile_url": "https://scholar.google.com/citations?hl=en&user=PutPVfoAAAAJ",
+                    "orcid": "",
+                    "orcid_url": "",
+                    "scopus_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/2131478340",
+                    "citations_scholar": 17.0,
+                    "hindex_scholar": 3.0,
+                    "i10_scholar": 0.0,
+                    "hindex_s2": 1.0,
+                    "citations_s2": 3.0,
+                    "paper_count_s2": 1.0,
+                    "h_index": 1.0,
+                    "citation_count": 3.0,
+                    "paper_count": 1.0
+                },
+                {
+                    "name": "Tangkin HONG",
+                    "clean_name": "Tangkin HONG",
+                    "affiliation": "Unknown affiliation",
+                    "profile_url": "https://scholar.google.com/citations?hl=en&user=w1C1x14AAAAJ",
+                    "orcid": "",
+                    "orcid_url": "",
+                    "scopus_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/2347097702",
+                    "citations_scholar": 14.0,
+                    "hindex_scholar": 2.0,
+                    "i10_scholar": 0.0,
+                    "hindex_s2": 2.0,
+                    "citations_s2": 6.0,
+                    "paper_count_s2": 6.0,
+                    "h_index": 2.0,
+                    "citation_count": 6.0,
+                    "paper_count": 6.0
+                }
+            ],
+            "uri_system": {
+                "uri": 2.1760179959609767,
+                "rank": 16,
+                "uri_base": 1.569665185829021,
+                "size_factor": 1.3862943611198906,
+                "components": {
+                    "H": 3.385997984515929,
+                    "C_norm": 0.028834865376419744,
+                    "P_norm": 0.32990403377464056,
+                    "C_blend": 7.3520227542274075,
+                    "P_term": 1.614495439702079,
+                    "H_GS": 3.8712010109078907,
+                    "H_S2": 3.1780538303479453,
+                    "C_GS": 9.741556685389908,
+                    "C_S2": 6.327936783729195,
+                    "P_S2": 4.025351690735149
+                }
+            },
+            "data_quality": {
+                "faculty_count": 3,
+                "missing_s2_count": 0,
+                "missing_s2_pct": 0.0,
+                "zero_h_gs_count": 0,
+                "zero_h_s2_count": 0,
+                "small_cohort": false,
+                "notes": []
+            },
+            "ranking_system": {
+                "score": 2.1760179959609767,
+                "rank": 16,
+                "metrics": {
+                    "H": 3.385997984515929,
+                    "C_norm": 0.028834865376419744,
+                    "P_norm": 0.32990403377464056,
+                    "H_GS": 3.8712010109078907,
+                    "H_S2": 3.1780538303479453,
+                    "C_GS": 9.741556685389908,
+                    "C_S2": 6.327936783729195,
+                    "P_S2": 4.025351690735149
+                }
+            },
+            "weighted_sum_system": {
+                "score": 2.1760179959609767,
+                "rank": 16,
+                "metrics": {
+                    "H": 3.385997984515929,
+                    "C_norm": 0.028834865376419744,
+                    "P_norm": 0.32990403377464056,
+                    "C_blend": 7.3520227542274075,
+                    "P_term": 1.614495439702079,
+                    "H_GS": 3.8712010109078907,
+                    "H_S2": 3.1780538303479453,
+                    "C_GS": 9.741556685389908,
+                    "C_S2": 6.327936783729195,
+                    "P_S2": 4.025351690735149
                 }
             }
         },
@@ -9485,7 +9892,7 @@
             }
         },
         {
-            "university": "The University of Cambodia",
+            "university": "University of Cambodia",
             "domains": [
                 "uc.edu.kh"
             ],
@@ -11506,7 +11913,7 @@
             }
         },
         {
-            "university": "University of South-East Asia",
+            "university": "University of Southeast Asia",
             "domains": [
                 "usea.edu.kh"
             ],
@@ -11614,7 +12021,7 @@
             }
         },
         {
-            "university": "Western University Cambodia",
+            "university": "Western University",
             "domains": [
                 "westernuniversity.edu.kh"
             ],
@@ -11735,413 +12142,6 @@
                     "C_GS": 11.742353229191455,
                     "C_S2": 2.70805020110221,
                     "P_S2": 2.4849066497880004
-                }
-            }
-        },
-        {
-            "university": "aeu.edu.kh",
-            "domains": [
-                "aeu.edu.kh"
-            ],
-            "faculty_count": 1,
-            "researchers": [
-                {
-                    "name": "Professor, Dr. Chanthuch Try",
-                    "clean_name": "Chanthuch Try",
-                    "affiliation": "Dean of Postgraduate School and Director of Research and Development Center, Asia Euro University",
-                    "profile_url": "https://scholar.google.com/citations?hl=en&user=j-uQEgoAAAAJ",
-                    "orcid": "",
-                    "orcid_url": "",
-                    "scopus_url": "",
-                    "s2_profile_url": "",
-                    "citations_scholar": 18.0,
-                    "hindex_scholar": 3.0,
-                    "i10_scholar": 0.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0
-                }
-            ],
-            "uri_system": {
-                "uri": 0.1308029334404118,
-                "rank": 30,
-                "uri_base": 0.18870874340821125,
-                "size_factor": 0.6931471805599453,
-                "components": {
-                    "H": 0.4158883083359672,
-                    "C_norm": 0.003464454793391174,
-                    "P_norm": 0.0,
-                    "C_blend": 0.883331693749932,
-                    "P_term": 0.0,
-                    "H_GS": 1.3862943611198906,
-                    "H_S2": 0.0,
-                    "C_GS": 2.9444389791664403,
-                    "C_S2": 0.0,
-                    "P_S2": 0.0
-                }
-            },
-            "data_quality": {
-                "faculty_count": 1,
-                "missing_s2_count": 1,
-                "missing_s2_pct": 100.0,
-                "zero_h_gs_count": 0,
-                "zero_h_s2_count": 1,
-                "small_cohort": true,
-                "notes": [
-                    "Small cohort (N=1): URI less stable with fewer than 3 faculty.",
-                    "1/1 faculty (100.0%) have no Semantic Scholar metrics (all S2 fields zero).",
-                    "All faculty have zero Semantic Scholar h-index."
-                ]
-            },
-            "ranking_system": {
-                "score": 0.1308029334404118,
-                "rank": 30,
-                "metrics": {
-                    "H": 0.4158883083359672,
-                    "C_norm": 0.003464454793391174,
-                    "P_norm": 0.0,
-                    "H_GS": 1.3862943611198906,
-                    "H_S2": 0.0,
-                    "C_GS": 2.9444389791664403,
-                    "C_S2": 0.0,
-                    "P_S2": 0.0
-                }
-            },
-            "weighted_sum_system": {
-                "score": 0.1308029334404118,
-                "rank": 30,
-                "metrics": {
-                    "H": 0.4158883083359672,
-                    "C_norm": 0.003464454793391174,
-                    "P_norm": 0.0,
-                    "C_blend": 0.883331693749932,
-                    "P_term": 0.0,
-                    "H_GS": 1.3862943611198906,
-                    "H_S2": 0.0,
-                    "C_GS": 2.9444389791664403,
-                    "C_S2": 0.0,
-                    "P_S2": 0.0
-                }
-            }
-        },
-        {
-            "university": "beltei.edu.kh",
-            "domains": [
-                "beltei.edu.kh"
-            ],
-            "faculty_count": 1,
-            "researchers": [
-                {
-                    "name": "Ngoeurn Borey",
-                    "clean_name": "Ngoeurn Borey",
-                    "affiliation": "BELTEI International University",
-                    "profile_url": "https://scholar.google.com/citations?hl=en&user=gLyHtrYAAAAJ",
-                    "orcid": "",
-                    "orcid_url": "",
-                    "scopus_url": "",
-                    "s2_profile_url": "https://www.semanticscholar.org/author/2428025055",
-                    "citations_scholar": 0.0,
-                    "hindex_scholar": 0.0,
-                    "i10_scholar": NaN,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 1.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 1.0
-                }
-            ],
-            "uri_system": {
-                "uri": 0.007458441283827392,
-                "rank": 34,
-                "uri_base": 0.010760256252939292,
-                "size_factor": 0.6931471805599453,
-                "components": {
-                    "H": 0.0,
-                    "C_norm": 0.0,
-                    "P_norm": 0.10760256252939292,
-                    "C_blend": 0.0,
-                    "P_term": 0.5265890341390445,
-                    "H_GS": 0.0,
-                    "H_S2": 0.0,
-                    "C_GS": 0.0,
-                    "C_S2": 0.0,
-                    "P_S2": 0.6931471805599453
-                }
-            },
-            "data_quality": {
-                "faculty_count": 1,
-                "missing_s2_count": 0,
-                "missing_s2_pct": 0.0,
-                "zero_h_gs_count": 1,
-                "zero_h_s2_count": 1,
-                "small_cohort": true,
-                "notes": [
-                    "Small cohort (N=1): URI less stable with fewer than 3 faculty.",
-                    "All faculty have zero Google Scholar h-index.",
-                    "All faculty have zero Semantic Scholar h-index."
-                ]
-            },
-            "ranking_system": {
-                "score": 0.007458441283827392,
-                "rank": 34,
-                "metrics": {
-                    "H": 0.0,
-                    "C_norm": 0.0,
-                    "P_norm": 0.10760256252939292,
-                    "H_GS": 0.0,
-                    "H_S2": 0.0,
-                    "C_GS": 0.0,
-                    "C_S2": 0.0,
-                    "P_S2": 0.6931471805599453
-                }
-            },
-            "weighted_sum_system": {
-                "score": 0.007458441283827392,
-                "rank": 34,
-                "metrics": {
-                    "H": 0.0,
-                    "C_norm": 0.0,
-                    "P_norm": 0.10760256252939292,
-                    "C_blend": 0.0,
-                    "P_term": 0.5265890341390445,
-                    "H_GS": 0.0,
-                    "H_S2": 0.0,
-                    "C_GS": 0.0,
-                    "C_S2": 0.0,
-                    "P_S2": 0.6931471805599453
-                }
-            }
-        },
-        {
-            "university": "iu.edu.kh",
-            "domains": [
-                "iu.edu.kh"
-            ],
-            "faculty_count": 2,
-            "researchers": [
-                {
-                    "name": "Kongkea Phan",
-                    "clean_name": "Kongkea Phan",
-                    "affiliation": "Dean of Faculty of Science and Technology, International University, Phnom Penh, Cambodia",
-                    "profile_url": "https://scholar.google.com/citations?hl=en&user=NVxXqwgAAAAJ",
-                    "orcid": "",
-                    "orcid_url": "",
-                    "scopus_url": "",
-                    "s2_profile_url": "https://www.semanticscholar.org/author/39144721",
-                    "citations_scholar": 1397.0,
-                    "hindex_scholar": 15.0,
-                    "i10_scholar": 22.0,
-                    "hindex_s2": 13.0,
-                    "citations_s2": 1039.0,
-                    "paper_count_s2": 47.0,
-                    "h_index": 13.0,
-                    "citation_count": 1039.0,
-                    "paper_count": 47.0
-                },
-                {
-                    "name": "Panha Chhim",
-                    "clean_name": "Panha Chhim",
-                    "affiliation": "International University",
-                    "profile_url": "https://scholar.google.com/citations?hl=en&user=DYEeKFsAAAAJ",
-                    "orcid": "",
-                    "orcid_url": "",
-                    "scopus_url": "",
-                    "s2_profile_url": "https://www.semanticscholar.org/author/2203329767",
-                    "citations_scholar": 49.0,
-                    "hindex_scholar": 4.0,
-                    "i10_scholar": 2.0,
-                    "hindex_s2": 3.0,
-                    "citations_s2": 25.0,
-                    "paper_count_s2": 4.0,
-                    "h_index": 3.0,
-                    "citation_count": 25.0,
-                    "paper_count": 4.0
-                }
-            ],
-            "uri_system": {
-                "uri": 2.1052273833644604,
-                "rank": 17,
-                "uri_base": 1.9162605453073067,
-                "size_factor": 1.0986122886681098,
-                "components": {
-                    "H": 4.132354173916768,
-                    "C_norm": 0.041142099641850456,
-                    "P_norm": 0.3818722220592797,
-                    "C_blend": 10.4899970495764,
-                    "P_term": 1.868819104784765,
-                    "H_GS": 4.382026634673881,
-                    "H_S2": 4.025351690735149,
-                    "C_GS": 11.154820928221902,
-                    "C_S2": 10.205072530156901,
-                    "P_S2": 5.480638923341991
-                }
-            },
-            "data_quality": {
-                "faculty_count": 2,
-                "missing_s2_count": 0,
-                "missing_s2_pct": 0.0,
-                "zero_h_gs_count": 0,
-                "zero_h_s2_count": 0,
-                "small_cohort": true,
-                "notes": [
-                    "Small cohort (N=2): URI less stable with fewer than 3 faculty."
-                ]
-            },
-            "ranking_system": {
-                "score": 2.1052273833644604,
-                "rank": 17,
-                "metrics": {
-                    "H": 4.132354173916768,
-                    "C_norm": 0.041142099641850456,
-                    "P_norm": 0.3818722220592797,
-                    "H_GS": 4.382026634673881,
-                    "H_S2": 4.025351690735149,
-                    "C_GS": 11.154820928221902,
-                    "C_S2": 10.205072530156901,
-                    "P_S2": 5.480638923341991
-                }
-            },
-            "weighted_sum_system": {
-                "score": 2.1052273833644604,
-                "rank": 17,
-                "metrics": {
-                    "H": 4.132354173916768,
-                    "C_norm": 0.041142099641850456,
-                    "P_norm": 0.3818722220592797,
-                    "C_blend": 10.4899970495764,
-                    "P_term": 1.868819104784765,
-                    "H_GS": 4.382026634673881,
-                    "H_S2": 4.025351690735149,
-                    "C_GS": 11.154820928221902,
-                    "C_S2": 10.205072530156901,
-                    "P_S2": 5.480638923341991
-                }
-            }
-        },
-        {
-            "university": "ppiu.edu.kh",
-            "domains": [
-                "ppiu.edu.kh"
-            ],
-            "faculty_count": 3,
-            "researchers": [
-                {
-                    "name": "Ravy Nhor",
-                    "clean_name": "Ravy Nhor",
-                    "affiliation": "Lecturer, Phnom Penh International University and The University of Cambodia",
-                    "profile_url": "https://scholar.google.com/citations?hl=en&user=-eBbwIkAAAAJ",
-                    "orcid": "",
-                    "orcid_url": "",
-                    "scopus_url": "",
-                    "s2_profile_url": "https://www.semanticscholar.org/author/2197154310",
-                    "citations_scholar": 62.0,
-                    "hindex_scholar": 3.0,
-                    "i10_scholar": 3.0,
-                    "hindex_s2": 3.0,
-                    "citations_s2": 19.0,
-                    "paper_count_s2": 3.0,
-                    "h_index": 3.0,
-                    "citation_count": 19.0,
-                    "paper_count": 3.0
-                },
-                {
-                    "name": "OUSSA EM",
-                    "clean_name": "OUSSA EM",
-                    "affiliation": "Lecturer of Research Methodology",
-                    "profile_url": "https://scholar.google.com/citations?hl=en&user=PutPVfoAAAAJ",
-                    "orcid": "",
-                    "orcid_url": "",
-                    "scopus_url": "",
-                    "s2_profile_url": "https://www.semanticscholar.org/author/2131478340",
-                    "citations_scholar": 17.0,
-                    "hindex_scholar": 3.0,
-                    "i10_scholar": 0.0,
-                    "hindex_s2": 1.0,
-                    "citations_s2": 3.0,
-                    "paper_count_s2": 1.0,
-                    "h_index": 1.0,
-                    "citation_count": 3.0,
-                    "paper_count": 1.0
-                },
-                {
-                    "name": "Tangkin HONG",
-                    "clean_name": "Tangkin HONG",
-                    "affiliation": "Unknown affiliation",
-                    "profile_url": "https://scholar.google.com/citations?hl=en&user=w1C1x14AAAAJ",
-                    "orcid": "",
-                    "orcid_url": "",
-                    "scopus_url": "",
-                    "s2_profile_url": "https://www.semanticscholar.org/author/2347097702",
-                    "citations_scholar": 14.0,
-                    "hindex_scholar": 2.0,
-                    "i10_scholar": 0.0,
-                    "hindex_s2": 2.0,
-                    "citations_s2": 6.0,
-                    "paper_count_s2": 6.0,
-                    "h_index": 2.0,
-                    "citation_count": 6.0,
-                    "paper_count": 6.0
-                }
-            ],
-            "uri_system": {
-                "uri": 2.1760179959609767,
-                "rank": 16,
-                "uri_base": 1.569665185829021,
-                "size_factor": 1.3862943611198906,
-                "components": {
-                    "H": 3.385997984515929,
-                    "C_norm": 0.028834865376419744,
-                    "P_norm": 0.32990403377464056,
-                    "C_blend": 7.3520227542274075,
-                    "P_term": 1.614495439702079,
-                    "H_GS": 3.8712010109078907,
-                    "H_S2": 3.1780538303479453,
-                    "C_GS": 9.741556685389908,
-                    "C_S2": 6.327936783729195,
-                    "P_S2": 4.025351690735149
-                }
-            },
-            "data_quality": {
-                "faculty_count": 3,
-                "missing_s2_count": 0,
-                "missing_s2_pct": 0.0,
-                "zero_h_gs_count": 0,
-                "zero_h_s2_count": 0,
-                "small_cohort": false,
-                "notes": []
-            },
-            "ranking_system": {
-                "score": 2.1760179959609767,
-                "rank": 16,
-                "metrics": {
-                    "H": 3.385997984515929,
-                    "C_norm": 0.028834865376419744,
-                    "P_norm": 0.32990403377464056,
-                    "H_GS": 3.8712010109078907,
-                    "H_S2": 3.1780538303479453,
-                    "C_GS": 9.741556685389908,
-                    "C_S2": 6.327936783729195,
-                    "P_S2": 4.025351690735149
-                }
-            },
-            "weighted_sum_system": {
-                "score": 2.1760179959609767,
-                "rank": 16,
-                "metrics": {
-                    "H": 3.385997984515929,
-                    "C_norm": 0.028834865376419744,
-                    "P_norm": 0.32990403377464056,
-                    "C_blend": 7.3520227542274075,
-                    "P_term": 1.614495439702079,
-                    "H_GS": 3.8712010109078907,
-                    "H_S2": 3.1780538303479453,
-                    "C_GS": 9.741556685389908,
-                    "C_S2": 6.327936783729195,
-                    "P_S2": 4.025351690735149
                 }
             }
         }
