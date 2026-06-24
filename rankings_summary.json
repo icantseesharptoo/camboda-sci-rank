@@ -14,12 +14,12 @@
         "data_quality": {
             "total_universities": 35,
             "total_authors": 511,
-            "authors_missing_s2": 151,
-            "authors_missing_s2_pct": 29.5,
+            "authors_missing_s2": 100,
+            "authors_missing_s2_pct": 19.6,
             "universities_small_cohort": 13,
             "small_cohort_threshold": 3,
             "notes": [
-                "151 of 511 authors (29.5%) lack Semantic Scholar data (all S2 metrics zero).",
+                "100 of 511 authors (19.6%) lack Semantic Scholar data (all S2 metrics zero).",
                 "13 universities have fewer than 3 faculty in the dataset.",
                 "Google Scholar coverage is generally higher than Semantic Scholar for Cambodian institutions.",
                 "URI uses log(1+x) aggregation to reduce sensitivity to single high-performing outliers.",
@@ -107,14 +107,14 @@
                 }
             ],
             "uri_system": {
-                "uri": 1.209117000127522,
-                "rank": 19,
-                "uri_base": 0.8721935499692581,
+                "uri": 1.2061237785862764,
+                "rank": 24,
+                "uri_base": 0.8700343970323395,
                 "size_factor": 1.3862943611198906,
                 "components": {
                     "H": 1.8691257348501207,
-                    "C_norm": 0.01800888918168811,
-                    "P_norm": 0.22982969154944288,
+                    "C_norm": 0.014926785553952375,
+                    "P_norm": 0.22210762850506754,
                     "C_blend": 4.2026977222506705,
                     "P_term": 1.1247482629090362,
                     "H_GS": 2.995732273553991,
@@ -136,12 +136,12 @@
                 ]
             },
             "ranking_system": {
-                "score": 1.209117000127522,
-                "rank": 19,
+                "score": 1.2061237785862764,
+                "rank": 24,
                 "metrics": {
                     "H": 1.8691257348501207,
-                    "C_norm": 0.01800888918168811,
-                    "P_norm": 0.22982969154944288,
+                    "C_norm": 0.014926785553952375,
+                    "P_norm": 0.22210762850506754,
                     "H_GS": 2.995732273553991,
                     "H_S2": 1.3862943611198906,
                     "C_GS": 6.4982821494764345,
@@ -150,12 +150,12 @@
                 }
             },
             "weighted_sum_system": {
-                "score": 1.209117000127522,
-                "rank": 19,
+                "score": 1.2061237785862764,
+                "rank": 24,
                 "metrics": {
                     "H": 1.8691257348501207,
-                    "C_norm": 0.01800888918168811,
-                    "P_norm": 0.22982969154944288,
+                    "C_norm": 0.014926785553952375,
+                    "P_norm": 0.22210762850506754,
                     "C_blend": 4.2026977222506705,
                     "P_term": 1.1247482629090362,
                     "H_GS": 2.995732273553991,
@@ -181,17 +181,17 @@
                     "orcid": "0000-0001-7593-3487",
                     "orcid_url": "https://orcid.org/0000-0001-7593-3487",
                     "scopus_url": "https://www.scopus.com/authid/detail.uri?authorId=57211807300",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/121349971",
                     "citations_scholar": 1231.0,
                     "hindex_scholar": 21.0,
                     "i10_scholar": 44.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "hindex_s2": 4.0,
+                    "citations_s2": 53.0,
+                    "paper_count_s2": 20.0,
+                    "h_index": 4.0,
+                    "citation_count": 53.0,
+                    "paper_count": 20.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "DR.P.MUTHUKUMARAN",
@@ -201,17 +201,17 @@
                     "orcid": "",
                     "orcid_url": "",
                     "scopus_url": "",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/1411470578",
                     "citations_scholar": 746.0,
                     "hindex_scholar": 15.0,
                     "i10_scholar": 20.0,
                     "hindex_s2": 0.0,
                     "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
+                    "paper_count_s2": 1.0,
                     "h_index": 0.0,
                     "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "paper_count": 1.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "Prohim Tam, PhD",
@@ -221,17 +221,17 @@
                     "orcid": "0000-0002-3842-7689",
                     "orcid_url": "https://orcid.org/0000-0002-3842-7689",
                     "scopus_url": "https://www.scopus.com/authid/detail.uri?authorId=57218766016",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/2004408174",
                     "citations_scholar": 615.0,
                     "hindex_scholar": 13.0,
                     "i10_scholar": 16.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "hindex_s2": 11.0,
+                    "citations_s2": 372.0,
+                    "paper_count_s2": 28.0,
+                    "h_index": 11.0,
+                    "citation_count": 372.0,
+                    "paper_count": 28.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "Panha Vorng",
@@ -241,17 +241,17 @@
                     "orcid": "0009-0001-3144-665X",
                     "orcid_url": "https://orcid.org/0009-0001-3144-665X",
                     "scopus_url": "",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/2327257775",
                     "citations_scholar": 409.0,
                     "hindex_scholar": 10.0,
                     "i10_scholar": 12.0,
                     "hindex_s2": 0.0,
                     "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
+                    "paper_count_s2": 1.0,
                     "h_index": 0.0,
                     "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "paper_count": 1.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "Sovannara UK",
@@ -575,62 +575,62 @@
                 }
             ],
             "uri_system": {
-                "uri": 24.16884610658445,
+                "uri": 32.6101026921537,
                 "rank": 8,
-                "uri_base": 7.938468709285318,
+                "uri_base": 10.71107320087228,
                 "size_factor": 3.044522437723423,
                 "components": {
-                    "H": 17.29875179043218,
-                    "C_norm": 0.18423269881278437,
-                    "P_norm": 0.7112568912508297,
-                    "C_blend": 42.99400900594603,
-                    "P_term": 3.480772860648218,
-                    "H_GS": 22.418876630931074,
-                    "H_S2": 15.104412573075514,
-                    "C_GS": 54.07279773108184,
-                    "C_S2": 38.24595669517355,
-                    "P_S2": 31.484818614522677
+                    "H": 23.43496811739117,
+                    "C_norm": 0.2052286259887608,
+                    "P_norm": 0.7298466635131026,
+                    "C_blend": 57.78296176802914,
+                    "P_term": 3.695927836884669,
+                    "H_GS": 33.3194604089428,
+                    "H_S2": 19.198757135297612,
+                    "C_GS": 80.24466118354,
+                    "C_S2": 48.15651916138164,
+                    "P_S2": 39.28293124335247
                 }
             },
             "data_quality": {
                 "faculty_count": 20,
-                "missing_s2_count": 5,
-                "missing_s2_pct": 25.0,
+                "missing_s2_count": 1,
+                "missing_s2_pct": 5.0,
                 "zero_h_gs_count": 0,
-                "zero_h_s2_count": 7,
+                "zero_h_s2_count": 5,
                 "small_cohort": false,
                 "notes": [
-                    "5/20 faculty (25.0%) have no Semantic Scholar metrics (all S2 fields zero)."
+                    "1/20 faculty (5.0%) have no Semantic Scholar metrics (all S2 fields zero)."
                 ]
             },
             "ranking_system": {
-                "score": 24.16884610658445,
+                "score": 32.6101026921537,
                 "rank": 8,
                 "metrics": {
-                    "H": 17.29875179043218,
-                    "C_norm": 0.18423269881278437,
-                    "P_norm": 0.7112568912508297,
-                    "H_GS": 22.418876630931074,
-                    "H_S2": 15.104412573075514,
-                    "C_GS": 54.07279773108184,
-                    "C_S2": 38.24595669517355,
-                    "P_S2": 31.484818614522677
+                    "H": 23.43496811739117,
+                    "C_norm": 0.2052286259887608,
+                    "P_norm": 0.7298466635131026,
+                    "H_GS": 33.3194604089428,
+                    "H_S2": 19.198757135297612,
+                    "C_GS": 80.24466118354,
+                    "C_S2": 48.15651916138164,
+                    "P_S2": 39.28293124335247
                 }
             },
             "weighted_sum_system": {
-                "score": 24.16884610658445,
+                "score": 32.6101026921537,
                 "rank": 8,
                 "metrics": {
-                    "H": 17.29875179043218,
-                    "C_norm": 0.18423269881278437,
-                    "P_norm": 0.7112568912508297,
-                    "C_blend": 42.99400900594603,
-                    "P_term": 3.480772860648218,
-                    "H_GS": 22.418876630931074,
-                    "H_S2": 15.104412573075514,
-                    "C_GS": 54.07279773108184,
-                    "C_S2": 38.24595669517355,
-                    "P_S2": 31.484818614522677
+                    "H": 23.43496811739117,
+                    "C_norm": 0.2052286259887608,
+                    "P_norm": 0.7298466635131026,
+                    "C_blend": 57.78296176802914,
+                    "P_term": 3.695927836884669,
+                    "H_GS": 33.3194604089428,
+                    "H_S2": 19.198757135297612,
+                    "C_GS": 80.24466118354,
+                    "C_S2": 48.15651916138164,
+                    "P_S2": 39.28293124335247
                 }
             }
         },
@@ -649,78 +649,76 @@
                     "orcid": "0009-0000-5943-2607",
                     "orcid_url": "https://orcid.org/0009-0000-5943-2607",
                     "scopus_url": "",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/2353709817",
                     "citations_scholar": 117.0,
                     "hindex_scholar": 5.0,
                     "i10_scholar": 4.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "hindex_s2": 1.0,
+                    "citations_s2": 2.0,
+                    "paper_count_s2": 1.0,
+                    "h_index": 1.0,
+                    "citation_count": 2.0,
+                    "paper_count": 1.0,
+                    "gs_suspect": ""
                 }
             ],
             "uri_system": {
-                "uri": 0.0,
-                "rank": 33,
-                "uri_base": 0.0,
+                "uri": 0.32865170430410984,
+                "rank": 28,
+                "uri_base": 0.47414418397924524,
                 "size_factor": 0.6931471805599453,
                 "components": {
-                    "H": 0.0,
-                    "C_norm": 0.0,
-                    "P_norm": 0.0,
-                    "C_blend": 0.0,
-                    "P_term": 0.0,
-                    "H_GS": 0.0,
-                    "H_S2": 0.0,
-                    "C_GS": 0.0,
-                    "C_S2": 0.0,
-                    "P_S2": 0.0
+                    "H": 1.022730867160378,
+                    "C_norm": 0.007814604594215957,
+                    "P_norm": 0.10398721689677888,
+                    "C_blend": 2.2002339894073764,
+                    "P_term": 0.5265890341390445,
+                    "H_GS": 1.791759469228055,
+                    "H_S2": 0.6931471805599453,
+                    "C_GS": 4.770684624465665,
+                    "C_S2": 1.0986122886681098,
+                    "P_S2": 0.6931471805599453
                 }
             },
             "data_quality": {
                 "faculty_count": 1,
-                "missing_s2_count": 1,
-                "missing_s2_pct": 100.0,
+                "missing_s2_count": 0,
+                "missing_s2_pct": 0.0,
                 "zero_h_gs_count": 0,
-                "zero_h_s2_count": 1,
+                "zero_h_s2_count": 0,
                 "small_cohort": true,
                 "notes": [
-                    "Small cohort (N=1): URI less stable with fewer than 3 faculty.",
-                    "1/1 faculty (100.0%) have no Semantic Scholar metrics (all S2 fields zero).",
-                    "All faculty have zero Semantic Scholar h-index."
+                    "Small cohort (N=1): URI less stable with fewer than 3 faculty."
                 ]
             },
             "ranking_system": {
-                "score": 0.0,
-                "rank": 33,
+                "score": 0.32865170430410984,
+                "rank": 28,
                 "metrics": {
-                    "H": 0.0,
-                    "C_norm": 0.0,
-                    "P_norm": 0.0,
-                    "H_GS": 0.0,
-                    "H_S2": 0.0,
-                    "C_GS": 0.0,
-                    "C_S2": 0.0,
-                    "P_S2": 0.0
+                    "H": 1.022730867160378,
+                    "C_norm": 0.007814604594215957,
+                    "P_norm": 0.10398721689677888,
+                    "H_GS": 1.791759469228055,
+                    "H_S2": 0.6931471805599453,
+                    "C_GS": 4.770684624465665,
+                    "C_S2": 1.0986122886681098,
+                    "P_S2": 0.6931471805599453
                 }
             },
             "weighted_sum_system": {
-                "score": 0.0,
-                "rank": 33,
+                "score": 0.32865170430410984,
+                "rank": 28,
                 "metrics": {
-                    "H": 0.0,
-                    "C_norm": 0.0,
-                    "P_norm": 0.0,
-                    "C_blend": 0.0,
-                    "P_term": 0.0,
-                    "H_GS": 0.0,
-                    "H_S2": 0.0,
-                    "C_GS": 0.0,
-                    "C_S2": 0.0,
-                    "P_S2": 0.0
+                    "H": 1.022730867160378,
+                    "C_norm": 0.007814604594215957,
+                    "P_norm": 0.10398721689677888,
+                    "C_blend": 2.2002339894073764,
+                    "P_term": 0.5265890341390445,
+                    "H_GS": 1.791759469228055,
+                    "H_S2": 0.6931471805599453,
+                    "C_GS": 4.770684624465665,
+                    "C_S2": 1.0986122886681098,
+                    "P_S2": 0.6931471805599453
                 }
             }
         },
@@ -739,78 +737,76 @@
                     "orcid": "",
                     "orcid_url": "",
                     "scopus_url": "",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/2301356255",
                     "citations_scholar": 18.0,
                     "hindex_scholar": 3.0,
                     "i10_scholar": 0.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "hindex_s2": 1.0,
+                    "citations_s2": 10.0,
+                    "paper_count_s2": 4.0,
+                    "h_index": 1.0,
+                    "citation_count": 10.0,
+                    "paper_count": 4.0,
+                    "gs_suspect": ""
                 }
             ],
             "uri_system": {
-                "uri": 0.0,
-                "rank": 34,
-                "uri_base": 0.0,
+                "uri": 0.2970315807321827,
+                "rank": 29,
+                "uri_base": 0.42852598850972984,
                 "size_factor": 0.6931471805599453,
                 "components": {
-                    "H": 0.0,
-                    "C_norm": 0.0,
-                    "P_norm": 0.0,
-                    "C_blend": 0.0,
-                    "P_term": 0.0,
-                    "H_GS": 0.0,
-                    "H_S2": 0.0,
-                    "C_GS": 0.0,
-                    "C_S2": 0.0,
-                    "P_S2": 0.0
+                    "H": 0.9010913347279288,
+                    "C_norm": 0.009098991470570032,
+                    "P_norm": 0.18940341720405307,
+                    "C_blend": 2.5618583847087915,
+                    "P_term": 0.9591348389208239,
+                    "H_GS": 1.3862943611198906,
+                    "H_S2": 0.6931471805599453,
+                    "C_GS": 2.9444389791664403,
+                    "C_S2": 2.3978952727983707,
+                    "P_S2": 1.6094379124341003
                 }
             },
             "data_quality": {
                 "faculty_count": 1,
-                "missing_s2_count": 1,
-                "missing_s2_pct": 100.0,
+                "missing_s2_count": 0,
+                "missing_s2_pct": 0.0,
                 "zero_h_gs_count": 0,
-                "zero_h_s2_count": 1,
+                "zero_h_s2_count": 0,
                 "small_cohort": true,
                 "notes": [
-                    "Small cohort (N=1): URI less stable with fewer than 3 faculty.",
-                    "1/1 faculty (100.0%) have no Semantic Scholar metrics (all S2 fields zero).",
-                    "All faculty have zero Semantic Scholar h-index."
+                    "Small cohort (N=1): URI less stable with fewer than 3 faculty."
                 ]
             },
             "ranking_system": {
-                "score": 0.0,
-                "rank": 34,
+                "score": 0.2970315807321827,
+                "rank": 29,
                 "metrics": {
-                    "H": 0.0,
-                    "C_norm": 0.0,
-                    "P_norm": 0.0,
-                    "H_GS": 0.0,
-                    "H_S2": 0.0,
-                    "C_GS": 0.0,
-                    "C_S2": 0.0,
-                    "P_S2": 0.0
+                    "H": 0.9010913347279288,
+                    "C_norm": 0.009098991470570032,
+                    "P_norm": 0.18940341720405307,
+                    "H_GS": 1.3862943611198906,
+                    "H_S2": 0.6931471805599453,
+                    "C_GS": 2.9444389791664403,
+                    "C_S2": 2.3978952727983707,
+                    "P_S2": 1.6094379124341003
                 }
             },
             "weighted_sum_system": {
-                "score": 0.0,
-                "rank": 34,
+                "score": 0.2970315807321827,
+                "rank": 29,
                 "metrics": {
-                    "H": 0.0,
-                    "C_norm": 0.0,
-                    "P_norm": 0.0,
-                    "C_blend": 0.0,
-                    "P_term": 0.0,
-                    "H_GS": 0.0,
-                    "H_S2": 0.0,
-                    "C_GS": 0.0,
-                    "C_S2": 0.0,
-                    "P_S2": 0.0
+                    "H": 0.9010913347279288,
+                    "C_norm": 0.009098991470570032,
+                    "P_norm": 0.18940341720405307,
+                    "C_blend": 2.5618583847087915,
+                    "P_term": 0.9591348389208239,
+                    "H_GS": 1.3862943611198906,
+                    "H_S2": 0.6931471805599453,
+                    "C_GS": 2.9444389791664403,
+                    "C_S2": 2.3978952727983707,
+                    "P_S2": 1.6094379124341003
                 }
             }
         },
@@ -843,14 +839,14 @@
                 }
             ],
             "uri_system": {
-                "uri": 0.007458441283827392,
-                "rank": 32,
-                "uri_base": 0.010760256252939292,
+                "uri": 0.007207844620627779,
+                "rank": 34,
+                "uri_base": 0.010398721689677889,
                 "size_factor": 0.6931471805599453,
                 "components": {
                     "H": 0.0,
                     "C_norm": 0.0,
-                    "P_norm": 0.10760256252939292,
+                    "P_norm": 0.10398721689677888,
                     "C_blend": 0.0,
                     "P_term": 0.5265890341390445,
                     "H_GS": 0.0,
@@ -874,12 +870,12 @@
                 ]
             },
             "ranking_system": {
-                "score": 0.007458441283827392,
-                "rank": 32,
+                "score": 0.007207844620627779,
+                "rank": 34,
                 "metrics": {
                     "H": 0.0,
                     "C_norm": 0.0,
-                    "P_norm": 0.10760256252939292,
+                    "P_norm": 0.10398721689677888,
                     "H_GS": 0.0,
                     "H_S2": 0.0,
                     "C_GS": 0.0,
@@ -888,12 +884,12 @@
                 }
             },
             "weighted_sum_system": {
-                "score": 0.007458441283827392,
-                "rank": 32,
+                "score": 0.007207844620627779,
+                "rank": 34,
                 "metrics": {
                     "H": 0.0,
                     "C_norm": 0.0,
-                    "P_norm": 0.10760256252939292,
+                    "P_norm": 0.10398721689677888,
                     "C_blend": 0.0,
                     "P_term": 0.5265890341390445,
                     "H_GS": 0.0,
@@ -973,14 +969,14 @@
                 }
             ],
             "uri_system": {
-                "uri": 1.6984470999715733,
-                "rank": 18,
-                "uri_base": 1.2251706041706152,
+                "uri": 1.6937191100362394,
+                "rank": 21,
+                "uri_base": 1.2217600803540756,
                 "size_factor": 1.3862943611198906,
                 "components": {
                     "H": 2.6131128856721864,
-                    "C_norm": 0.02835616742167061,
-                    "P_norm": 0.3650953027837954,
+                    "C_norm": 0.023503194781476906,
+                    "P_norm": 0.35282844149927217,
                     "C_blend": 6.617420932102311,
                     "P_term": 1.7867156538126496,
                     "H_GS": 3.58351893845611,
@@ -1000,12 +996,12 @@
                 "notes": []
             },
             "ranking_system": {
-                "score": 1.6984470999715733,
-                "rank": 18,
+                "score": 1.6937191100362394,
+                "rank": 21,
                 "metrics": {
                     "H": 2.6131128856721864,
-                    "C_norm": 0.02835616742167061,
-                    "P_norm": 0.3650953027837954,
+                    "C_norm": 0.023503194781476906,
+                    "P_norm": 0.35282844149927217,
                     "H_GS": 3.58351893845611,
                     "H_S2": 2.1972245773362196,
                     "C_GS": 8.82834762005316,
@@ -1014,12 +1010,12 @@
                 }
             },
             "weighted_sum_system": {
-                "score": 1.6984470999715733,
-                "rank": 18,
+                "score": 1.6937191100362394,
+                "rank": 21,
                 "metrics": {
                     "H": 2.6131128856721864,
-                    "C_norm": 0.02835616742167061,
-                    "P_norm": 0.3650953027837954,
+                    "C_norm": 0.023503194781476906,
+                    "P_norm": 0.35282844149927217,
                     "C_blend": 6.617420932102311,
                     "P_term": 1.7867156538126496,
                     "H_GS": 3.58351893845611,
@@ -1259,14 +1255,14 @@
                 }
             ],
             "uri_system": {
-                "uri": 11.23994695865803,
+                "uri": 11.214585495413363,
                 "rank": 10,
-                "uri_base": 4.523287407845669,
+                "uri_base": 4.513081204225573,
                 "size_factor": 2.4849066497880004,
                 "components": {
                     "H": 9.817099552883699,
-                    "C_norm": 0.1075756190974664,
-                    "P_norm": 0.5718358045414452,
+                    "C_norm": 0.0891647552995284,
+                    "P_norm": 0.5526226554312043,
                     "C_blend": 25.104702727047837,
                     "P_term": 2.7984692643109486,
                     "H_GS": 11.885536748207313,
@@ -1288,12 +1284,12 @@
                 ]
             },
             "ranking_system": {
-                "score": 11.23994695865803,
+                "score": 11.214585495413363,
                 "rank": 10,
                 "metrics": {
                     "H": 9.817099552883699,
-                    "C_norm": 0.1075756190974664,
-                    "P_norm": 0.5718358045414452,
+                    "C_norm": 0.0891647552995284,
+                    "P_norm": 0.5526226554312043,
                     "H_GS": 11.885536748207313,
                     "H_S2": 8.930626469173578,
                     "C_GS": 30.318066574552685,
@@ -1302,12 +1298,12 @@
                 }
             },
             "weighted_sum_system": {
-                "score": 11.23994695865803,
+                "score": 11.214585495413363,
                 "rank": 10,
                 "metrics": {
                     "H": 9.817099552883699,
-                    "C_norm": 0.1075756190974664,
-                    "P_norm": 0.5718358045414452,
+                    "C_norm": 0.0891647552995284,
+                    "P_norm": 0.5526226554312043,
                     "C_blend": 25.104702727047837,
                     "P_term": 2.7984692643109486,
                     "H_GS": 11.885536748207313,
@@ -1567,14 +1563,14 @@
                 }
             ],
             "uri_system": {
-                "uri": 10.0456428801977,
+                "uri": 10.022288548771728,
                 "rank": 11,
-                "uri_base": 3.916507299052333,
+                "uri_base": 3.907402116777278,
                 "size_factor": 2.5649493574615367,
                 "components": {
                     "H": 8.490052621477636,
-                    "C_norm": 0.09500322157910208,
-                    "P_norm": 0.5323216967680044,
+                    "C_norm": 0.0787440414086078,
+                    "P_norm": 0.5144361847846797,
                     "C_blend": 22.170707971425337,
                     "P_term": 2.6050937966811842,
                     "H_GS": 10.16277015046621,
@@ -1596,12 +1592,12 @@
                 ]
             },
             "ranking_system": {
-                "score": 10.0456428801977,
+                "score": 10.022288548771728,
                 "rank": 11,
                 "metrics": {
                     "H": 8.490052621477636,
-                    "C_norm": 0.09500322157910208,
-                    "P_norm": 0.5323216967680044,
+                    "C_norm": 0.0787440414086078,
+                    "P_norm": 0.5144361847846797,
                     "H_GS": 10.16277015046621,
                     "H_S2": 7.773173680482534,
                     "C_GS": 24.94591928320439,
@@ -1610,12 +1606,12 @@
                 }
             },
             "weighted_sum_system": {
-                "score": 10.0456428801977,
+                "score": 10.022288548771728,
                 "rank": 11,
                 "metrics": {
                     "H": 8.490052621477636,
-                    "C_norm": 0.09500322157910208,
-                    "P_norm": 0.5323216967680044,
+                    "C_norm": 0.0787440414086078,
+                    "P_norm": 0.5144361847846797,
                     "C_blend": 22.170707971425337,
                     "P_term": 2.6050937966811842,
                     "H_GS": 10.16277015046621,
@@ -1641,17 +1637,17 @@
                     "orcid": "0009-0007-9244-5101",
                     "orcid_url": "https://orcid.org/0009-0007-9244-5101",
                     "scopus_url": "",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/145706363",
                     "citations_scholar": 1841.0,
                     "hindex_scholar": 10.0,
                     "i10_scholar": 10.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "hindex_s2": 5.0,
+                    "citations_s2": 53.0,
+                    "paper_count_s2": 37.0,
+                    "h_index": 5.0,
+                    "citation_count": 53.0,
+                    "paper_count": 37.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "Romny Ly",
@@ -1675,63 +1671,62 @@
                 }
             ],
             "uri_system": {
-                "uri": 1.1462097652523942,
-                "rank": 20,
-                "uri_base": 1.043325090275468,
+                "uri": 2.1411881062620717,
+                "rank": 18,
+                "uri_base": 1.9489934059065703,
                 "size_factor": 1.0986122886681098,
                 "components": {
-                    "H": 2.2288327320335672,
-                    "C_norm": 0.024740157595333146,
-                    "P_norm": 0.29217289942462893,
-                    "C_blend": 5.773560097185452,
-                    "P_term": 1.4298455472897516,
-                    "H_GS": 2.302585092994046,
-                    "H_S2": 2.1972245773362196,
-                    "C_GS": 6.1224928095143865,
-                    "C_S2": 5.6240175061873385,
-                    "P_S2": 3.1780538303479458
+                    "H": 4.202432942332717,
+                    "C_norm": 0.03843464175025688,
+                    "P_norm": 0.4060299306923217,
+                    "C_blend": 10.82143109482502,
+                    "P_term": 2.056126853044337,
+                    "H_GS": 4.700480365792417,
+                    "H_S2": 3.9889840465642745,
+                    "C_GS": 13.641100026329639,
+                    "C_S2": 9.613001552751612,
+                    "P_S2": 6.815639990074331
                 }
             },
             "data_quality": {
                 "faculty_count": 2,
-                "missing_s2_count": 1,
-                "missing_s2_pct": 50.0,
+                "missing_s2_count": 0,
+                "missing_s2_pct": 0.0,
                 "zero_h_gs_count": 0,
-                "zero_h_s2_count": 1,
+                "zero_h_s2_count": 0,
                 "small_cohort": true,
                 "notes": [
-                    "Small cohort (N=2): URI less stable with fewer than 3 faculty.",
-                    "1/2 faculty (50.0%) have no Semantic Scholar metrics (all S2 fields zero)."
+                    "Small cohort (N=2): URI less stable with fewer than 3 faculty."
                 ]
             },
             "ranking_system": {
-                "score": 1.1462097652523942,
-                "rank": 20,
+                "score": 2.1411881062620717,
+                "rank": 18,
                 "metrics": {
-                    "H": 2.2288327320335672,
-                    "C_norm": 0.024740157595333146,
-                    "P_norm": 0.29217289942462893,
-                    "H_GS": 2.302585092994046,
-                    "H_S2": 2.1972245773362196,
-                    "C_GS": 6.1224928095143865,
-                    "C_S2": 5.6240175061873385,
-                    "P_S2": 3.1780538303479458
+                    "H": 4.202432942332717,
+                    "C_norm": 0.03843464175025688,
+                    "P_norm": 0.4060299306923217,
+                    "H_GS": 4.700480365792417,
+                    "H_S2": 3.9889840465642745,
+                    "C_GS": 13.641100026329639,
+                    "C_S2": 9.613001552751612,
+                    "P_S2": 6.815639990074331
                 }
             },
             "weighted_sum_system": {
-                "score": 1.1462097652523942,
-                "rank": 20,
+                "score": 2.1411881062620717,
+                "rank": 18,
                 "metrics": {
-                    "H": 2.2288327320335672,
-                    "C_norm": 0.024740157595333146,
-                    "P_norm": 0.29217289942462893,
-                    "C_blend": 5.773560097185452,
-                    "P_term": 1.4298455472897516,
-                    "H_GS": 2.302585092994046,
-                    "H_S2": 2.1972245773362196,
-                    "C_GS": 6.1224928095143865,
-                    "C_S2": 5.6240175061873385,
-                    "P_S2": 3.1780538303479458
+                    "H": 4.202432942332717,
+                    "C_norm": 0.03843464175025688,
+                    "P_norm": 0.4060299306923217,
+                    "C_blend": 10.82143109482502,
+                    "P_term": 2.056126853044337,
+                    "H_GS": 4.700480365792417,
+                    "H_S2": 3.9889840465642745,
+                    "C_GS": 13.641100026329639,
+                    "C_S2": 9.613001552751612,
+                    "P_S2": 6.815639990074331
                 }
             }
         },
@@ -1764,13 +1759,13 @@
                 }
             ],
             "uri_system": {
-                "uri": 0.0660623725758852,
-                "rank": 29,
-                "uri_base": 0.09530785730458863,
+                "uri": 0.06585679236381085,
+                "rank": 32,
+                "uri_base": 0.09501126775212407,
                 "size_factor": 0.6931471805599453,
                 "components": {
                     "H": 0.2079441541679836,
-                    "C_norm": 0.0038510842866578076,
+                    "C_norm": 0.003191996392292104,
                     "P_norm": 0.0,
                     "C_blend": 0.8987196820661972,
                     "P_term": 0.0,
@@ -1795,11 +1790,11 @@
                 ]
             },
             "ranking_system": {
-                "score": 0.0660623725758852,
-                "rank": 29,
+                "score": 0.06585679236381085,
+                "rank": 32,
                 "metrics": {
                     "H": 0.2079441541679836,
-                    "C_norm": 0.0038510842866578076,
+                    "C_norm": 0.003191996392292104,
                     "P_norm": 0.0,
                     "H_GS": 0.6931471805599453,
                     "H_S2": 0.0,
@@ -1809,11 +1804,11 @@
                 }
             },
             "weighted_sum_system": {
-                "score": 0.0660623725758852,
-                "rank": 29,
+                "score": 0.06585679236381085,
+                "rank": 32,
                 "metrics": {
                     "H": 0.2079441541679836,
-                    "C_norm": 0.0038510842866578076,
+                    "C_norm": 0.003191996392292104,
                     "P_norm": 0.0,
                     "C_blend": 0.8987196820661972,
                     "P_term": 0.0,
@@ -1854,14 +1849,14 @@
                 }
             ],
             "uri_system": {
-                "uri": 0.9971198579278935,
-                "rank": 22,
-                "uri_base": 1.4385398742044797,
+                "uri": 0.9946354634329768,
+                "rank": 25,
+                "uri_base": 1.4349556505870515,
                 "size_factor": 0.6931471805599453,
                 "components": {
                     "H": 3.0910424533583156,
-                    "C_norm": 0.03208483513044942,
-                    "P_norm": 0.3313259438453543,
+                    "C_norm": 0.026593725392742018,
+                    "P_norm": 0.32019370149075593,
                     "C_blend": 7.487572507172718,
                     "P_term": 1.6214540309583532,
                     "H_GS": 3.091042453358316,
@@ -1883,12 +1878,12 @@
                 ]
             },
             "ranking_system": {
-                "score": 0.9971198579278935,
-                "rank": 22,
+                "score": 0.9946354634329768,
+                "rank": 25,
                 "metrics": {
                     "H": 3.0910424533583156,
-                    "C_norm": 0.03208483513044942,
-                    "P_norm": 0.3313259438453543,
+                    "C_norm": 0.026593725392742018,
+                    "P_norm": 0.32019370149075593,
                     "H_GS": 3.091042453358316,
                     "H_S2": 3.091042453358316,
                     "C_GS": 8.20685642839965,
@@ -1897,12 +1892,12 @@
                 }
             },
             "weighted_sum_system": {
-                "score": 0.9971198579278935,
-                "rank": 22,
+                "score": 0.9946354634329768,
+                "rank": 25,
                 "metrics": {
                     "H": 3.0910424533583156,
-                    "C_norm": 0.03208483513044942,
-                    "P_norm": 0.3313259438453543,
+                    "C_norm": 0.026593725392742018,
+                    "P_norm": 0.32019370149075593,
                     "C_blend": 7.487572507172718,
                     "P_term": 1.6214540309583532,
                     "H_GS": 3.091042453358316,
@@ -1928,17 +1923,17 @@
                     "orcid": "0000-0002-8627-5317",
                     "orcid_url": "https://orcid.org/0000-0002-8627-5317",
                     "scopus_url": "",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/1912592710",
                     "citations_scholar": 2358.0,
                     "hindex_scholar": 21.0,
                     "i10_scholar": 38.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "hindex_s2": 6.0,
+                    "citations_s2": 136.0,
+                    "paper_count_s2": 7.0,
+                    "h_index": 6.0,
+                    "citation_count": 136.0,
+                    "paper_count": 7.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "Hasika Mith",
@@ -2008,17 +2003,17 @@
                     "orcid": "0009-0009-1736-3960",
                     "orcid_url": "https://orcid.org/0009-0009-1736-3960",
                     "scopus_url": "",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/145141761",
                     "citations_scholar": 662.0,
                     "hindex_scholar": 14.0,
                     "i10_scholar": 18.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "hindex_s2": 10.0,
+                    "citations_s2": 319.0,
+                    "paper_count_s2": 29.0,
+                    "h_index": 10.0,
+                    "citation_count": 319.0,
+                    "paper_count": 29.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "PHUN Vengkheang",
@@ -2148,17 +2143,17 @@
                     "orcid": "0000-0001-9293-1029",
                     "orcid_url": "https://orcid.org/0000-0001-9293-1029",
                     "scopus_url": "",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/38880640",
                     "citations_scholar": 217.0,
                     "hindex_scholar": 7.0,
                     "i10_scholar": 5.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "hindex_s2": 4.0,
+                    "citations_s2": 98.0,
+                    "paper_count_s2": 13.0,
+                    "h_index": 4.0,
+                    "citation_count": 98.0,
+                    "paper_count": 13.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "Chanmoly Or",
@@ -2168,17 +2163,17 @@
                     "orcid": "",
                     "orcid_url": "",
                     "scopus_url": "",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/92142086",
                     "citations_scholar": 207.0,
                     "hindex_scholar": 7.0,
                     "i10_scholar": 6.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "hindex_s2": 6.0,
+                    "citations_s2": 102.0,
+                    "paper_count_s2": 23.0,
+                    "h_index": 6.0,
+                    "citation_count": 102.0,
+                    "paper_count": 23.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "Khy Eam EANG",
@@ -2228,17 +2223,17 @@
                     "orcid": "0000-0001-5363-0581",
                     "orcid_url": "https://orcid.org/0000-0001-5363-0581",
                     "scopus_url": "https://www.scopus.com/authid/detail.uri?authorId=57204535672",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/51012549",
                     "citations_scholar": 191.0,
                     "hindex_scholar": 9.0,
                     "i10_scholar": 8.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "hindex_s2": 8.0,
+                    "citations_s2": 168.0,
+                    "paper_count_s2": 26.0,
+                    "h_index": 8.0,
+                    "citation_count": 168.0,
+                    "paper_count": 26.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "Kong CHHUON",
@@ -2448,17 +2443,17 @@
                     "orcid": "",
                     "orcid_url": "",
                     "scopus_url": "",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/31301446",
                     "citations_scholar": 133.0,
                     "hindex_scholar": 8.0,
                     "i10_scholar": 4.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "hindex_s2": 6.0,
+                    "citations_s2": 93.0,
+                    "paper_count_s2": 21.0,
+                    "h_index": 6.0,
+                    "citation_count": 93.0,
+                    "paper_count": 21.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "Chanthol Peng",
@@ -2488,17 +2483,17 @@
                     "orcid": "",
                     "orcid_url": "",
                     "scopus_url": "",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/116417463",
                     "citations_scholar": 123.0,
                     "hindex_scholar": 5.0,
                     "i10_scholar": 4.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "hindex_s2": 4.0,
+                    "citations_s2": 98.0,
+                    "paper_count_s2": 6.0,
+                    "h_index": 4.0,
+                    "citation_count": 98.0,
+                    "paper_count": 6.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "phanny yos",
@@ -2588,17 +2583,17 @@
                     "orcid": "0000-0001-5110-3446",
                     "orcid_url": "https://orcid.org/0000-0001-5110-3446",
                     "scopus_url": "https://www.scopus.com/authid/detail.uri?authorId=57965928900",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/15662580",
                     "citations_scholar": 108.0,
                     "hindex_scholar": 8.0,
                     "i10_scholar": 5.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "hindex_s2": 2.0,
+                    "citations_s2": 59.0,
+                    "paper_count_s2": 2.0,
+                    "h_index": 2.0,
+                    "citation_count": 59.0,
+                    "paper_count": 2.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "Phok Chrin",
@@ -2668,17 +2663,17 @@
                     "orcid": "0000-0003-4889-662X",
                     "orcid_url": "https://orcid.org/0000-0003-4889-662X",
                     "scopus_url": "https://www.scopus.com/authid/detail.uri?authorId=57203435948",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/1395662649",
                     "citations_scholar": 85.0,
                     "hindex_scholar": 3.0,
                     "i10_scholar": 3.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "hindex_s2": 2.0,
+                    "citations_s2": 43.0,
+                    "paper_count_s2": 6.0,
+                    "h_index": 2.0,
+                    "citation_count": 43.0,
+                    "paper_count": 6.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "Sochan Sao",
@@ -2828,17 +2823,17 @@
                     "orcid": "",
                     "orcid_url": "",
                     "scopus_url": "",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/121288627",
                     "citations_scholar": 62.0,
                     "hindex_scholar": 3.0,
                     "i10_scholar": 1.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "hindex_s2": 3.0,
+                    "citations_s2": 51.0,
+                    "paper_count_s2": 7.0,
+                    "h_index": 3.0,
+                    "citation_count": 51.0,
+                    "paper_count": 7.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "Chea Rotha",
@@ -3622,62 +3617,62 @@
                 }
             ],
             "uri_system": {
-                "uri": 183.68982141384825,
+                "uri": 220.63291084091395,
                 "rank": 1,
-                "uri_base": 41.23832498834281,
+                "uri_base": 49.532040536328495,
                 "size_factor": 4.454347296253507,
                 "components": {
-                    "H": 90.41849997409513,
+                    "H": 108.84897896961887,
                     "C_norm": 1.0,
                     "P_norm": 1.0,
-                    "C_blend": 233.36795955877608,
-                    "P_term": 4.893833583147245,
-                    "H_GS": 101.88866939559028,
-                    "H_S2": 85.50271307916864,
-                    "C_GS": 267.75636230327166,
-                    "C_S2": 218.630072668278,
-                    "P_S2": 132.4642408485339
+                    "C_blend": 281.5541033305636,
+                    "P_term": 5.063978533647592,
+                    "H_GS": 123.10802757254478,
+                    "H_S2": 102.73795813979348,
+                    "C_GS": 321.0056101578136,
+                    "C_S2": 264.6463146903136,
+                    "P_S2": 157.21874437966034
                 }
             },
             "data_quality": {
                 "faculty_count": 85,
-                "missing_s2_count": 19,
-                "missing_s2_pct": 22.4,
+                "missing_s2_count": 9,
+                "missing_s2_pct": 10.6,
                 "zero_h_gs_count": 4,
-                "zero_h_s2_count": 24,
+                "zero_h_s2_count": 14,
                 "small_cohort": false,
                 "notes": [
-                    "19/85 faculty (22.4%) have no Semantic Scholar metrics (all S2 fields zero)."
+                    "9/85 faculty (10.6%) have no Semantic Scholar metrics (all S2 fields zero)."
                 ]
             },
             "ranking_system": {
-                "score": 183.68982141384825,
+                "score": 220.63291084091395,
                 "rank": 1,
                 "metrics": {
-                    "H": 90.41849997409513,
+                    "H": 108.84897896961887,
                     "C_norm": 1.0,
                     "P_norm": 1.0,
-                    "H_GS": 101.88866939559028,
-                    "H_S2": 85.50271307916864,
-                    "C_GS": 267.75636230327166,
-                    "C_S2": 218.630072668278,
-                    "P_S2": 132.4642408485339
+                    "H_GS": 123.10802757254478,
+                    "H_S2": 102.73795813979348,
+                    "C_GS": 321.0056101578136,
+                    "C_S2": 264.6463146903136,
+                    "P_S2": 157.21874437966034
                 }
             },
             "weighted_sum_system": {
-                "score": 183.68982141384825,
+                "score": 220.63291084091395,
                 "rank": 1,
                 "metrics": {
-                    "H": 90.41849997409513,
+                    "H": 108.84897896961887,
                     "C_norm": 1.0,
                     "P_norm": 1.0,
-                    "C_blend": 233.36795955877608,
-                    "P_term": 4.893833583147245,
-                    "H_GS": 101.88866939559028,
-                    "H_S2": 85.50271307916864,
-                    "C_GS": 267.75636230327166,
-                    "C_S2": 218.630072668278,
-                    "P_S2": 132.4642408485339
+                    "C_blend": 281.5541033305636,
+                    "P_term": 5.063978533647592,
+                    "H_GS": 123.10802757254478,
+                    "H_S2": 102.73795813979348,
+                    "C_GS": 321.0056101578136,
+                    "C_S2": 264.6463146903136,
+                    "P_S2": 157.21874437966034
                 }
             }
         },
@@ -3730,14 +3725,14 @@
                 }
             ],
             "uri_system": {
-                "uri": 2.107110143361175,
-                "rank": 17,
-                "uri_base": 1.9179743073106401,
+                "uri": 2.1018973436553603,
+                "rank": 19,
+                "uri_base": 1.9132294125378588,
                 "size_factor": 1.0986122886681098,
                 "components": {
                     "H": 4.132354173916768,
-                    "C_norm": 0.04495045964925785,
-                    "P_norm": 0.3818722220592797,
+                    "C_norm": 0.037257482400320174,
+                    "P_norm": 0.3690416719516881,
                     "C_blend": 10.4899970495764,
                     "P_term": 1.868819104784765,
                     "H_GS": 4.382026634673881,
@@ -3759,12 +3754,12 @@
                 ]
             },
             "ranking_system": {
-                "score": 2.107110143361175,
-                "rank": 17,
+                "score": 2.1018973436553603,
+                "rank": 19,
                 "metrics": {
                     "H": 4.132354173916768,
-                    "C_norm": 0.04495045964925785,
-                    "P_norm": 0.3818722220592797,
+                    "C_norm": 0.037257482400320174,
+                    "P_norm": 0.3690416719516881,
                     "H_GS": 4.382026634673881,
                     "H_S2": 4.025351690735149,
                     "C_GS": 11.154820928221902,
@@ -3773,12 +3768,12 @@
                 }
             },
             "weighted_sum_system": {
-                "score": 2.107110143361175,
-                "rank": 17,
+                "score": 2.1018973436553603,
+                "rank": 19,
                 "metrics": {
                     "H": 4.132354173916768,
-                    "C_norm": 0.04495045964925785,
-                    "P_norm": 0.3818722220592797,
+                    "C_norm": 0.037257482400320174,
+                    "P_norm": 0.3690416719516881,
                     "C_blend": 10.4899970495764,
                     "P_term": 1.868819104784765,
                     "H_GS": 4.382026634673881,
@@ -4038,14 +4033,14 @@
                 }
             ],
             "uri_system": {
-                "uri": 12.253853438734824,
+                "uri": 12.228765821491125,
                 "rank": 9,
-                "uri_base": 4.777425099286226,
+                "uri_base": 4.767644158711038,
                 "size_factor": 2.5649493574615367,
                 "components": {
                     "H": 10.391273840903843,
-                    "C_norm": 0.10300694143715057,
-                    "P_norm": 0.5499874723277941,
+                    "C_norm": 0.08537797694731275,
+                    "P_norm": 0.5315084067801722,
                     "C_blend": 24.03851974357817,
                     "P_term": 2.6915471623880247,
                     "H_GS": 14.18812184120136,
@@ -4067,12 +4062,12 @@
                 ]
             },
             "ranking_system": {
-                "score": 12.253853438734824,
+                "score": 12.228765821491125,
                 "rank": 9,
                 "metrics": {
                     "H": 10.391273840903843,
-                    "C_norm": 0.10300694143715057,
-                    "P_norm": 0.5499874723277941,
+                    "C_norm": 0.08537797694731275,
+                    "P_norm": 0.5315084067801722,
                     "H_GS": 14.18812184120136,
                     "H_S2": 8.764053269347762,
                     "C_GS": 35.32544232207642,
@@ -4081,12 +4076,12 @@
                 }
             },
             "weighted_sum_system": {
-                "score": 12.253853438734824,
+                "score": 12.228765821491125,
                 "rank": 9,
                 "metrics": {
                     "H": 10.391273840903843,
-                    "C_norm": 0.10300694143715057,
-                    "P_norm": 0.5499874723277941,
+                    "C_norm": 0.08537797694731275,
+                    "P_norm": 0.5315084067801722,
                     "C_blend": 24.03851974357817,
                     "P_term": 2.6915471623880247,
                     "H_GS": 14.18812184120136,
@@ -4112,17 +4107,17 @@
                     "orcid": "0009-0000-7899-6395",
                     "orcid_url": "https://orcid.org/0009-0000-7899-6395",
                     "scopus_url": "https://www.scopus.com/authid/detail.uri?authorId=57126240900",
-                    "s2_profile_url": "https://www.semanticscholar.org/author/15322123",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/2251009098",
                     "citations_scholar": 400.0,
                     "hindex_scholar": 5.0,
                     "i10_scholar": 5.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "hindex_s2": 4.0,
+                    "citations_s2": 416.0,
+                    "paper_count_s2": 13.0,
+                    "h_index": 4.0,
+                    "citation_count": 416.0,
+                    "paper_count": 13.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "Veu Thangrak.PhD",
@@ -4166,63 +4161,62 @@
                 }
             ],
             "uri_system": {
-                "uri": 0.23229946209985677,
-                "rank": 26,
-                "uri_base": 0.16756864098631855,
+                "uri": 1.3029901094058522,
+                "rank": 23,
+                "uri_base": 0.9399086845835954,
                 "size_factor": 1.3862943611198906,
                 "components": {
-                    "H": 0.3295836866004329,
-                    "C_norm": 0.00329730271753376,
-                    "P_norm": 0.17772195793233517,
-                    "C_blend": 0.769484807238461,
-                    "P_term": 0.8697416861919438,
-                    "H_GS": 1.0986122886681098,
-                    "H_S2": 0.0,
-                    "C_GS": 2.5649493574615367,
-                    "C_S2": 0.0,
-                    "P_S2": 1.3862943611198906
+                    "H": 1.9937180660727196,
+                    "C_norm": 0.024119107163985083,
+                    "P_norm": 0.31881956627078256,
+                    "C_blend": 6.7908335906895925,
+                    "P_term": 1.614495439702079,
+                    "H_GS": 2.8903717578961645,
+                    "H_S2": 1.6094379124341003,
+                    "C_GS": 8.558910784768106,
+                    "C_S2": 6.0330862217988015,
+                    "P_S2": 4.025351690735149
                 }
             },
             "data_quality": {
                 "faculty_count": 3,
-                "missing_s2_count": 2,
-                "missing_s2_pct": 66.7,
+                "missing_s2_count": 1,
+                "missing_s2_pct": 33.3,
                 "zero_h_gs_count": 0,
-                "zero_h_s2_count": 3,
+                "zero_h_s2_count": 2,
                 "small_cohort": false,
                 "notes": [
-                    "2/3 faculty (66.7%) have no Semantic Scholar metrics (all S2 fields zero).",
-                    "All faculty have zero Semantic Scholar h-index."
+                    "1/3 faculty (33.3%) have no Semantic Scholar metrics (all S2 fields zero)."
                 ]
             },
             "ranking_system": {
-                "score": 0.23229946209985677,
-                "rank": 26,
+                "score": 1.3029901094058522,
+                "rank": 23,
                 "metrics": {
-                    "H": 0.3295836866004329,
-                    "C_norm": 0.00329730271753376,
-                    "P_norm": 0.17772195793233517,
-                    "H_GS": 1.0986122886681098,
-                    "H_S2": 0.0,
-                    "C_GS": 2.5649493574615367,
-                    "C_S2": 0.0,
-                    "P_S2": 1.3862943611198906
+                    "H": 1.9937180660727196,
+                    "C_norm": 0.024119107163985083,
+                    "P_norm": 0.31881956627078256,
+                    "H_GS": 2.8903717578961645,
+                    "H_S2": 1.6094379124341003,
+                    "C_GS": 8.558910784768106,
+                    "C_S2": 6.0330862217988015,
+                    "P_S2": 4.025351690735149
                 }
             },
             "weighted_sum_system": {
-                "score": 0.23229946209985677,
-                "rank": 26,
+                "score": 1.3029901094058522,
+                "rank": 23,
                 "metrics": {
-                    "H": 0.3295836866004329,
-                    "C_norm": 0.00329730271753376,
-                    "P_norm": 0.17772195793233517,
-                    "C_blend": 0.769484807238461,
-                    "P_term": 0.8697416861919438,
-                    "H_GS": 1.0986122886681098,
-                    "H_S2": 0.0,
-                    "C_GS": 2.5649493574615367,
-                    "C_S2": 0.0,
-                    "P_S2": 1.3862943611198906
+                    "H": 1.9937180660727196,
+                    "C_norm": 0.024119107163985083,
+                    "P_norm": 0.31881956627078256,
+                    "C_blend": 6.7908335906895925,
+                    "P_term": 1.614495439702079,
+                    "H_GS": 2.8903717578961645,
+                    "H_S2": 1.6094379124341003,
+                    "C_GS": 8.558910784768106,
+                    "C_S2": 6.0330862217988015,
+                    "P_S2": 4.025351690735149
                 }
             }
         },
@@ -4261,17 +4255,17 @@
                     "orcid": "0000-0003-2301-8089",
                     "orcid_url": "https://orcid.org/0000-0003-2301-8089",
                     "scopus_url": "https://www.scopus.com/authid/detail.uri?authorId=57208127676",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/26667830",
                     "citations_scholar": 439.0,
                     "hindex_scholar": 13.0,
                     "i10_scholar": 18.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "hindex_s2": 7.0,
+                    "citations_s2": 248.0,
+                    "paper_count_s2": 22.0,
+                    "h_index": 7.0,
+                    "citation_count": 248.0,
+                    "paper_count": 22.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "Chivon Choeung",
@@ -4341,17 +4335,17 @@
                     "orcid": "0000-0002-1443-5086",
                     "orcid_url": "https://orcid.org/0000-0002-1443-5086",
                     "scopus_url": "https://www.scopus.com/authid/detail.uri?authorId=57205379262",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/51971274",
                     "citations_scholar": 141.0,
                     "hindex_scholar": 8.0,
                     "i10_scholar": 5.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "hindex_s2": 6.0,
+                    "citations_s2": 93.0,
+                    "paper_count_s2": 29.0,
+                    "h_index": 6.0,
+                    "citation_count": 93.0,
+                    "paper_count": 29.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "Oum Saokosal",
@@ -4815,62 +4809,62 @@
                 }
             ],
             "uri_system": {
-                "uri": 47.127455744419805,
-                "rank": 6,
-                "uri_base": 13.856136664843824,
+                "uri": 53.63373111479639,
+                "rank": 5,
+                "uri_base": 15.769073386909918,
                 "size_factor": 3.4011973816621555,
                 "components": {
-                    "H": 30.29962721980931,
-                    "C_norm": 0.3189528249166017,
-                    "P_norm": 0.7777564471716155,
-                    "C_blend": 74.43336994629489,
-                    "P_term": 3.806210620677738,
-                    "H_GS": 36.63255299452191,
-                    "H_S2": 27.58551617350391,
-                    "C_GS": 92.9758032470714,
-                    "C_S2": 66.48661281739066,
-                    "P_S2": 43.979670484319655
+                    "H": 34.56825797540935,
+                    "C_norm": 0.3011452252117086,
+                    "P_norm": 0.7784194663043847,
+                    "C_blend": 84.78867385676324,
+                    "P_term": 3.9418994675388195,
+                    "H_GS": 41.468834901473386,
+                    "H_S2": 31.610867864239058,
+                    "C_GS": 104.01840503158496,
+                    "C_S2": 76.54736049612536,
+                    "P_S2": 50.516362081910955
                 }
             },
             "data_quality": {
                 "faculty_count": 29,
-                "missing_s2_count": 6,
-                "missing_s2_pct": 20.7,
+                "missing_s2_count": 4,
+                "missing_s2_pct": 13.8,
                 "zero_h_gs_count": 1,
-                "zero_h_s2_count": 9,
+                "zero_h_s2_count": 7,
                 "small_cohort": false,
                 "notes": [
-                    "6/29 faculty (20.7%) have no Semantic Scholar metrics (all S2 fields zero)."
+                    "4/29 faculty (13.8%) have no Semantic Scholar metrics (all S2 fields zero)."
                 ]
             },
             "ranking_system": {
-                "score": 47.127455744419805,
-                "rank": 6,
+                "score": 53.63373111479639,
+                "rank": 5,
                 "metrics": {
-                    "H": 30.29962721980931,
-                    "C_norm": 0.3189528249166017,
-                    "P_norm": 0.7777564471716155,
-                    "H_GS": 36.63255299452191,
-                    "H_S2": 27.58551617350391,
-                    "C_GS": 92.9758032470714,
-                    "C_S2": 66.48661281739066,
-                    "P_S2": 43.979670484319655
+                    "H": 34.56825797540935,
+                    "C_norm": 0.3011452252117086,
+                    "P_norm": 0.7784194663043847,
+                    "H_GS": 41.468834901473386,
+                    "H_S2": 31.610867864239058,
+                    "C_GS": 104.01840503158496,
+                    "C_S2": 76.54736049612536,
+                    "P_S2": 50.516362081910955
                 }
             },
             "weighted_sum_system": {
-                "score": 47.127455744419805,
-                "rank": 6,
+                "score": 53.63373111479639,
+                "rank": 5,
                 "metrics": {
-                    "H": 30.29962721980931,
-                    "C_norm": 0.3189528249166017,
-                    "P_norm": 0.7777564471716155,
-                    "C_blend": 74.43336994629489,
-                    "P_term": 3.806210620677738,
-                    "H_GS": 36.63255299452191,
-                    "H_S2": 27.58551617350391,
-                    "C_GS": 92.9758032470714,
-                    "C_S2": 66.48661281739066,
-                    "P_S2": 43.979670484319655
+                    "H": 34.56825797540935,
+                    "C_norm": 0.3011452252117086,
+                    "P_norm": 0.7784194663043847,
+                    "C_blend": 84.78867385676324,
+                    "P_term": 3.9418994675388195,
+                    "H_GS": 41.468834901473386,
+                    "H_S2": 31.610867864239058,
+                    "C_GS": 104.01840503158496,
+                    "C_S2": 76.54736049612536,
+                    "P_S2": 50.516362081910955
                 }
             }
         },
@@ -4903,14 +4897,14 @@
                 }
             ],
             "uri_system": {
-                "uri": 0.4517981272011918,
-                "rank": 24,
-                "uri_base": 0.6518069175960804,
+                "uri": 0.45017395917725034,
+                "rank": 27,
+                "uri_base": 0.6494637384423697,
                 "size_factor": 0.6931471805599453,
                 "components": {
                     "H": 1.3862943611198906,
-                    "C_norm": 0.022671687330880503,
-                    "P_norm": 0.17772195793233517,
+                    "C_norm": 0.01879157628880417,
+                    "P_norm": 0.17175066608457112,
                     "C_blend": 5.290845412162137,
                     "P_term": 0.8697416861919438,
                     "H_GS": 1.3862943611198906,
@@ -4932,12 +4926,12 @@
                 ]
             },
             "ranking_system": {
-                "score": 0.4517981272011918,
-                "rank": 24,
+                "score": 0.45017395917725034,
+                "rank": 27,
                 "metrics": {
                     "H": 1.3862943611198906,
-                    "C_norm": 0.022671687330880503,
-                    "P_norm": 0.17772195793233517,
+                    "C_norm": 0.01879157628880417,
+                    "P_norm": 0.17175066608457112,
                     "H_GS": 1.3862943611198906,
                     "H_S2": 1.3862943611198906,
                     "C_GS": 5.455321115357702,
@@ -4946,12 +4940,12 @@
                 }
             },
             "weighted_sum_system": {
-                "score": 0.4517981272011918,
-                "rank": 24,
+                "score": 0.45017395917725034,
+                "rank": 27,
                 "metrics": {
                     "H": 1.3862943611198906,
-                    "C_norm": 0.022671687330880503,
-                    "P_norm": 0.17772195793233517,
+                    "C_norm": 0.01879157628880417,
+                    "P_norm": 0.17175066608457112,
                     "C_blend": 5.290845412162137,
                     "P_term": 0.8697416861919438,
                     "H_GS": 1.3862943611198906,
@@ -4997,17 +4991,17 @@
                     "orcid": "0000-0001-8639-7173",
                     "orcid_url": "https://orcid.org/0000-0001-8639-7173",
                     "scopus_url": "https://www.scopus.com/authid/detail.uri?authorId=55820578900",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/2292659218",
                     "citations_scholar": 1158.0,
                     "hindex_scholar": 15.0,
                     "i10_scholar": 25.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "hindex_s2": 6.0,
+                    "citations_s2": 145.0,
+                    "paper_count_s2": 44.0,
+                    "h_index": 6.0,
+                    "citation_count": 145.0,
+                    "paper_count": 44.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "Chan HUM",
@@ -5671,62 +5665,62 @@
                 }
             ],
             "uri_system": {
-                "uri": 49.91486610635057,
-                "rank": 5,
-                "uri_base": 13.929008598418466,
+                "uri": 53.39891988900277,
+                "rank": 6,
+                "uri_base": 14.901252318205596,
                 "size_factor": 3.58351893845611,
                 "components": {
-                    "H": 30.482726700387374,
-                    "C_norm": 0.2989813006068925,
-                    "P_norm": 0.7723999797104687,
-                    "C_blend": 69.77265606885956,
-                    "P_term": 3.7799969603293424,
-                    "H_GS": 39.75873499416301,
-                    "H_S2": 26.507294574483538,
-                    "C_GS": 95.01974327650129,
-                    "C_S2": 58.95247583701312,
-                    "P_S2": 42.81590854943999
+                    "H": 32.676640421398034,
+                    "C_norm": 0.26772039073626547,
+                    "P_norm": 0.762899527451615,
+                    "C_blend": 75.37777455705734,
+                    "P_term": 3.8633068303448708,
+                    "H_GS": 42.531323716402795,
+                    "H_S2": 28.45320472353885,
+                    "C_GS": 102.07505611984104,
+                    "C_S2": 63.93608245872146,
+                    "P_S2": 46.622571039210314
                 }
             },
             "data_quality": {
                 "faculty_count": 35,
-                "missing_s2_count": 8,
-                "missing_s2_pct": 22.9,
+                "missing_s2_count": 7,
+                "missing_s2_pct": 20.0,
                 "zero_h_gs_count": 1,
-                "zero_h_s2_count": 11,
+                "zero_h_s2_count": 10,
                 "small_cohort": false,
                 "notes": [
-                    "8/35 faculty (22.9%) have no Semantic Scholar metrics (all S2 fields zero)."
+                    "7/35 faculty (20.0%) have no Semantic Scholar metrics (all S2 fields zero)."
                 ]
             },
             "ranking_system": {
-                "score": 49.91486610635057,
-                "rank": 5,
+                "score": 53.39891988900277,
+                "rank": 6,
                 "metrics": {
-                    "H": 30.482726700387374,
-                    "C_norm": 0.2989813006068925,
-                    "P_norm": 0.7723999797104687,
-                    "H_GS": 39.75873499416301,
-                    "H_S2": 26.507294574483538,
-                    "C_GS": 95.01974327650129,
-                    "C_S2": 58.95247583701312,
-                    "P_S2": 42.81590854943999
+                    "H": 32.676640421398034,
+                    "C_norm": 0.26772039073626547,
+                    "P_norm": 0.762899527451615,
+                    "H_GS": 42.531323716402795,
+                    "H_S2": 28.45320472353885,
+                    "C_GS": 102.07505611984104,
+                    "C_S2": 63.93608245872146,
+                    "P_S2": 46.622571039210314
                 }
             },
             "weighted_sum_system": {
-                "score": 49.91486610635057,
-                "rank": 5,
+                "score": 53.39891988900277,
+                "rank": 6,
                 "metrics": {
-                    "H": 30.482726700387374,
-                    "C_norm": 0.2989813006068925,
-                    "P_norm": 0.7723999797104687,
-                    "C_blend": 69.77265606885956,
-                    "P_term": 3.7799969603293424,
-                    "H_GS": 39.75873499416301,
-                    "H_S2": 26.507294574483538,
-                    "C_GS": 95.01974327650129,
-                    "C_S2": 58.95247583701312,
-                    "P_S2": 42.81590854943999
+                    "H": 32.676640421398034,
+                    "C_norm": 0.26772039073626547,
+                    "P_norm": 0.762899527451615,
+                    "C_blend": 75.37777455705734,
+                    "P_term": 3.8633068303448708,
+                    "H_GS": 42.531323716402795,
+                    "H_S2": 28.45320472353885,
+                    "C_GS": 102.07505611984104,
+                    "C_S2": 63.93608245872146,
+                    "P_S2": 46.622571039210314
                 }
             }
         },
@@ -5785,17 +5779,17 @@
                     "orcid": "0000-0003-3824-7423",
                     "orcid_url": "https://orcid.org/0000-0003-3824-7423",
                     "scopus_url": "",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/1849191875",
                     "citations_scholar": 160.0,
                     "hindex_scholar": 5.0,
                     "i10_scholar": 3.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "hindex_s2": 4.0,
+                    "citations_s2": 74.0,
+                    "paper_count_s2": 9.0,
+                    "h_index": 4.0,
+                    "citation_count": 74.0,
+                    "paper_count": 9.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "Tum Nhim",
@@ -5859,62 +5853,62 @@
                 }
             ],
             "uri_system": {
-                "uri": 3.6418266021400028,
-                "rank": 14,
-                "uri_base": 1.871528654037809,
+                "uri": 5.113249566212023,
+                "rank": 15,
+                "uri_base": 2.6276904761992053,
                 "size_factor": 1.9459101490553132,
                 "components": {
-                    "H": 4.018463140714369,
-                    "C_norm": 0.04647791607982176,
-                    "P_norm": 0.42305178480423417,
-                    "C_blend": 10.846456440092034,
-                    "P_term": 2.0703450318853425,
-                    "H_GS": 4.787491742782046,
-                    "H_S2": 3.6888794541139363,
-                    "C_GS": 12.753297698676171,
-                    "C_S2": 10.02923875784169,
-                    "P_S2": 6.9275579062783175
+                    "H": 5.682597520186656,
+                    "C_norm": 0.054671976884635286,
+                    "P_norm": 0.45919202517124186,
+                    "C_blend": 15.393119429062788,
+                    "P_term": 2.325338558289334,
+                    "H_GS": 6.579251212010101,
+                    "H_S2": 5.298317366548036,
+                    "C_GS": 17.834702063660632,
+                    "C_S2": 14.346726871377998,
+                    "P_S2": 9.230142999272362
                 }
             },
             "data_quality": {
                 "faculty_count": 6,
-                "missing_s2_count": 2,
-                "missing_s2_pct": 33.3,
+                "missing_s2_count": 1,
+                "missing_s2_pct": 16.7,
                 "zero_h_gs_count": 1,
-                "zero_h_s2_count": 3,
+                "zero_h_s2_count": 2,
                 "small_cohort": false,
                 "notes": [
-                    "2/6 faculty (33.3%) have no Semantic Scholar metrics (all S2 fields zero)."
+                    "1/6 faculty (16.7%) have no Semantic Scholar metrics (all S2 fields zero)."
                 ]
             },
             "ranking_system": {
-                "score": 3.6418266021400028,
-                "rank": 14,
+                "score": 5.113249566212023,
+                "rank": 15,
                 "metrics": {
-                    "H": 4.018463140714369,
-                    "C_norm": 0.04647791607982176,
-                    "P_norm": 0.42305178480423417,
-                    "H_GS": 4.787491742782046,
-                    "H_S2": 3.6888794541139363,
-                    "C_GS": 12.753297698676171,
-                    "C_S2": 10.02923875784169,
-                    "P_S2": 6.9275579062783175
+                    "H": 5.682597520186656,
+                    "C_norm": 0.054671976884635286,
+                    "P_norm": 0.45919202517124186,
+                    "H_GS": 6.579251212010101,
+                    "H_S2": 5.298317366548036,
+                    "C_GS": 17.834702063660632,
+                    "C_S2": 14.346726871377998,
+                    "P_S2": 9.230142999272362
                 }
             },
             "weighted_sum_system": {
-                "score": 3.6418266021400028,
-                "rank": 14,
+                "score": 5.113249566212023,
+                "rank": 15,
                 "metrics": {
-                    "H": 4.018463140714369,
-                    "C_norm": 0.04647791607982176,
-                    "P_norm": 0.42305178480423417,
-                    "C_blend": 10.846456440092034,
-                    "P_term": 2.0703450318853425,
-                    "H_GS": 4.787491742782046,
-                    "H_S2": 3.6888794541139363,
-                    "C_GS": 12.753297698676171,
-                    "C_S2": 10.02923875784169,
-                    "P_S2": 6.9275579062783175
+                    "H": 5.682597520186656,
+                    "C_norm": 0.054671976884635286,
+                    "P_norm": 0.45919202517124186,
+                    "C_blend": 15.393119429062788,
+                    "P_term": 2.325338558289334,
+                    "H_GS": 6.579251212010101,
+                    "H_S2": 5.298317366548036,
+                    "C_GS": 17.834702063660632,
+                    "C_S2": 14.346726871377998,
+                    "P_S2": 9.230142999272362
                 }
             }
         },
@@ -5933,17 +5927,17 @@
                     "orcid": "0000-0003-0884-4788",
                     "orcid_url": "https://orcid.org/0000-0003-0884-4788",
                     "scopus_url": "https://www.scopus.com/authid/detail.uri?authorId=57219284385",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/31443913",
                     "citations_scholar": 3272.0,
                     "hindex_scholar": 26.0,
                     "i10_scholar": 60.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "hindex_s2": 9.0,
+                    "citations_s2": 735.0,
+                    "paper_count_s2": 39.0,
+                    "h_index": 9.0,
+                    "citation_count": 735.0,
+                    "paper_count": 39.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "Koemhong Sol",
@@ -5953,17 +5947,17 @@
                     "orcid": "0000-0002-1316-929X",
                     "orcid_url": "https://orcid.org/0000-0002-1316-929X",
                     "scopus_url": "https://www.scopus.com/authid/detail.uri?authorId=58000264800",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/2092467825",
                     "citations_scholar": 958.0,
                     "hindex_scholar": 14.0,
                     "i10_scholar": 18.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "hindex_s2": 6.0,
+                    "citations_s2": 208.0,
+                    "paper_count_s2": 15.0,
+                    "h_index": 6.0,
+                    "citation_count": 208.0,
+                    "paper_count": 15.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "Meas Nearyroth",
@@ -6047,63 +6041,62 @@
                 }
             ],
             "uri_system": {
-                "uri": 0.38947280517110167,
-                "rank": 25,
-                "uri_base": 0.200149428975526,
+                "uri": 4.669762388705604,
+                "rank": 16,
+                "uri_base": 2.3997831508164174,
                 "size_factor": 1.9459101490553132,
                 "components": {
-                    "H": 0.4158883083359672,
-                    "C_norm": 0.004976519936447689,
-                    "P_norm": 0.10760256252939292,
-                    "C_blend": 1.1613603032723672,
-                    "P_term": 0.5265890341390445,
-                    "H_GS": 1.3862943611198906,
-                    "H_S2": 0.0,
-                    "C_GS": 3.8712010109078907,
-                    "C_S2": 0.0,
-                    "P_S2": 0.6931471805599453
+                    "H": 5.191001097902481,
+                    "C_norm": 0.04975832780218813,
+                    "P_norm": 0.4144140924931598,
+                    "C_blend": 14.009661367573333,
+                    "P_term": 2.098584068426409,
+                    "H_GS": 7.39018142822643,
+                    "H_S2": 4.248495242049359,
+                    "C_GS": 18.83055436029251,
+                    "C_S2": 11.943564370693688,
+                    "P_S2": 7.154615356913663
                 }
             },
             "data_quality": {
                 "faculty_count": 6,
-                "missing_s2_count": 5,
-                "missing_s2_pct": 83.3,
+                "missing_s2_count": 3,
+                "missing_s2_pct": 50.0,
                 "zero_h_gs_count": 2,
-                "zero_h_s2_count": 6,
+                "zero_h_s2_count": 4,
                 "small_cohort": false,
                 "notes": [
-                    "5/6 faculty (83.3%) have no Semantic Scholar metrics (all S2 fields zero).",
-                    "All faculty have zero Semantic Scholar h-index."
+                    "3/6 faculty (50.0%) have no Semantic Scholar metrics (all S2 fields zero)."
                 ]
             },
             "ranking_system": {
-                "score": 0.38947280517110167,
-                "rank": 25,
+                "score": 4.669762388705604,
+                "rank": 16,
                 "metrics": {
-                    "H": 0.4158883083359672,
-                    "C_norm": 0.004976519936447689,
-                    "P_norm": 0.10760256252939292,
-                    "H_GS": 1.3862943611198906,
-                    "H_S2": 0.0,
-                    "C_GS": 3.8712010109078907,
-                    "C_S2": 0.0,
-                    "P_S2": 0.6931471805599453
+                    "H": 5.191001097902481,
+                    "C_norm": 0.04975832780218813,
+                    "P_norm": 0.4144140924931598,
+                    "H_GS": 7.39018142822643,
+                    "H_S2": 4.248495242049359,
+                    "C_GS": 18.83055436029251,
+                    "C_S2": 11.943564370693688,
+                    "P_S2": 7.154615356913663
                 }
             },
             "weighted_sum_system": {
-                "score": 0.38947280517110167,
-                "rank": 25,
+                "score": 4.669762388705604,
+                "rank": 16,
                 "metrics": {
-                    "H": 0.4158883083359672,
-                    "C_norm": 0.004976519936447689,
-                    "P_norm": 0.10760256252939292,
-                    "C_blend": 1.1613603032723672,
-                    "P_term": 0.5265890341390445,
-                    "H_GS": 1.3862943611198906,
-                    "H_S2": 0.0,
-                    "C_GS": 3.8712010109078907,
-                    "C_S2": 0.0,
-                    "P_S2": 0.6931471805599453
+                    "H": 5.191001097902481,
+                    "C_norm": 0.04975832780218813,
+                    "P_norm": 0.4144140924931598,
+                    "C_blend": 14.009661367573333,
+                    "P_term": 2.098584068426409,
+                    "H_GS": 7.39018142822643,
+                    "H_S2": 4.248495242049359,
+                    "C_GS": 18.83055436029251,
+                    "C_S2": 11.943564370693688,
+                    "P_S2": 7.154615356913663
                 }
             }
         },
@@ -6222,17 +6215,17 @@
                     "orcid": "0000-0002-3034-8759",
                     "orcid_url": "https://orcid.org/0000-0002-3034-8759",
                     "scopus_url": "",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/103693776",
                     "citations_scholar": 153.0,
                     "hindex_scholar": 8.0,
                     "i10_scholar": 8.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "hindex_s2": 4.0,
+                    "citations_s2": 29.0,
+                    "paper_count_s2": 7.0,
+                    "h_index": 4.0,
+                    "citation_count": 29.0,
+                    "paper_count": 7.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "Mengleang Lay",
@@ -6676,62 +6669,62 @@
                 }
             ],
             "uri_system": {
-                "uri": 32.4402318694827,
+                "uri": 35.10902191928053,
                 "rank": 7,
-                "uri_base": 9.63391204912727,
+                "uri_base": 10.426473850805545,
                 "size_factor": 3.367295829986474,
                 "components": {
-                    "H": 21.04380111328227,
-                    "C_norm": 0.21157229108544848,
-                    "P_norm": 0.6899401716179476,
-                    "C_blend": 49.37419386978654,
-                    "P_term": 3.3764523822262857,
-                    "H_GS": 26.40786067749535,
-                    "H_S2": 18.744918442905238,
-                    "C_GS": 68.49074850743571,
-                    "C_S2": 41.18138473936546,
-                    "P_S2": 28.266759449561032
+                    "H": 22.829575025187005,
+                    "C_norm": 0.1891860824885088,
+                    "P_norm": 0.6803135235156278,
+                    "C_blend": 53.26611781767413,
+                    "P_term": 3.445093079233296,
+                    "H_GS": 28.605085254831568,
+                    "H_S2": 20.354356355339334,
+                    "C_GS": 73.52770110984935,
+                    "C_S2": 44.58258212102761,
+                    "P_S2": 30.346200991240867
                 }
             },
             "data_quality": {
                 "faculty_count": 28,
-                "missing_s2_count": 10,
-                "missing_s2_pct": 35.7,
+                "missing_s2_count": 9,
+                "missing_s2_pct": 32.1,
                 "zero_h_gs_count": 5,
-                "zero_h_s2_count": 13,
+                "zero_h_s2_count": 12,
                 "small_cohort": false,
                 "notes": [
-                    "10/28 faculty (35.7%) have no Semantic Scholar metrics (all S2 fields zero)."
+                    "9/28 faculty (32.1%) have no Semantic Scholar metrics (all S2 fields zero)."
                 ]
             },
             "ranking_system": {
-                "score": 32.4402318694827,
+                "score": 35.10902191928053,
                 "rank": 7,
                 "metrics": {
-                    "H": 21.04380111328227,
-                    "C_norm": 0.21157229108544848,
-                    "P_norm": 0.6899401716179476,
-                    "H_GS": 26.40786067749535,
-                    "H_S2": 18.744918442905238,
-                    "C_GS": 68.49074850743571,
-                    "C_S2": 41.18138473936546,
-                    "P_S2": 28.266759449561032
+                    "H": 22.829575025187005,
+                    "C_norm": 0.1891860824885088,
+                    "P_norm": 0.6803135235156278,
+                    "H_GS": 28.605085254831568,
+                    "H_S2": 20.354356355339334,
+                    "C_GS": 73.52770110984935,
+                    "C_S2": 44.58258212102761,
+                    "P_S2": 30.346200991240867
                 }
             },
             "weighted_sum_system": {
-                "score": 32.4402318694827,
+                "score": 35.10902191928053,
                 "rank": 7,
                 "metrics": {
-                    "H": 21.04380111328227,
-                    "C_norm": 0.21157229108544848,
-                    "P_norm": 0.6899401716179476,
-                    "C_blend": 49.37419386978654,
-                    "P_term": 3.3764523822262857,
-                    "H_GS": 26.40786067749535,
-                    "H_S2": 18.744918442905238,
-                    "C_GS": 68.49074850743571,
-                    "C_S2": 41.18138473936546,
-                    "P_S2": 28.266759449561032
+                    "H": 22.829575025187005,
+                    "C_norm": 0.1891860824885088,
+                    "P_norm": 0.6803135235156278,
+                    "C_blend": 53.26611781767413,
+                    "P_term": 3.445093079233296,
+                    "H_GS": 28.605085254831568,
+                    "H_S2": 20.354356355339334,
+                    "C_GS": 73.52770110984935,
+                    "C_S2": 44.58258212102761,
+                    "P_S2": 30.346200991240867
                 }
             }
         },
@@ -6804,13 +6797,13 @@
                 }
             ],
             "uri_system": {
-                "uri": 0.1327197427705454,
-                "rank": 27,
-                "uri_base": 0.09573705736156235,
+                "uri": 0.13220675239448687,
+                "rank": 30,
+                "uri_base": 0.09536701302578066,
                 "size_factor": 1.3862943611198906,
                 "components": {
                     "H": 0.2079441541679836,
-                    "C_norm": 0.004804862191043837,
+                    "C_norm": 0.003982541444862295,
                     "P_norm": 0.0,
                     "C_blend": 1.1213008854850104,
                     "P_term": 0.0,
@@ -6834,11 +6827,11 @@
                 ]
             },
             "ranking_system": {
-                "score": 0.1327197427705454,
-                "rank": 27,
+                "score": 0.13220675239448687,
+                "rank": 30,
                 "metrics": {
                     "H": 0.2079441541679836,
-                    "C_norm": 0.004804862191043837,
+                    "C_norm": 0.003982541444862295,
                     "P_norm": 0.0,
                     "H_GS": 0.6931471805599453,
                     "H_S2": 0.0,
@@ -6848,11 +6841,11 @@
                 }
             },
             "weighted_sum_system": {
-                "score": 0.1327197427705454,
-                "rank": 27,
+                "score": 0.13220675239448687,
+                "rank": 30,
                 "metrics": {
                     "H": 0.2079441541679836,
-                    "C_norm": 0.004804862191043837,
+                    "C_norm": 0.003982541444862295,
                     "P_norm": 0.0,
                     "C_blend": 1.1213008854850104,
                     "P_term": 0.0,
@@ -6933,14 +6926,14 @@
                 }
             ],
             "uri_system": {
-                "uri": 2.1776830849266697,
-                "rank": 16,
-                "uri_base": 1.570866293625743,
+                "uri": 2.1727829323717063,
+                "rank": 17,
+                "uri_base": 1.5673315807304204,
                 "size_factor": 1.3862943611198906,
                 "components": {
                     "H": 3.385997984515929,
-                    "C_norm": 0.03150399381357973,
-                    "P_norm": 0.32990403377464056,
+                    "C_norm": 0.026112291269275643,
+                    "P_norm": 0.31881956627078256,
                     "C_blend": 7.3520227542274075,
                     "P_term": 1.614495439702079,
                     "H_GS": 3.8712010109078907,
@@ -6960,12 +6953,12 @@
                 "notes": []
             },
             "ranking_system": {
-                "score": 2.1776830849266697,
-                "rank": 16,
+                "score": 2.1727829323717063,
+                "rank": 17,
                 "metrics": {
                     "H": 3.385997984515929,
-                    "C_norm": 0.03150399381357973,
-                    "P_norm": 0.32990403377464056,
+                    "C_norm": 0.026112291269275643,
+                    "P_norm": 0.31881956627078256,
                     "H_GS": 3.8712010109078907,
                     "H_S2": 3.1780538303479453,
                     "C_GS": 9.741556685389908,
@@ -6974,12 +6967,12 @@
                 }
             },
             "weighted_sum_system": {
-                "score": 2.1776830849266697,
-                "rank": 16,
+                "score": 2.1727829323717063,
+                "rank": 17,
                 "metrics": {
                     "H": 3.385997984515929,
-                    "C_norm": 0.03150399381357973,
-                    "P_norm": 0.32990403377464056,
+                    "C_norm": 0.026112291269275643,
+                    "P_norm": 0.31881956627078256,
                     "C_blend": 7.3520227542274075,
                     "P_term": 1.614495439702079,
                     "H_GS": 3.8712010109078907,
@@ -7110,13 +7103,13 @@
                 }
             ],
             "uri_system": {
-                "uri": 0.06550650229273589,
-                "rank": 30,
-                "uri_base": 0.09450590600371157,
+                "uri": 0.06539605564492307,
+                "rank": 33,
+                "uri_base": 0.09434656517262921,
                 "size_factor": 0.6931471805599453,
                 "components": {
                     "H": 0.2079441541679836,
-                    "C_norm": 0.002068970284708789,
+                    "C_norm": 0.0017148795489702147,
                     "P_norm": 0.0,
                     "C_blend": 0.48283137373023005,
                     "P_term": 0.0,
@@ -7141,11 +7134,11 @@
                 ]
             },
             "ranking_system": {
-                "score": 0.06550650229273589,
-                "rank": 30,
+                "score": 0.06539605564492307,
+                "rank": 33,
                 "metrics": {
                     "H": 0.2079441541679836,
-                    "C_norm": 0.002068970284708789,
+                    "C_norm": 0.0017148795489702147,
                     "P_norm": 0.0,
                     "H_GS": 0.6931471805599453,
                     "H_S2": 0.0,
@@ -7155,11 +7148,11 @@
                 }
             },
             "weighted_sum_system": {
-                "score": 0.06550650229273589,
-                "rank": 30,
+                "score": 0.06539605564492307,
+                "rank": 33,
                 "metrics": {
                     "H": 0.2079441541679836,
-                    "C_norm": 0.002068970284708789,
+                    "C_norm": 0.0017148795489702147,
                     "P_norm": 0.0,
                     "C_blend": 0.48283137373023005,
                     "P_term": 0.0,
@@ -7186,17 +7179,17 @@
                     "orcid": "0009-0009-8775-2320",
                     "orcid_url": "https://orcid.org/0009-0009-8775-2320",
                     "scopus_url": "",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/2335598083",
                     "citations_scholar": 2000.0,
                     "hindex_scholar": 24.0,
                     "i10_scholar": 77.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "hindex_s2": 1.0,
+                    "citations_s2": 3.0,
+                    "paper_count_s2": 2.0,
+                    "h_index": 1.0,
+                    "citation_count": 3.0,
+                    "paper_count": 2.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "Lyda Hok",
@@ -7206,17 +7199,17 @@
                     "orcid": "0000-0003-2175-1412",
                     "orcid_url": "https://orcid.org/0000-0003-2175-1412",
                     "scopus_url": "https://www.scopus.com/authid/detail.uri?authorId=56800815200",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/87769765",
                     "citations_scholar": 751.0,
                     "hindex_scholar": 15.0,
                     "i10_scholar": 19.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "hindex_s2": 12.0,
+                    "citations_s2": 451.0,
+                    "paper_count_s2": 44.0,
+                    "h_index": 12.0,
+                    "citation_count": 451.0,
+                    "paper_count": 44.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "Borarin Buntong",
@@ -7246,17 +7239,17 @@
                     "orcid": "0000-0002-1734-661X",
                     "orcid_url": "https://orcid.org/0000-0002-1734-661X",
                     "scopus_url": "",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/3515099",
                     "citations_scholar": 581.0,
                     "hindex_scholar": 15.0,
                     "i10_scholar": 21.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "hindex_s2": 6.0,
+                    "citations_s2": 144.0,
+                    "paper_count_s2": 22.0,
+                    "h_index": 6.0,
+                    "citation_count": 144.0,
+                    "paper_count": 22.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "Dyna Theng",
@@ -8000,62 +7993,62 @@
                 }
             ],
             "uri_system": {
-                "uri": 76.17631011949368,
+                "uri": 86.67424954815581,
                 "rank": 4,
-                "uri_base": 20.380696503207748,
+                "uri_base": 23.18938226219241,
                 "size_factor": 3.7376696182833684,
                 "components": {
-                    "H": 44.62078880583664,
-                    "C_norm": 0.4814451878168497,
-                    "P_norm": 0.8469120606367755,
-                    "C_blend": 112.35388112020993,
-                    "P_term": 4.144646684316688,
-                    "H_GS": 54.05481813272226,
-                    "H_S2": 40.577633380028516,
-                    "C_GS": 137.59454049723993,
-                    "C_S2": 101.53645567291139,
-                    "P_S2": 62.095325395118444
+                    "H": 50.89280946759472,
+                    "C_norm": 0.45200819148081417,
+                    "P_norm": 0.8421431560842039,
+                    "C_blend": 127.26476105045032,
+                    "P_term": 4.264594864668642,
+                    "H_GS": 62.818871402070016,
+                    "H_S2": 45.781640067105315,
+                    "C_GS": 158.18514960350495,
+                    "C_S2": 114.01316595628407,
+                    "P_S2": 70.13609438948602
                 }
             },
             "data_quality": {
                 "faculty_count": 41,
-                "missing_s2_count": 7,
-                "missing_s2_pct": 17.1,
+                "missing_s2_count": 4,
+                "missing_s2_pct": 9.8,
                 "zero_h_gs_count": 2,
-                "zero_h_s2_count": 11,
+                "zero_h_s2_count": 8,
                 "small_cohort": false,
                 "notes": [
-                    "7/41 faculty (17.1%) have no Semantic Scholar metrics (all S2 fields zero)."
+                    "4/41 faculty (9.8%) have no Semantic Scholar metrics (all S2 fields zero)."
                 ]
             },
             "ranking_system": {
-                "score": 76.17631011949368,
+                "score": 86.67424954815581,
                 "rank": 4,
                 "metrics": {
-                    "H": 44.62078880583664,
-                    "C_norm": 0.4814451878168497,
-                    "P_norm": 0.8469120606367755,
-                    "H_GS": 54.05481813272226,
-                    "H_S2": 40.577633380028516,
-                    "C_GS": 137.59454049723993,
-                    "C_S2": 101.53645567291139,
-                    "P_S2": 62.095325395118444
+                    "H": 50.89280946759472,
+                    "C_norm": 0.45200819148081417,
+                    "P_norm": 0.8421431560842039,
+                    "H_GS": 62.818871402070016,
+                    "H_S2": 45.781640067105315,
+                    "C_GS": 158.18514960350495,
+                    "C_S2": 114.01316595628407,
+                    "P_S2": 70.13609438948602
                 }
             },
             "weighted_sum_system": {
-                "score": 76.17631011949368,
+                "score": 86.67424954815581,
                 "rank": 4,
                 "metrics": {
-                    "H": 44.62078880583664,
-                    "C_norm": 0.4814451878168497,
-                    "P_norm": 0.8469120606367755,
-                    "C_blend": 112.35388112020993,
-                    "P_term": 4.144646684316688,
-                    "H_GS": 54.05481813272226,
-                    "H_S2": 40.577633380028516,
-                    "C_GS": 137.59454049723993,
-                    "C_S2": 101.53645567291139,
-                    "P_S2": 62.095325395118444
+                    "H": 50.89280946759472,
+                    "C_norm": 0.45200819148081417,
+                    "P_norm": 0.8421431560842039,
+                    "C_blend": 127.26476105045032,
+                    "P_term": 4.264594864668642,
+                    "H_GS": 62.818871402070016,
+                    "H_S2": 45.781640067105315,
+                    "C_GS": 158.18514960350495,
+                    "C_S2": 114.01316595628407,
+                    "P_S2": 70.13609438948602
                 }
             }
         },
@@ -8108,14 +8101,14 @@
                 }
             ],
             "uri_system": {
-                "uri": 0.120466194765973,
-                "rank": 28,
-                "uri_base": 0.10965305595845723,
+                "uri": 0.11973202411375451,
+                "rank": 31,
+                "uri_base": 0.10898478503176974,
                 "size_factor": 1.0986122886681098,
                 "components": {
                     "H": 0.2079441541679836,
-                    "C_norm": 0.002068970284708789,
-                    "P_norm": 0.15147149954745648,
+                    "C_norm": 0.0017148795489702147,
+                    "P_norm": 0.1463821985914053,
                     "C_blend": 0.48283137373023005,
                     "P_term": 0.7412763113750153,
                     "H_GS": 0.6931471805599453,
@@ -8139,12 +8132,12 @@
                 ]
             },
             "ranking_system": {
-                "score": 0.120466194765973,
-                "rank": 28,
+                "score": 0.11973202411375451,
+                "rank": 31,
                 "metrics": {
                     "H": 0.2079441541679836,
-                    "C_norm": 0.002068970284708789,
-                    "P_norm": 0.15147149954745648,
+                    "C_norm": 0.0017148795489702147,
+                    "P_norm": 0.1463821985914053,
                     "H_GS": 0.6931471805599453,
                     "H_S2": 0.0,
                     "C_GS": 1.6094379124341003,
@@ -8153,12 +8146,12 @@
                 }
             },
             "weighted_sum_system": {
-                "score": 0.120466194765973,
-                "rank": 28,
+                "score": 0.11973202411375451,
+                "rank": 31,
                 "metrics": {
                     "H": 0.2079441541679836,
-                    "C_norm": 0.002068970284708789,
-                    "P_norm": 0.15147149954745648,
+                    "C_norm": 0.0017148795489702147,
+                    "P_norm": 0.1463821985914053,
                     "C_blend": 0.48283137373023005,
                     "P_term": 0.7412763113750153,
                     "H_GS": 0.6931471805599453,
@@ -8224,17 +8217,17 @@
                     "orcid": "0000-0002-0618-6999",
                     "orcid_url": "https://orcid.org/0000-0002-0618-6999",
                     "scopus_url": "",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/8651470",
                     "citations_scholar": 831.0,
                     "hindex_scholar": 16.0,
                     "i10_scholar": 22.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "hindex_s2": 15.0,
+                    "citations_s2": 649.0,
+                    "paper_count_s2": 36.0,
+                    "h_index": 15.0,
+                    "citation_count": 649.0,
+                    "paper_count": 36.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "Beanbonyka Rim",
@@ -8264,17 +8257,17 @@
                     "orcid": "0000-0003-0828-0193",
                     "orcid_url": "https://orcid.org/0000-0003-0828-0193",
                     "scopus_url": "",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/83846615",
                     "citations_scholar": 681.0,
                     "hindex_scholar": 17.0,
                     "i10_scholar": 23.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "hindex_s2": 11.0,
+                    "citations_s2": 205.0,
+                    "paper_count_s2": 20.0,
+                    "h_index": 11.0,
+                    "citation_count": 205.0,
+                    "paper_count": 20.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "Mak Sithirith",
@@ -8504,17 +8497,17 @@
                     "orcid": "",
                     "orcid_url": "",
                     "scopus_url": "",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/2053921871",
                     "citations_scholar": 302.0,
                     "hindex_scholar": 6.0,
                     "i10_scholar": 6.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "hindex_s2": 2.0,
+                    "citations_s2": 48.0,
+                    "paper_count_s2": 4.0,
+                    "h_index": 2.0,
+                    "citation_count": 48.0,
+                    "paper_count": 4.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "Sarath Yam",
@@ -8544,17 +8537,17 @@
                     "orcid": "0000-0002-8995-6548",
                     "orcid_url": "https://orcid.org/0000-0002-8995-6548",
                     "scopus_url": "https://www.scopus.com/authid/detail.uri?authorId=24491763700",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/104726415",
                     "citations_scholar": 280.0,
                     "hindex_scholar": 8.0,
                     "i10_scholar": 7.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "hindex_s2": 6.0,
+                    "citations_s2": 125.0,
+                    "paper_count_s2": 25.0,
+                    "h_index": 6.0,
+                    "citation_count": 125.0,
+                    "paper_count": 25.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "Hun Seiha",
@@ -8564,17 +8557,17 @@
                     "orcid": "",
                     "orcid_url": "",
                     "scopus_url": "",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/2302965017",
                     "citations_scholar": 277.0,
                     "hindex_scholar": 10.0,
                     "i10_scholar": 10.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "hindex_s2": 4.0,
+                    "citations_s2": 30.0,
+                    "paper_count_s2": 7.0,
+                    "h_index": 4.0,
+                    "citation_count": 30.0,
+                    "paper_count": 7.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "Huoy Laingshun",
@@ -8644,17 +8637,17 @@
                     "orcid": "",
                     "orcid_url": "",
                     "scopus_url": "",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/2274574979",
                     "citations_scholar": 224.0,
                     "hindex_scholar": 9.0,
                     "i10_scholar": 9.0,
                     "hindex_s2": 0.0,
                     "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
+                    "paper_count_s2": 1.0,
                     "h_index": 0.0,
                     "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "paper_count": 1.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "Tharith Sriv",
@@ -8864,17 +8857,17 @@
                     "orcid": "0000-0002-2628-1109",
                     "orcid_url": "https://orcid.org/0000-0002-2628-1109",
                     "scopus_url": "https://www.scopus.com/authid/detail.uri?authorId=57220071091",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/1999435776",
                     "citations_scholar": 119.0,
                     "hindex_scholar": 5.0,
                     "i10_scholar": 2.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "hindex_s2": 2.0,
+                    "citations_s2": 16.0,
+                    "paper_count_s2": 8.0,
+                    "h_index": 2.0,
+                    "citation_count": 16.0,
+                    "paper_count": 8.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "Thearom Ret",
@@ -8964,17 +8957,17 @@
                     "orcid": "",
                     "orcid_url": "",
                     "scopus_url": "",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/120853629",
                     "citations_scholar": 102.0,
                     "hindex_scholar": 6.0,
                     "i10_scholar": 4.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "hindex_s2": 1.0,
+                    "citations_s2": 245.0,
+                    "paper_count_s2": 2.0,
+                    "h_index": 1.0,
+                    "citation_count": 245.0,
+                    "paper_count": 2.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "Heng Sovannarith",
@@ -9004,17 +8997,17 @@
                     "orcid": "",
                     "orcid_url": "",
                     "scopus_url": "",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/2319481312",
                     "citations_scholar": 94.0,
                     "hindex_scholar": 4.0,
                     "i10_scholar": 3.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "hindex_s2": 1.0,
+                    "citations_s2": 1.0,
+                    "paper_count_s2": 1.0,
+                    "h_index": 1.0,
+                    "citation_count": 1.0,
+                    "paper_count": 1.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "Pheakdey Nguonphan",
@@ -9998,62 +9991,62 @@
                 }
             ],
             "uri_system": {
-                "uri": 179.4325383718392,
+                "uri": 209.1817443695762,
                 "rank": 2,
-                "uri_base": 39.68176205375318,
+                "uri_base": 46.260841435910315,
                 "size_factor": 4.5217885770490405,
                 "components": {
-                    "H": 86.99788929988512,
-                    "C_norm": 0.9671943581203201,
-                    "P_norm": 0.9747440765073492,
-                    "C_blend": 225.71217385129924,
-                    "P_term": 4.770235296585513,
-                    "H_GS": 107.42337458866248,
-                    "H_S2": 78.24410989040912,
-                    "C_GS": 283.70485552052116,
-                    "C_S2": 200.85816742163271,
-                    "P_S2": 116.94699122019533
+                    "H": 101.64963527772258,
+                    "C_norm": 0.9365782361074229,
+                    "P_norm": 0.9704535468681526,
+                    "C_blend": 263.6974454661463,
+                    "P_term": 4.914355929242492,
+                    "H_GS": 127.33768231351628,
+                    "H_S2": 90.64047226238242,
+                    "C_GS": 333.3256242325362,
+                    "C_S2": 233.85679742340778,
+                    "P_S2": 135.2315387898226
                 }
             },
             "data_quality": {
                 "faculty_count": 91,
-                "missing_s2_count": 25,
-                "missing_s2_pct": 27.5,
+                "missing_s2_count": 16,
+                "missing_s2_pct": 17.6,
                 "zero_h_gs_count": 9,
-                "zero_h_s2_count": 34,
+                "zero_h_s2_count": 26,
                 "small_cohort": false,
                 "notes": [
-                    "25/91 faculty (27.5%) have no Semantic Scholar metrics (all S2 fields zero)."
+                    "16/91 faculty (17.6%) have no Semantic Scholar metrics (all S2 fields zero)."
                 ]
             },
             "ranking_system": {
-                "score": 179.4325383718392,
+                "score": 209.1817443695762,
                 "rank": 2,
                 "metrics": {
-                    "H": 86.99788929988512,
-                    "C_norm": 0.9671943581203201,
-                    "P_norm": 0.9747440765073492,
-                    "H_GS": 107.42337458866248,
-                    "H_S2": 78.24410989040912,
-                    "C_GS": 283.70485552052116,
-                    "C_S2": 200.85816742163271,
-                    "P_S2": 116.94699122019533
+                    "H": 101.64963527772258,
+                    "C_norm": 0.9365782361074229,
+                    "P_norm": 0.9704535468681526,
+                    "H_GS": 127.33768231351628,
+                    "H_S2": 90.64047226238242,
+                    "C_GS": 333.3256242325362,
+                    "C_S2": 233.85679742340778,
+                    "P_S2": 135.2315387898226
                 }
             },
             "weighted_sum_system": {
-                "score": 179.4325383718392,
+                "score": 209.1817443695762,
                 "rank": 2,
                 "metrics": {
-                    "H": 86.99788929988512,
-                    "C_norm": 0.9671943581203201,
-                    "P_norm": 0.9747440765073492,
-                    "C_blend": 225.71217385129924,
-                    "P_term": 4.770235296585513,
-                    "H_GS": 107.42337458866248,
-                    "H_S2": 78.24410989040912,
-                    "C_GS": 283.70485552052116,
-                    "C_S2": 200.85816742163271,
-                    "P_S2": 116.94699122019533
+                    "H": 101.64963527772258,
+                    "C_norm": 0.9365782361074229,
+                    "P_norm": 0.9704535468681526,
+                    "C_blend": 263.6974454661463,
+                    "P_term": 4.914355929242492,
+                    "H_GS": 127.33768231351628,
+                    "H_S2": 90.64047226238242,
+                    "C_GS": 333.3256242325362,
+                    "C_S2": 233.85679742340778,
+                    "P_S2": 135.2315387898226
                 }
             }
         },
@@ -10112,17 +10105,17 @@
                     "orcid": "0009-0002-1049-7324",
                     "orcid_url": "https://orcid.org/0009-0002-1049-7324",
                     "scopus_url": "https://www.scopus.com/authid/detail.uri?authorId=59261029900",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/2274770346",
                     "citations_scholar": 88.0,
                     "hindex_scholar": 5.0,
                     "i10_scholar": 1.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "hindex_s2": 3.0,
+                    "citations_s2": 19.0,
+                    "paper_count_s2": 21.0,
+                    "h_index": 3.0,
+                    "citation_count": 19.0,
+                    "paper_count": 21.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "Asst. Prof. Dr. Dina Pen",
@@ -10132,17 +10125,17 @@
                     "orcid": "0009-0004-0104-2840",
                     "orcid_url": "https://orcid.org/0009-0004-0104-2840",
                     "scopus_url": "https://www.scopus.com/authid/detail.uri?authorId=59316667400",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/2361112063",
                     "citations_scholar": 83.0,
                     "hindex_scholar": 5.0,
                     "i10_scholar": 3.0,
                     "hindex_s2": 0.0,
                     "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
+                    "paper_count_s2": 1.0,
                     "h_index": 0.0,
                     "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "paper_count": 1.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "phearun lay",
@@ -10246,62 +10239,62 @@
                 }
             ],
             "uri_system": {
-                "uri": 5.707597637257127,
+                "uri": 7.851133501870979,
                 "rank": 12,
-                "uri_base": 2.478778158784808,
+                "uri_base": 3.40970395654832,
                 "size_factor": 2.302585092994046,
                 "components": {
-                    "H": 5.366164898266816,
-                    "C_norm": 0.05148960382830282,
-                    "P_norm": 0.408336328420048,
-                    "C_blend": 12.016023783900774,
-                    "P_term": 1.998330037241074,
-                    "H_GS": 6.962243464266207,
-                    "H_S2": 4.68213122712422,
-                    "C_GS": 15.556338071023033,
-                    "C_S2": 10.498746232276948,
-                    "P_S2": 6.376726947898627
+                    "H": 7.411626632587572,
+                    "C_norm": 0.059629293721391544,
+                    "P_norm": 0.476387897092863,
+                    "C_blend": 16.7888723259612,
+                    "P_term": 2.4124180845677765,
+                    "H_GS": 10.545762402722316,
+                    "H_S2": 6.068425588244111,
+                    "C_GS": 24.475791239598486,
+                    "C_S2": 13.494478505830939,
+                    "P_S2": 10.160916581816888
                 }
             },
             "data_quality": {
                 "faculty_count": 9,
-                "missing_s2_count": 5,
-                "missing_s2_pct": 55.6,
+                "missing_s2_count": 3,
+                "missing_s2_pct": 33.3,
                 "zero_h_gs_count": 1,
-                "zero_h_s2_count": 6,
+                "zero_h_s2_count": 5,
                 "small_cohort": false,
                 "notes": [
-                    "5/9 faculty (55.6%) have no Semantic Scholar metrics (all S2 fields zero)."
+                    "3/9 faculty (33.3%) have no Semantic Scholar metrics (all S2 fields zero)."
                 ]
             },
             "ranking_system": {
-                "score": 5.707597637257127,
+                "score": 7.851133501870979,
                 "rank": 12,
                 "metrics": {
-                    "H": 5.366164898266816,
-                    "C_norm": 0.05148960382830282,
-                    "P_norm": 0.408336328420048,
-                    "H_GS": 6.962243464266207,
-                    "H_S2": 4.68213122712422,
-                    "C_GS": 15.556338071023033,
-                    "C_S2": 10.498746232276948,
-                    "P_S2": 6.376726947898627
+                    "H": 7.411626632587572,
+                    "C_norm": 0.059629293721391544,
+                    "P_norm": 0.476387897092863,
+                    "H_GS": 10.545762402722316,
+                    "H_S2": 6.068425588244111,
+                    "C_GS": 24.475791239598486,
+                    "C_S2": 13.494478505830939,
+                    "P_S2": 10.160916581816888
                 }
             },
             "weighted_sum_system": {
-                "score": 5.707597637257127,
+                "score": 7.851133501870979,
                 "rank": 12,
                 "metrics": {
-                    "H": 5.366164898266816,
-                    "C_norm": 0.05148960382830282,
-                    "P_norm": 0.408336328420048,
-                    "C_blend": 12.016023783900774,
-                    "P_term": 1.998330037241074,
-                    "H_GS": 6.962243464266207,
-                    "H_S2": 4.68213122712422,
-                    "C_GS": 15.556338071023033,
-                    "C_S2": 10.498746232276948,
-                    "P_S2": 6.376726947898627
+                    "H": 7.411626632587572,
+                    "C_norm": 0.059629293721391544,
+                    "P_norm": 0.476387897092863,
+                    "C_blend": 16.7888723259612,
+                    "P_term": 2.4124180845677765,
+                    "H_GS": 10.545762402722316,
+                    "H_S2": 6.068425588244111,
+                    "C_GS": 24.475791239598486,
+                    "C_S2": 13.494478505830939,
+                    "P_S2": 10.160916581816888
                 }
             }
         },
@@ -10340,17 +10333,17 @@
                     "orcid": "0009-0006-6567-7743",
                     "orcid_url": "https://orcid.org/0009-0006-6567-7743",
                     "scopus_url": "",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/2306634301",
                     "citations_scholar": 44.0,
                     "hindex_scholar": 4.0,
                     "i10_scholar": 2.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "hindex_s2": 1.0,
+                    "citations_s2": 4.0,
+                    "paper_count_s2": 3.0,
+                    "h_index": 1.0,
+                    "citation_count": 4.0,
+                    "paper_count": 3.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "Vathanak Chet",
@@ -10474,62 +10467,62 @@
                 }
             ],
             "uri_system": {
-                "uri": 4.522110317002669,
-                "rank": 13,
-                "uri_base": 2.058101098834876,
+                "uri": 5.486119442400993,
+                "rank": 14,
+                "uri_base": 2.4968405592167677,
                 "size_factor": 2.1972245773362196,
                 "components": {
-                    "H": 4.448988498301166,
-                    "C_norm": 0.04045331355532288,
-                    "P_norm": 0.37852283499456374,
-                    "C_blend": 9.440507241797079,
-                    "P_term": 1.8524277618844993,
-                    "H_GS": 6.222576268071369,
-                    "H_S2": 3.6888794541139363,
-                    "C_GS": 14.32165323382588,
-                    "C_S2": 7.348587530927593,
-                    "P_S2": 5.375278407684165
+                    "H": 5.417022898423358,
+                    "C_norm": 0.04158743342370952,
+                    "P_norm": 0.4046590988558725,
+                    "C_blend": 11.709112527432044,
+                    "P_term": 2.0491849900513173,
+                    "H_GS": 7.832014180505469,
+                    "H_S2": 4.382026634673881,
+                    "C_GS": 18.128315723596202,
+                    "C_S2": 8.958025443361691,
+                    "P_S2": 6.761572768804054
                 }
             },
             "data_quality": {
                 "faculty_count": 8,
-                "missing_s2_count": 3,
-                "missing_s2_pct": 37.5,
+                "missing_s2_count": 2,
+                "missing_s2_pct": 25.0,
                 "zero_h_gs_count": 1,
-                "zero_h_s2_count": 4,
+                "zero_h_s2_count": 3,
                 "small_cohort": false,
                 "notes": [
-                    "3/8 faculty (37.5%) have no Semantic Scholar metrics (all S2 fields zero)."
+                    "2/8 faculty (25.0%) have no Semantic Scholar metrics (all S2 fields zero)."
                 ]
             },
             "ranking_system": {
-                "score": 4.522110317002669,
-                "rank": 13,
+                "score": 5.486119442400993,
+                "rank": 14,
                 "metrics": {
-                    "H": 4.448988498301166,
-                    "C_norm": 0.04045331355532288,
-                    "P_norm": 0.37852283499456374,
-                    "H_GS": 6.222576268071369,
-                    "H_S2": 3.6888794541139363,
-                    "C_GS": 14.32165323382588,
-                    "C_S2": 7.348587530927593,
-                    "P_S2": 5.375278407684165
+                    "H": 5.417022898423358,
+                    "C_norm": 0.04158743342370952,
+                    "P_norm": 0.4046590988558725,
+                    "H_GS": 7.832014180505469,
+                    "H_S2": 4.382026634673881,
+                    "C_GS": 18.128315723596202,
+                    "C_S2": 8.958025443361691,
+                    "P_S2": 6.761572768804054
                 }
             },
             "weighted_sum_system": {
-                "score": 4.522110317002669,
-                "rank": 13,
+                "score": 5.486119442400993,
+                "rank": 14,
                 "metrics": {
-                    "H": 4.448988498301166,
-                    "C_norm": 0.04045331355532288,
-                    "P_norm": 0.37852283499456374,
-                    "C_blend": 9.440507241797079,
-                    "P_term": 1.8524277618844993,
-                    "H_GS": 6.222576268071369,
-                    "H_S2": 3.6888794541139363,
-                    "C_GS": 14.32165323382588,
-                    "C_S2": 7.348587530927593,
-                    "P_S2": 5.375278407684165
+                    "H": 5.417022898423358,
+                    "C_norm": 0.04158743342370952,
+                    "P_norm": 0.4046590988558725,
+                    "C_blend": 11.709112527432044,
+                    "P_term": 2.0491849900513173,
+                    "H_GS": 7.832014180505469,
+                    "H_S2": 4.382026634673881,
+                    "C_GS": 18.128315723596202,
+                    "C_S2": 8.958025443361691,
+                    "P_S2": 6.761572768804054
                 }
             }
         },
@@ -10548,17 +10541,17 @@
                     "orcid": "0000-0002-5620-0517",
                     "orcid_url": "https://orcid.org/0000-0002-5620-0517",
                     "scopus_url": "",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/5087669",
                     "citations_scholar": 4298.0,
                     "hindex_scholar": 37.0,
                     "i10_scholar": 96.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "hindex_s2": 27.0,
+                    "citations_s2": 2125.0,
+                    "paper_count_s2": 108.0,
+                    "h_index": 27.0,
+                    "citation_count": 2125.0,
+                    "paper_count": 108.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "OLIVIER SEGERAL",
@@ -10588,17 +10581,17 @@
                     "orcid": "0000-0003-4048-7020",
                     "orcid_url": "https://orcid.org/0000-0003-4048-7020",
                     "scopus_url": "",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/14997002",
                     "citations_scholar": 133.0,
                     "hindex_scholar": 7.0,
                     "i10_scholar": 6.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "hindex_s2": 5.0,
+                    "citations_s2": 100.0,
+                    "paper_count_s2": 13.0,
+                    "h_index": 5.0,
+                    "citation_count": 100.0,
+                    "paper_count": 13.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "HENG MENGHAK",
@@ -10682,62 +10675,62 @@
                 }
             ],
             "uri_system": {
-                "uri": 2.6276973356209945,
-                "rank": 15,
-                "uri_base": 1.2636553050191837,
+                "uri": 7.656265213261525,
+                "rank": 13,
+                "uri_base": 3.681885284967695,
                 "size_factor": 2.0794415416798357,
                 "components": {
-                    "H": 2.698885905457506,
-                    "C_norm": 0.02731028372317786,
-                    "P_norm": 0.3686701988787566,
-                    "C_blend": 6.373345187449271,
-                    "P_term": 1.804210600378433,
-                    "H_GS": 3.4011973816621555,
-                    "H_S2": 2.3978952727983707,
-                    "C_GS": 7.252762418053187,
-                    "C_S2": 5.996452088619021,
-                    "P_S2": 5.075173815233827
+                    "H": 8.000769001461652,
+                    "C_norm": 0.06729264774081141,
+                    "P_norm": 0.5125754282658636,
+                    "C_blend": 18.946521095403632,
+                    "P_term": 2.595670965613554,
+                    "H_GS": 9.118225083068378,
+                    "H_S2": 7.521859252201629,
+                    "C_GS": 20.51673993450038,
+                    "C_S2": 18.273570164362173,
+                    "P_S2": 12.405579027078229
                 }
             },
             "data_quality": {
                 "faculty_count": 7,
-                "missing_s2_count": 3,
-                "missing_s2_pct": 42.9,
+                "missing_s2_count": 1,
+                "missing_s2_pct": 14.3,
                 "zero_h_gs_count": 3,
-                "zero_h_s2_count": 6,
+                "zero_h_s2_count": 4,
                 "small_cohort": false,
                 "notes": [
-                    "3/7 faculty (42.9%) have no Semantic Scholar metrics (all S2 fields zero)."
+                    "1/7 faculty (14.3%) have no Semantic Scholar metrics (all S2 fields zero)."
                 ]
             },
             "ranking_system": {
-                "score": 2.6276973356209945,
-                "rank": 15,
+                "score": 7.656265213261525,
+                "rank": 13,
                 "metrics": {
-                    "H": 2.698885905457506,
-                    "C_norm": 0.02731028372317786,
-                    "P_norm": 0.3686701988787566,
-                    "H_GS": 3.4011973816621555,
-                    "H_S2": 2.3978952727983707,
-                    "C_GS": 7.252762418053187,
-                    "C_S2": 5.996452088619021,
-                    "P_S2": 5.075173815233827
+                    "H": 8.000769001461652,
+                    "C_norm": 0.06729264774081141,
+                    "P_norm": 0.5125754282658636,
+                    "H_GS": 9.118225083068378,
+                    "H_S2": 7.521859252201629,
+                    "C_GS": 20.51673993450038,
+                    "C_S2": 18.273570164362173,
+                    "P_S2": 12.405579027078229
                 }
             },
             "weighted_sum_system": {
-                "score": 2.6276973356209945,
-                "rank": 15,
+                "score": 7.656265213261525,
+                "rank": 13,
                 "metrics": {
-                    "H": 2.698885905457506,
-                    "C_norm": 0.02731028372317786,
-                    "P_norm": 0.3686701988787566,
-                    "C_blend": 6.373345187449271,
-                    "P_term": 1.804210600378433,
-                    "H_GS": 3.4011973816621555,
-                    "H_S2": 2.3978952727983707,
-                    "C_GS": 7.252762418053187,
-                    "C_S2": 5.996452088619021,
-                    "P_S2": 5.075173815233827
+                    "H": 8.000769001461652,
+                    "C_norm": 0.06729264774081141,
+                    "P_norm": 0.5125754282658636,
+                    "C_blend": 18.946521095403632,
+                    "P_term": 2.595670965613554,
+                    "H_GS": 9.118225083068378,
+                    "H_S2": 7.521859252201629,
+                    "C_GS": 20.51673993450038,
+                    "C_S2": 18.273570164362173,
+                    "P_S2": 12.405579027078229
                 }
             }
         },
@@ -10790,14 +10783,14 @@
                 }
             ],
             "uri_system": {
-                "uri": 0.8853442478904792,
-                "rank": 23,
-                "uri_base": 0.8058750634983487,
+                "uri": 0.8828517829870861,
+                "rank": 26,
+                "uri_base": 0.8036063241722897,
                 "size_factor": 1.0986122886681098,
                 "components": {
                     "H": 1.710379583420464,
-                    "C_norm": 0.01700154578572841,
-                    "P_norm": 0.2855355535556207,
+                    "C_norm": 0.014091842393439734,
+                    "P_norm": 0.27594182556032915,
                     "C_blend": 3.9676160493605472,
                     "P_term": 1.3973634811730353,
                     "H_GS": 1.9459101490553132,
@@ -10820,12 +10813,12 @@
                 ]
             },
             "ranking_system": {
-                "score": 0.8853442478904792,
-                "rank": 23,
+                "score": 0.8828517829870861,
+                "rank": 26,
                 "metrics": {
                     "H": 1.710379583420464,
-                    "C_norm": 0.01700154578572841,
-                    "P_norm": 0.2855355535556207,
+                    "C_norm": 0.014091842393439734,
+                    "P_norm": 0.27594182556032915,
                     "H_GS": 1.9459101490553132,
                     "H_S2": 1.6094379124341003,
                     "C_GS": 4.997212273764115,
@@ -10834,12 +10827,12 @@
                 }
             },
             "weighted_sum_system": {
-                "score": 0.8853442478904792,
-                "rank": 23,
+                "score": 0.8828517829870861,
+                "rank": 26,
                 "metrics": {
                     "H": 1.710379583420464,
-                    "C_norm": 0.01700154578572841,
-                    "P_norm": 0.2855355535556207,
+                    "C_norm": 0.014091842393439734,
+                    "P_norm": 0.27594182556032915,
                     "C_blend": 3.9676160493605472,
                     "P_term": 1.3973634811730353,
                     "H_GS": 1.9459101490553132,
@@ -10865,17 +10858,17 @@
                     "orcid": "0000-0002-3686-7701",
                     "orcid_url": "https://orcid.org/0000-0002-3686-7701",
                     "scopus_url": "",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/1380985174",
                     "citations_scholar": 28915.0,
                     "hindex_scholar": 51.0,
                     "i10_scholar": 83.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "hindex_s2": 13.0,
+                    "citations_s2": 14008.0,
+                    "paper_count_s2": 28.0,
+                    "h_index": 13.0,
+                    "citation_count": 14008.0,
+                    "paper_count": 28.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "Afeez Abolarinwa Salami",
@@ -10885,17 +10878,17 @@
                     "orcid": "0000-0002-6388-3803",
                     "orcid_url": "https://orcid.org/0000-0002-6388-3803",
                     "scopus_url": "",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/2303560813",
                     "citations_scholar": 17626.0,
                     "hindex_scholar": 25.0,
                     "i10_scholar": 34.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "hindex_s2": 1.0,
+                    "citations_s2": 2.0,
+                    "paper_count_s2": 1.0,
+                    "h_index": 1.0,
+                    "citation_count": 2.0,
+                    "paper_count": 1.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "Siddharthan Selvaraj",
@@ -10905,17 +10898,17 @@
                     "orcid": "0000-0002-7776-3335",
                     "orcid_url": "https://orcid.org/0000-0002-7776-3335",
                     "scopus_url": "https://www.scopus.com/authid/detail.uri?authorId=57223264725",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/2330629157",
                     "citations_scholar": 15457.0,
                     "hindex_scholar": 31.0,
                     "i10_scholar": 58.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "hindex_s2": 2.0,
+                    "citations_s2": 17.0,
+                    "paper_count_s2": 11.0,
+                    "h_index": 2.0,
+                    "citation_count": 17.0,
+                    "paper_count": 11.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "Prof Dr Mohmed Isaqali Karobari",
@@ -10925,17 +10918,17 @@
                     "orcid": "0000-0002-0313-9695",
                     "orcid_url": "https://orcid.org/0000-0002-0313-9695",
                     "scopus_url": "https://www.scopus.com/authid/detail.uri?authorId=57203761175",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/115550036",
                     "citations_scholar": 7756.0,
                     "hindex_scholar": 41.0,
                     "i10_scholar": 130.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "hindex_s2": 33.0,
+                    "citations_s2": 3915.0,
+                    "paper_count_s2": 263.0,
+                    "h_index": 33.0,
+                    "citation_count": 3915.0,
+                    "paper_count": 263.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "Francesca Cainelli",
@@ -10945,17 +10938,17 @@
                     "orcid": "0000-0003-1838-3946",
                     "orcid_url": "https://orcid.org/0000-0003-1838-3946",
                     "scopus_url": "https://www.scopus.com/authid/detail.uri?authorId=55919311000",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/4048387",
                     "citations_scholar": 5135.0,
                     "hindex_scholar": 30.0,
                     "i10_scholar": 46.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "hindex_s2": 24.0,
+                    "citations_s2": 2945.0,
+                    "paper_count_s2": 115.0,
+                    "h_index": 24.0,
+                    "citation_count": 2945.0,
+                    "paper_count": 115.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "Anand Marya",
@@ -10965,17 +10958,17 @@
                     "orcid": "0000-0003-2009-4393",
                     "orcid_url": "https://orcid.org/0000-0003-2009-4393",
                     "scopus_url": "https://www.scopus.com/authid/detail.uri?authorId=57218657104",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/2288003229",
                     "citations_scholar": 3783.0,
                     "hindex_scholar": 32.0,
                     "i10_scholar": 75.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "hindex_s2": 4.0,
+                    "citations_s2": 55.0,
+                    "paper_count_s2": 15.0,
+                    "h_index": 4.0,
+                    "citation_count": 55.0,
+                    "paper_count": 15.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "Adith Venugopal",
@@ -11165,17 +11158,17 @@
                     "orcid": "0000-0002-4590-0200",
                     "orcid_url": "https://orcid.org/0000-0002-4590-0200",
                     "scopus_url": "https://www.scopus.com/authid/detail.uri?authorId=57194446961",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/26999043",
                     "citations_scholar": 153.0,
                     "hindex_scholar": 4.0,
                     "i10_scholar": 3.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "hindex_s2": 4.0,
+                    "citations_s2": 93.0,
+                    "paper_count_s2": 5.0,
+                    "h_index": 4.0,
+                    "citation_count": 93.0,
+                    "paper_count": 5.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "Sela Kong",
@@ -12359,62 +12352,62 @@
                 }
             ],
             "uri_system": {
-                "uri": 97.82791499775871,
+                "uri": 131.01607145789197,
                 "rank": 3,
-                "uri_base": 22.589226191259957,
+                "uri_base": 30.252629557937574,
                 "size_factor": 4.330733340286331,
                 "components": {
-                    "H": 49.437904413870015,
-                    "C_norm": 0.5622449605739673,
-                    "P_norm": 0.8915897276016265,
-                    "C_blend": 131.20995922135126,
-                    "P_term": 4.363291751325944,
-                    "H_GS": 66.25460654898107,
-                    "H_S2": 42.23074635596528,
-                    "C_GS": 182.04946689982054,
-                    "C_S2": 109.42159878772155,
-                    "P_S2": 77.51516189723534
+                    "H": 66.40015823192864,
+                    "C_norm": 0.6258391009669446,
+                    "P_norm": 0.9093075813455767,
+                    "C_blend": 176.20756690195412,
+                    "P_term": 4.604714072417012,
+                    "H_GS": 89.2072850050528,
+                    "H_S2": 56.625675329161155,
+                    "C_GS": 242.52055661647358,
+                    "C_S2": 147.78771416716006,
+                    "P_S2": 98.95439904329027
                 }
             },
             "data_quality": {
                 "faculty_count": 75,
-                "missing_s2_count": 27,
-                "missing_s2_pct": 36.0,
+                "missing_s2_count": 20,
+                "missing_s2_pct": 26.7,
                 "zero_h_gs_count": 9,
-                "zero_h_s2_count": 39,
+                "zero_h_s2_count": 32,
                 "small_cohort": false,
                 "notes": [
-                    "27/75 faculty (36.0%) have no Semantic Scholar metrics (all S2 fields zero)."
+                    "20/75 faculty (26.7%) have no Semantic Scholar metrics (all S2 fields zero)."
                 ]
             },
             "ranking_system": {
-                "score": 97.82791499775871,
+                "score": 131.01607145789197,
                 "rank": 3,
                 "metrics": {
-                    "H": 49.437904413870015,
-                    "C_norm": 0.5622449605739673,
-                    "P_norm": 0.8915897276016265,
-                    "H_GS": 66.25460654898107,
-                    "H_S2": 42.23074635596528,
-                    "C_GS": 182.04946689982054,
-                    "C_S2": 109.42159878772155,
-                    "P_S2": 77.51516189723534
+                    "H": 66.40015823192864,
+                    "C_norm": 0.6258391009669446,
+                    "P_norm": 0.9093075813455767,
+                    "H_GS": 89.2072850050528,
+                    "H_S2": 56.625675329161155,
+                    "C_GS": 242.52055661647358,
+                    "C_S2": 147.78771416716006,
+                    "P_S2": 98.95439904329027
                 }
             },
             "weighted_sum_system": {
-                "score": 97.82791499775871,
+                "score": 131.01607145789197,
                 "rank": 3,
                 "metrics": {
-                    "H": 49.437904413870015,
-                    "C_norm": 0.5622449605739673,
-                    "P_norm": 0.8915897276016265,
-                    "C_blend": 131.20995922135126,
-                    "P_term": 4.363291751325944,
-                    "H_GS": 66.25460654898107,
-                    "H_S2": 42.23074635596528,
-                    "C_GS": 182.04946689982054,
-                    "C_S2": 109.42159878772155,
-                    "P_S2": 77.51516189723534
+                    "H": 66.40015823192864,
+                    "C_norm": 0.6258391009669446,
+                    "P_norm": 0.9093075813455767,
+                    "C_blend": 176.20756690195412,
+                    "P_term": 4.604714072417012,
+                    "H_GS": 89.2072850050528,
+                    "H_S2": 56.625675329161155,
+                    "C_GS": 242.52055661647358,
+                    "C_S2": 147.78771416716006,
+                    "P_S2": 98.95439904329027
                 }
             }
         },
@@ -12433,17 +12426,17 @@
                     "orcid": "0000-0003-0950-3336",
                     "orcid_url": "https://orcid.org/0000-0003-0950-3336",
                     "scopus_url": "",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/108050676",
                     "citations_scholar": 859.0,
                     "hindex_scholar": 14.0,
                     "i10_scholar": 17.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "hindex_s2": 11.0,
+                    "citations_s2": 395.0,
+                    "paper_count_s2": 21.0,
+                    "h_index": 11.0,
+                    "citation_count": 395.0,
+                    "paper_count": 21.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "Sengthai Lay",
@@ -12467,64 +12460,62 @@
                 }
             ],
             "uri_system": {
-                "uri": 0.016640845078582173,
-                "rank": 31,
-                "uri_base": 0.01514714995474565,
+                "uri": 1.3082070863863555,
+                "rank": 22,
+                "uri_base": 1.1907814065800644,
                 "size_factor": 1.0986122886681098,
                 "components": {
-                    "H": 0.0,
-                    "C_norm": 0.0,
-                    "P_norm": 0.15147149954745648,
-                    "C_blend": 0.0,
-                    "P_term": 0.7412763113750153,
-                    "H_GS": 0.0,
-                    "H_S2": 0.0,
-                    "C_GS": 0.0,
-                    "C_S2": 0.0,
-                    "P_S2": 1.0986122886681098
+                    "H": 2.5518497151822634,
+                    "C_norm": 0.02207060593734862,
+                    "P_norm": 0.3251726207623891,
+                    "C_blend": 6.214069664652403,
+                    "P_term": 1.646667171270668,
+                    "H_GS": 2.70805020110221,
+                    "H_S2": 2.4849066497880004,
+                    "C_GS": 6.756932389247553,
+                    "C_S2": 5.981414211254481,
+                    "P_S2": 4.189654742026426
                 }
             },
             "data_quality": {
                 "faculty_count": 2,
-                "missing_s2_count": 1,
-                "missing_s2_pct": 50.0,
+                "missing_s2_count": 0,
+                "missing_s2_pct": 0.0,
                 "zero_h_gs_count": 1,
-                "zero_h_s2_count": 2,
+                "zero_h_s2_count": 1,
                 "small_cohort": true,
                 "notes": [
-                    "Small cohort (N=2): URI less stable with fewer than 3 faculty.",
-                    "1/2 faculty (50.0%) have no Semantic Scholar metrics (all S2 fields zero).",
-                    "All faculty have zero Semantic Scholar h-index."
+                    "Small cohort (N=2): URI less stable with fewer than 3 faculty."
                 ]
             },
             "ranking_system": {
-                "score": 0.016640845078582173,
-                "rank": 31,
+                "score": 1.3082070863863555,
+                "rank": 22,
                 "metrics": {
-                    "H": 0.0,
-                    "C_norm": 0.0,
-                    "P_norm": 0.15147149954745648,
-                    "H_GS": 0.0,
-                    "H_S2": 0.0,
-                    "C_GS": 0.0,
-                    "C_S2": 0.0,
-                    "P_S2": 1.0986122886681098
+                    "H": 2.5518497151822634,
+                    "C_norm": 0.02207060593734862,
+                    "P_norm": 0.3251726207623891,
+                    "H_GS": 2.70805020110221,
+                    "H_S2": 2.4849066497880004,
+                    "C_GS": 6.756932389247553,
+                    "C_S2": 5.981414211254481,
+                    "P_S2": 4.189654742026426
                 }
             },
             "weighted_sum_system": {
-                "score": 0.016640845078582173,
-                "rank": 31,
+                "score": 1.3082070863863555,
+                "rank": 22,
                 "metrics": {
-                    "H": 0.0,
-                    "C_norm": 0.0,
-                    "P_norm": 0.15147149954745648,
-                    "C_blend": 0.0,
-                    "P_term": 0.7412763113750153,
-                    "H_GS": 0.0,
-                    "H_S2": 0.0,
-                    "C_GS": 0.0,
-                    "C_S2": 0.0,
-                    "P_S2": 1.0986122886681098
+                    "H": 2.5518497151822634,
+                    "C_norm": 0.02207060593734862,
+                    "P_norm": 0.3251726207623891,
+                    "C_blend": 6.214069664652403,
+                    "P_term": 1.646667171270668,
+                    "H_GS": 2.70805020110221,
+                    "H_S2": 2.4849066497880004,
+                    "C_GS": 6.756932389247553,
+                    "C_S2": 5.981414211254481,
+                    "P_S2": 4.189654742026426
                 }
             }
         },
@@ -12543,17 +12534,17 @@
                     "orcid": "0009-0006-1086-1586",
                     "orcid_url": "https://orcid.org/0009-0006-1086-1586",
                     "scopus_url": "",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/2185803659",
                     "citations_scholar": 81.0,
                     "hindex_scholar": 4.0,
                     "i10_scholar": 2.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "hindex_s2": 2.0,
+                    "citations_s2": 25.0,
+                    "paper_count_s2": 5.0,
+                    "h_index": 2.0,
+                    "citation_count": 25.0,
+                    "paper_count": 5.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "Sovang Long",
@@ -12597,62 +12588,60 @@
                 }
             ],
             "uri_system": {
-                "uri": 1.1167356637756944,
-                "rank": 21,
-                "uri_base": 0.8055545020565196,
+                "uri": 1.9139635019882664,
+                "rank": 20,
+                "uri_base": 1.3806328263804728,
                 "size_factor": 1.3862943611198906,
                 "components": {
-                    "H": 1.7158780477203233,
-                    "C_norm": 0.0175530751654792,
-                    "P_norm": 0.25510496757908396,
-                    "C_blend": 4.096325335349707,
-                    "P_term": 1.2484412575662103,
-                    "H_GS": 2.4849066497880004,
-                    "H_S2": 1.3862943611198906,
-                    "C_GS": 7.335633981927202,
-                    "C_S2": 2.70805020110221,
-                    "P_S2": 2.4849066497880004
+                    "H": 2.9677380235182302,
+                    "C_norm": 0.02734468649211929,
+                    "P_norm": 0.3284560687581554,
+                    "C_blend": 7.699008686144021,
+                    "P_term": 1.6632944814375767,
+                    "H_GS": 4.0943445622221,
+                    "H_S2": 2.4849066497880004,
+                    "C_GS": 11.742353229191455,
+                    "C_S2": 5.966146739123692,
+                    "P_S2": 4.276666119016055
                 }
             },
             "data_quality": {
                 "faculty_count": 3,
-                "missing_s2_count": 1,
-                "missing_s2_pct": 33.3,
+                "missing_s2_count": 0,
+                "missing_s2_pct": 0.0,
                 "zero_h_gs_count": 0,
-                "zero_h_s2_count": 1,
+                "zero_h_s2_count": 0,
                 "small_cohort": false,
-                "notes": [
-                    "1/3 faculty (33.3%) have no Semantic Scholar metrics (all S2 fields zero)."
-                ]
+                "notes": []
             },
             "ranking_system": {
-                "score": 1.1167356637756944,
-                "rank": 21,
+                "score": 1.9139635019882664,
+                "rank": 20,
                 "metrics": {
-                    "H": 1.7158780477203233,
-                    "C_norm": 0.0175530751654792,
-                    "P_norm": 0.25510496757908396,
-                    "H_GS": 2.4849066497880004,
-                    "H_S2": 1.3862943611198906,
-                    "C_GS": 7.335633981927202,
-                    "C_S2": 2.70805020110221,
-                    "P_S2": 2.4849066497880004
+                    "H": 2.9677380235182302,
+                    "C_norm": 0.02734468649211929,
+                    "P_norm": 0.3284560687581554,
+                    "H_GS": 4.0943445622221,
+                    "H_S2": 2.4849066497880004,
+                    "C_GS": 11.742353229191455,
+                    "C_S2": 5.966146739123692,
+                    "P_S2": 4.276666119016055
                 }
             },
             "weighted_sum_system": {
-                "score": 1.1167356637756944,
-                "rank": 21,
+                "score": 1.9139635019882664,
+                "rank": 20,
                 "metrics": {
-                    "H": 1.7158780477203233,
-                    "C_norm": 0.0175530751654792,
-                    "P_norm": 0.25510496757908396,
-                    "C_blend": 4.096325335349707,
-                    "P_term": 1.2484412575662103,
-                    "H_GS": 2.4849066497880004,
-                    "H_S2": 1.3862943611198906,
-                    "C_GS": 7.335633981927202,
-                    "C_S2": 2.70805020110221,
-                    "P_S2": 2.4849066497880004
+                    "H": 2.9677380235182302,
+                    "C_norm": 0.02734468649211929,
+                    "P_norm": 0.3284560687581554,
+                    "C_blend": 7.699008686144021,
+                    "P_term": 1.6632944814375767,
+                    "H_GS": 4.0943445622221,
+                    "H_S2": 2.4849066497880004,
+                    "C_GS": 11.742353229191455,
+                    "C_S2": 5.966146739123692,
+                    "P_S2": 4.276666119016055
                 }
             }
         }
