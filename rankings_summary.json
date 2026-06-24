@@ -14,12 +14,12 @@
         "data_quality": {
             "total_universities": 35,
             "total_authors": 511,
-            "authors_missing_s2": 100,
-            "authors_missing_s2_pct": 19.6,
+            "authors_missing_s2": 98,
+            "authors_missing_s2_pct": 19.2,
             "universities_small_cohort": 13,
             "small_cohort_threshold": 3,
             "notes": [
-                "100 of 511 authors (19.6%) lack Semantic Scholar data (all S2 metrics zero).",
+                "98 of 511 authors (19.2%) lack Semantic Scholar data (all S2 metrics zero).",
                 "13 universities have fewer than 3 faculty in the dataset.",
                 "Google Scholar coverage is generally higher than Semantic Scholar for Cambodian institutions.",
                 "URI uses log(1+x) aggregation to reduce sensitivity to single high-performing outliers.",
@@ -970,7 +970,7 @@
             ],
             "uri_system": {
                 "uri": 1.6937191100362394,
-                "rank": 21,
+                "rank": 22,
                 "uri_base": 1.2217600803540756,
                 "size_factor": 1.3862943611198906,
                 "components": {
@@ -997,7 +997,7 @@
             },
             "ranking_system": {
                 "score": 1.6937191100362394,
-                "rank": 21,
+                "rank": 22,
                 "metrics": {
                     "H": 2.6131128856721864,
                     "C_norm": 0.023503194781476906,
@@ -1011,7 +1011,7 @@
             },
             "weighted_sum_system": {
                 "score": 1.6937191100362394,
-                "rank": 21,
+                "rank": 22,
                 "metrics": {
                     "H": 2.6131128856721864,
                     "C_norm": 0.023503194781476906,
@@ -4127,17 +4127,17 @@
                     "orcid": "0000-0001-8183-6149",
                     "orcid_url": "https://orcid.org/0000-0001-8183-6149",
                     "scopus_url": "",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/2238826466",
                     "citations_scholar": 105.0,
                     "hindex_scholar": 3.0,
                     "i10_scholar": 1.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "hindex_s2": 1.0,
+                    "citations_s2": 4.0,
+                    "paper_count_s2": 3.0,
+                    "h_index": 1.0,
+                    "citation_count": 4.0,
+                    "paper_count": 3.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "Sopheak TITH",
@@ -4161,62 +4161,60 @@
                 }
             ],
             "uri_system": {
-                "uri": 1.3029901094058522,
-                "rank": 23,
-                "uri_base": 0.9399086845835954,
+                "uri": 1.87738538911797,
+                "rank": 21,
+                "uri_base": 1.3542472953589462,
                 "size_factor": 1.3862943611198906,
                 "components": {
-                    "H": 1.9937180660727196,
-                    "C_norm": 0.024119107163985083,
-                    "P_norm": 0.31881956627078256,
-                    "C_blend": 6.7908335906895925,
-                    "P_term": 1.614495439702079,
-                    "H_GS": 2.8903717578961645,
-                    "H_S2": 1.6094379124341003,
-                    "C_GS": 8.558910784768106,
-                    "C_S2": 6.0330862217988015,
-                    "P_S2": 4.025351690735149
+                    "H": 2.894809400800648,
+                    "C_norm": 0.0330894550902315,
+                    "P_norm": 0.36692810208050125,
+                    "C_blend": 9.316471857627082,
+                    "P_term": 1.8581160323277108,
+                    "H_GS": 4.276666119016055,
+                    "H_S2": 2.3025850929940455,
+                    "C_GS": 13.222349878880173,
+                    "C_S2": 7.642524134232902,
+                    "P_S2": 5.4116460518550396
                 }
             },
             "data_quality": {
                 "faculty_count": 3,
-                "missing_s2_count": 1,
-                "missing_s2_pct": 33.3,
+                "missing_s2_count": 0,
+                "missing_s2_pct": 0.0,
                 "zero_h_gs_count": 0,
-                "zero_h_s2_count": 2,
+                "zero_h_s2_count": 1,
                 "small_cohort": false,
-                "notes": [
-                    "1/3 faculty (33.3%) have no Semantic Scholar metrics (all S2 fields zero)."
-                ]
+                "notes": []
             },
             "ranking_system": {
-                "score": 1.3029901094058522,
-                "rank": 23,
+                "score": 1.87738538911797,
+                "rank": 21,
                 "metrics": {
-                    "H": 1.9937180660727196,
-                    "C_norm": 0.024119107163985083,
-                    "P_norm": 0.31881956627078256,
-                    "H_GS": 2.8903717578961645,
-                    "H_S2": 1.6094379124341003,
-                    "C_GS": 8.558910784768106,
-                    "C_S2": 6.0330862217988015,
-                    "P_S2": 4.025351690735149
+                    "H": 2.894809400800648,
+                    "C_norm": 0.0330894550902315,
+                    "P_norm": 0.36692810208050125,
+                    "H_GS": 4.276666119016055,
+                    "H_S2": 2.3025850929940455,
+                    "C_GS": 13.222349878880173,
+                    "C_S2": 7.642524134232902,
+                    "P_S2": 5.4116460518550396
                 }
             },
             "weighted_sum_system": {
-                "score": 1.3029901094058522,
-                "rank": 23,
+                "score": 1.87738538911797,
+                "rank": 21,
                 "metrics": {
-                    "H": 1.9937180660727196,
-                    "C_norm": 0.024119107163985083,
-                    "P_norm": 0.31881956627078256,
-                    "C_blend": 6.7908335906895925,
-                    "P_term": 1.614495439702079,
-                    "H_GS": 2.8903717578961645,
-                    "H_S2": 1.6094379124341003,
-                    "C_GS": 8.558910784768106,
-                    "C_S2": 6.0330862217988015,
-                    "P_S2": 4.025351690735149
+                    "H": 2.894809400800648,
+                    "C_norm": 0.0330894550902315,
+                    "P_norm": 0.36692810208050125,
+                    "C_blend": 9.316471857627082,
+                    "P_term": 1.8581160323277108,
+                    "H_GS": 4.276666119016055,
+                    "H_S2": 2.3025850929940455,
+                    "C_GS": 13.222349878880173,
+                    "C_S2": 7.642524134232902,
+                    "P_S2": 5.4116460518550396
                 }
             }
         },
@@ -8197,17 +8195,17 @@
                     "orcid": "0000-0002-6947-2482",
                     "orcid_url": "https://orcid.org/0000-0002-6947-2482",
                     "scopus_url": "",
-                    "s2_profile_url": "",
+                    "s2_profile_url": "https://www.semanticscholar.org/author/116196916",
                     "citations_scholar": 1139.0,
                     "hindex_scholar": 9.0,
                     "i10_scholar": 6.0,
-                    "hindex_s2": 0.0,
-                    "citations_s2": 0.0,
-                    "paper_count_s2": 0.0,
-                    "h_index": 0.0,
-                    "citation_count": 0.0,
-                    "paper_count": 0.0,
-                    "gs_suspect": "unverified"
+                    "hindex_s2": 5.0,
+                    "citations_s2": 558.0,
+                    "paper_count_s2": 12.0,
+                    "h_index": 5.0,
+                    "citation_count": 558.0,
+                    "paper_count": 12.0,
+                    "gs_suspect": ""
                 },
                 {
                     "name": "Chan Oeurn Chey, PhD",
@@ -9991,62 +9989,62 @@
                 }
             ],
             "uri_system": {
-                "uri": 209.1817443695762,
+                "uri": 213.1883844075563,
                 "rank": 2,
-                "uri_base": 46.260841435910315,
+                "uri_base": 47.14691560096888,
                 "size_factor": 4.5217885770490405,
                 "components": {
-                    "H": 101.64963527772258,
-                    "C_norm": 0.9365782361074229,
-                    "P_norm": 0.9704535468681526,
-                    "C_blend": 263.6974454661463,
-                    "P_term": 4.914355929242492,
-                    "H_GS": 127.33768231351628,
-                    "H_S2": 90.64047226238242,
-                    "C_GS": 333.3256242325362,
-                    "C_S2": 233.85679742340778,
-                    "P_S2": 135.2315387898226
+                    "H": 103.59464243408041,
+                    "C_norm": 0.9598062395932991,
+                    "P_norm": 0.974136978157138,
+                    "C_blend": 270.2373851597714,
+                    "P_term": 4.9330087462200805,
+                    "H_GS": 129.6402674065103,
+                    "H_S2": 92.43223173161047,
+                    "C_GS": 340.36440777392477,
+                    "C_S2": 240.18294689656287,
+                    "P_S2": 137.79648814728415
                 }
             },
             "data_quality": {
                 "faculty_count": 91,
-                "missing_s2_count": 16,
-                "missing_s2_pct": 17.6,
+                "missing_s2_count": 15,
+                "missing_s2_pct": 16.5,
                 "zero_h_gs_count": 9,
-                "zero_h_s2_count": 26,
+                "zero_h_s2_count": 25,
                 "small_cohort": false,
                 "notes": [
-                    "16/91 faculty (17.6%) have no Semantic Scholar metrics (all S2 fields zero)."
+                    "15/91 faculty (16.5%) have no Semantic Scholar metrics (all S2 fields zero)."
                 ]
             },
             "ranking_system": {
-                "score": 209.1817443695762,
+                "score": 213.1883844075563,
                 "rank": 2,
                 "metrics": {
-                    "H": 101.64963527772258,
-                    "C_norm": 0.9365782361074229,
-                    "P_norm": 0.9704535468681526,
-                    "H_GS": 127.33768231351628,
-                    "H_S2": 90.64047226238242,
-                    "C_GS": 333.3256242325362,
-                    "C_S2": 233.85679742340778,
-                    "P_S2": 135.2315387898226
+                    "H": 103.59464243408041,
+                    "C_norm": 0.9598062395932991,
+                    "P_norm": 0.974136978157138,
+                    "H_GS": 129.6402674065103,
+                    "H_S2": 92.43223173161047,
+                    "C_GS": 340.36440777392477,
+                    "C_S2": 240.18294689656287,
+                    "P_S2": 137.79648814728415
                 }
             },
             "weighted_sum_system": {
-                "score": 209.1817443695762,
+                "score": 213.1883844075563,
                 "rank": 2,
                 "metrics": {
-                    "H": 101.64963527772258,
-                    "C_norm": 0.9365782361074229,
-                    "P_norm": 0.9704535468681526,
-                    "C_blend": 263.6974454661463,
-                    "P_term": 4.914355929242492,
-                    "H_GS": 127.33768231351628,
-                    "H_S2": 90.64047226238242,
-                    "C_GS": 333.3256242325362,
-                    "C_S2": 233.85679742340778,
-                    "P_S2": 135.2315387898226
+                    "H": 103.59464243408041,
+                    "C_norm": 0.9598062395932991,
+                    "P_norm": 0.974136978157138,
+                    "C_blend": 270.2373851597714,
+                    "P_term": 4.9330087462200805,
+                    "H_GS": 129.6402674065103,
+                    "H_S2": 92.43223173161047,
+                    "C_GS": 340.36440777392477,
+                    "C_S2": 240.18294689656287,
+                    "P_S2": 137.79648814728415
                 }
             }
         },
@@ -12461,7 +12459,7 @@
             ],
             "uri_system": {
                 "uri": 1.3082070863863555,
-                "rank": 22,
+                "rank": 23,
                 "uri_base": 1.1907814065800644,
                 "size_factor": 1.0986122886681098,
                 "components": {
@@ -12490,7 +12488,7 @@
             },
             "ranking_system": {
                 "score": 1.3082070863863555,
-                "rank": 22,
+                "rank": 23,
                 "metrics": {
                     "H": 2.5518497151822634,
                     "C_norm": 0.02207060593734862,
@@ -12504,7 +12502,7 @@
             },
             "weighted_sum_system": {
                 "score": 1.3082070863863555,
-                "rank": 22,
+                "rank": 23,
                 "metrics": {
                     "H": 2.5518497151822634,
                     "C_norm": 0.02207060593734862,

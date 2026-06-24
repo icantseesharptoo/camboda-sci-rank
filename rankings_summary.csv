@@ -1,6 +1,6 @@
 Rank,University,Faculty,URI,H,C_norm,P_norm,URI_base,Size_factor,H_GS,H_S2,C_GS,C_S2,P_S2,Missing_S2_pct,Data_notes
 1,Institute of Technology of Cambodia,85,220.6329,108.849,1.0,1.0,49.532,4.4543,123.108,102.738,321.0056,264.6463,157.2187,10.6,9/85 faculty (10.6%) have no Semantic Scholar metrics (all S2 fields zero).
-2,Royal University of Phnom Penh,91,209.1817,101.6496,0.9366,0.9705,46.2608,4.5218,127.3377,90.6405,333.3256,233.8568,135.2315,17.6,16/91 faculty (17.6%) have no Semantic Scholar metrics (all S2 fields zero).
+2,Royal University of Phnom Penh,91,213.1884,103.5946,0.9598,0.9741,47.1469,4.5218,129.6403,92.4322,340.3644,240.1829,137.7965,16.5,15/91 faculty (16.5%) have no Semantic Scholar metrics (all S2 fields zero).
 3,University of Puthisastra,75,131.0161,66.4002,0.6258,0.9093,30.2526,4.3307,89.2073,56.6257,242.5206,147.7877,98.9544,26.7,20/75 faculty (26.7%) have no Semantic Scholar metrics (all S2 fields zero).
 4,Royal University of Agriculture,41,86.6742,50.8928,0.452,0.8421,23.1894,3.7377,62.8189,45.7816,158.1851,114.0132,70.1361,9.8,4/41 faculty (9.8%) have no Semantic Scholar metrics (all S2 fields zero).
 5,National Polytechnic Institute of Cambodia,29,53.6337,34.5683,0.3011,0.7784,15.7691,3.4012,41.4688,31.6109,104.0184,76.5474,50.5164,13.8,4/29 faculty (13.8%) have no Semantic Scholar metrics (all S2 fields zero).
@@ -19,9 +19,9 @@ Rank,University,Faculty,URI,H,C_norm,P_norm,URI_base,Size_factor,H_GS,H_S2,C_GS,
 18,Cambodian Mekong University,2,2.1412,4.2024,0.0384,0.406,1.949,1.0986,4.7005,3.989,13.6411,9.613,6.8156,0.0,Small cohort (N=2): URI less stable with fewer than 3 faculty.
 19,International University,2,2.1019,4.1324,0.0373,0.369,1.9132,1.0986,4.382,4.0254,11.1548,10.2051,5.4806,0.0,Small cohort (N=2): URI less stable with fewer than 3 faculty.
 20,Western University,3,1.914,2.9677,0.0273,0.3285,1.3806,1.3863,4.0943,2.4849,11.7424,5.9661,4.2767,0.0,
-21,Build Bright University,3,1.6937,2.6131,0.0235,0.3528,1.2218,1.3863,3.5835,2.1972,8.8283,5.6699,4.9698,0.0,
-22,University of Southeast Asia,2,1.3082,2.5518,0.0221,0.3252,1.1908,1.0986,2.7081,2.4849,6.7569,5.9814,4.1897,0.0,Small cohort (N=2): URI less stable with fewer than 3 faculty.
-23,National Meanchey University,3,1.303,1.9937,0.0241,0.3188,0.9399,1.3863,2.8904,1.6094,8.5589,6.0331,4.0254,33.3,1/3 faculty (33.3%) have no Semantic Scholar metrics (all S2 fields zero).
+21,National Meanchey University,3,1.8774,2.8948,0.0331,0.3669,1.3542,1.3863,4.2767,2.3026,13.2223,7.6425,5.4116,0.0,
+22,Build Bright University,3,1.6937,2.6131,0.0235,0.3528,1.2218,1.3863,3.5835,2.1972,8.8283,5.6699,4.9698,0.0,
+23,University of Southeast Asia,2,1.3082,2.5518,0.0221,0.3252,1.1908,1.0986,2.7081,2.4849,6.7569,5.9814,4.1897,0.0,Small cohort (N=2): URI less stable with fewer than 3 faculty.
 24,ACLEDA Institute of Business,3,1.2061,1.8691,0.0149,0.2221,0.87,1.3863,2.9957,1.3863,6.4983,3.2189,2.0794,66.7,2/3 faculty (66.7%) have no Semantic Scholar metrics (all S2 fields zero).
 25,East Asia Management University,1,0.9946,3.091,0.0266,0.3202,1.435,0.6931,3.091,3.091,8.2069,7.1793,4.0604,0.0,Small cohort (N=1): URI less stable with fewer than 3 faculty.
 26,University of Management and Economics,2,0.8829,1.7104,0.0141,0.2759,0.8036,1.0986,1.9459,1.6094,4.9972,3.5264,3.0445,50.0,Small cohort (N=2): URI less stable with fewer than 3 faculty.; 1/2 faculty (50.0%) have no Semantic Scholar metrics (all S2 fields zero).
