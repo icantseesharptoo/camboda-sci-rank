@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambodian Researchers Ranking</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #f7f5f0;
+            --surface-color: #ffffff;
+            --surface-border: #d8d4cb;
+            --surface-muted: #edeae3;
+            --accent-navy: #1e3a5f;
+            --accent-blue: #2c5282;
+            --accent-teal: #2d6a6a;
+            --accent-gold: #8b6914;
+            --text-main: #1a202c;
+            --text-muted: #5a6578;
+            --text-light: #8b95a5;
+            --scholar-color: #3d5a80;
+            --s2-primary: #1a5c4a;
+            --s2-secondary: #2d6a6a;
+            --font-display: 'Libre Baskerville', Georgia, 'Times New Roman', serif;
+            --font-sans: 'Source Sans 3', system-ui, sans-serif;
+            --transition: all 0.2s ease;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { background: var(--bg-color); color: var(--text-main); font-family: var(--font-sans); min-height: 100vh; line-height: 1.6; }
+        .app-container { max-width: 1480px; margin: 0 auto; padding: 2rem 1.5rem 3rem; display: flex; flex-direction: column; gap: 1.5rem; }
+
+        header { padding-bottom: 1.25rem; border-bottom: 2px solid var(--accent-navy); }
+        header h1 { font-family: var(--font-display); font-size: 1.85rem; font-weight: 700; color: var(--accent-navy); letter-spacing: -0.01em; }
+        .header-nav { margin-top: 0.5rem; font-size: 0.85rem; }
+        .header-nav a { color: var(--accent-blue); text-decoration: none; }
+        .header-nav a:hover { text-decoration: underline; }
+
+        .controls { display: flex; gap: 1rem; flex-wrap: wrap; align-items: center; }
+        .controls label { font-size: 0.78rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.04em; font-weight: 600; }
+        .controls select, .controls input {
+            font-family: var(--font-sans); font-size: 0.85rem; padding: 0.4rem 0.7rem;
+            border: 1px solid var(--surface-border); border-radius: 3px; background: var(--surface-color); color: var(--text-main);
+        }
+        .controls input { min-width: 220px; }
+        .stat-pill { font-size: 0.82rem; color: var(--text-muted); margin-left: auto; }
+        .stat-pill strong { color: var(--accent-navy); }
+
+        .card { background: var(--surface-color); border: 1px solid var(--surface-border); border-radius: 4px; box-shadow: 0 1px 4px rgba(30,58,95,.07); overflow-x: auto; }
+
+        table { width: 100%; border-collapse: collapse; font-size: 0.84rem; text-align: left; }
+
+        thead th {
+            position: sticky; top: 0; z-index: 2;
+            background: var(--accent-navy); color: #fff; font-weight: 600;
+            padding: 0.65rem 0.75rem; border: 1px solid #16304f;
+            font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.04em; white-space: nowrap;
+            cursor: pointer; user-select: none;
+        }
+        thead th:hover { background: #264d7a; }
+        thead th .sort-arrow { margin-left: 0.3rem; font-size: 0.6rem; opacity: 0.5; }
+        thead th.active .sort-arrow { opacity: 1; }
+        thead th.group-gs { background: var(--scholar-color) !important; border-color: #324a68 !important; }
+        thead th.group-gs:hover { background: #4a6d96 !important; }
+        thead th.group-s2 { background: var(--s2-primary) !important; border-color: #144a3c !important; }
+        thead th.group-s2:hover { background: #237a61 !important; }
+
+        td { padding: 0.6rem 0.75rem; border-bottom: 1px solid var(--surface-border); vertical-align: middle; }
+        tbody tr:nth-child(even) td { background: #faf8f4; }
+        tbody tr:hover td { background: #eef3f8; }
+
+        .rank-col { font-family: var(--font-display); font-weight: 700; text-align: center; width: 48px; color: var(--accent-navy); }
+        .name-col { font-weight: 600; color: var(--accent-navy); min-width: 160px; }
+        .univ-col { font-size: 0.78rem; color: var(--text-muted); max-width: 200px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+        .num { text-align: right; font-variant-numeric: tabular-nums; }
+        .num.gs { color: var(--scholar-color); }
+        .num.s2 { color: var(--s2-secondary); }
+        .no-data { color: var(--text-light); }
+
+        .f-links { display: flex; gap: 0.4rem; flex-wrap: wrap; }
+        .f-link { font-size: 0.7rem; color: var(--accent-blue); text-decoration: none; border-bottom: 1px solid transparent; }
+        .f-link:hover { border-bottom-color: var(--accent-blue); }
+        .f-link.s2-link { color: var(--s2-primary); }
+        .f-link.scopus-link { color: #e16c00; }
+        .f-link.gs-suspect { color: #b91c1c; }
+        .warn-badge { display: inline-block; font-size: 0.6rem; background: #fef3c7; color: #92400e; border: 1px solid #fcd34d; padding: 0.05rem 0.3rem; border-radius: 2px; margin-left: 0.2rem; font-weight: 600; text-transform: uppercase; vertical-align: middle; }
+        .suspect-row td { opacity: 0.55; }
+        .suspect-row td:last-child { opacity: 1; }
+
+        @media (max-width: 900px) {
+            .hide-sm { display: none; }
+            .controls input { min-width: 140px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1>Cambodian Researchers Ranking</h1>
+            <div class="header-nav"><a href="index.html">University Rankings</a></div>
+        </header>
+
+        <div class="controls">
+            <div>
+                <label for="filter-univ">Institution</label><br>
+                <select id="filter-univ"><option value="">All institutions</option></select>
+            </div>
+            <div>
+                <label for="search-name">Search</label><br>
+                <input id="search-name" type="text" placeholder="Search by name...">
+            </div>
+            <span class="stat-pill">Showing <strong id="count">0</strong> researchers</span>
+        </div>
+
+        <div class="card">
+            <table>
+                <thead>
+                    <tr id="table-head"></tr>
+                </thead>
+                <tbody id="table-body"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="rankings_data.js"></script>
+    <script>
+    const COLS = [
+        { key: '_rank',            label: '#',           cls: 'rank-col',    type: 'num' },
+        { key: 'clean_name',       label: 'Name',        cls: 'name-col',    type: 'str' },
+        { key: '_university',      label: 'Institution', cls: 'univ-col',    type: 'str' },
+        { key: 'hindex_scholar',   label: 'GS H',        cls: 'num gs',      type: 'num', group: 'gs' },
+        { key: 'citations_scholar',label: 'GS Cit.',     cls: 'num gs',      type: 'num', group: 'gs' },
+        { key: 'i10_scholar',      label: 'GS i10',      cls: 'num gs hide-sm', type: 'num', group: 'gs' },
+        { key: 'h_index',          label: 'S2 H',        cls: 'num s2',      type: 'num', group: 's2' },
+        { key: 'citation_count',   label: 'S2 Cit.',     cls: 'num s2',      type: 'num', group: 's2' },
+        { key: 'paper_count',      label: 'S2 Papers',   cls: 'num s2 hide-sm', type: 'num', group: 's2' },
+        { key: '_links',           label: 'Links',       cls: '',            type: 'none' },
+    ];
+
+    let allResearchers = [];
+    let sortCol = 'citations_scholar';
+    let sortAsc = false;
+
+    window.addEventListener('DOMContentLoaded', () => {
+        const data = typeof rankingsData !== 'undefined' ? rankingsData : [];
+
+        const univs = new Set();
+        data.forEach(u => {
+            u.researchers.forEach(r => {
+                r._university = u.university;
+                allResearchers.push(r);
+                univs.add(u.university);
+            });
+        });
+
+        const sel = document.getElementById('filter-univ');
+        [...univs].sort().forEach(name => {
+            const opt = document.createElement('option');
+            opt.value = name; opt.textContent = name;
+            sel.appendChild(opt);
+        });
+
+        renderHead();
+        sel.addEventListener('change', render);
+        document.getElementById('search-name').addEventListener('input', render);
+        render();
+    });
+
+    function renderHead() {
+        const tr = document.getElementById('table-head');
+        tr.innerHTML = COLS.map(c => {
+            const groupCls = c.group === 'gs' ? ' group-gs' : c.group === 's2' ? ' group-s2' : '';
+            const activeCls = c.key === sortCol ? ' active' : '';
+            const arrow = c.type !== 'none'
+                ? `<span class="sort-arrow">${c.key === sortCol ? (sortAsc ? '▲' : '▼') : '▼'}</span>`
+                : '';
+            return `<th class="${groupCls}${activeCls}" data-key="${c.key}" onclick="onSort('${c.key}')">${c.label}${arrow}</th>`;
+        }).join('');
+    }
+
+    function onSort(key) {
+        if (key === '_links' || key === '_rank') return;
+        if (sortCol === key) { sortAsc = !sortAsc; }
+        else { sortCol = key; sortAsc = false; }
+        renderHead();
+        render();
+    }
+
+    function render() {
+        const univ = document.getElementById('filter-univ').value;
+        const q = document.getElementById('search-name').value.toLowerCase().trim();
+
+        let list = allResearchers;
+        if (univ) list = list.filter(r => r._university === univ);
+        if (q) list = list.filter(r => (r.clean_name || r.name || '').toLowerCase().includes(q));
+
+        list = list.slice().sort((a, b) => {
+            let va = a[sortCol], vb = b[sortCol];
+            if (typeof va === 'string') {
+                va = (va || '').toLowerCase(); vb = (vb || '').toLowerCase();
+                return sortAsc ? va.localeCompare(vb) : vb.localeCompare(va);
+            }
+            va = va || 0; vb = vb || 0;
+            return sortAsc ? va - vb : vb - va;
+        });
+
+        document.getElementById('count').textContent = list.length;
+
+        const tbody = document.getElementById('table-body');
+        if (!list.length) {
+            tbody.innerHTML = '<tr><td colspan="' + COLS.length + '" style="text-align:center;color:var(--text-muted);padding:2rem;">No researchers found.</td></tr>';
+            return;
+        }
+
+        tbody.innerHTML = list.map((r, i) => {
+            const suspect = r.gs_suspect || '';
+            const rowCls = suspect ? ' class="suspect-row"' : '';
+            const noS2 = !r.citation_count && !r.h_index && !r.paper_count;
+
+            const links = [];
+            const gsClass = suspect ? 'f-link gs-suspect' : 'f-link';
+            const badge = suspect ? '<span class="warn-badge">unverified</span>' : '';
+            if (r.profile_url)
+                links.push(`<a class="${gsClass}" href="${r.profile_url}" target="_blank" rel="noopener">GS</a>${badge}`);
+            if (r.orcid_url || (r.orcid && r.orcid !== 'nan'))
+                links.push(`<a class="f-link" href="${r.orcid_url || 'https://orcid.org/' + r.orcid}" target="_blank" rel="noopener">ORCID</a>`);
+            if (r.s2_profile_url)
+                links.push(`<a class="f-link s2-link" href="${r.s2_profile_url}" target="_blank" rel="noopener">S2</a>`);
+            if (r.scopus_url)
+                links.push(`<a class="f-link scopus-link" href="${r.scopus_url}" target="_blank" rel="noopener">Scopus</a>`);
+
+            const v = (val, cls) => val > 0 ? `<td class="${cls}">${fmt(val)}</td>` : `<td class="${cls}"><span class="no-data">&mdash;</span></td>`;
+            const s2v = (val, cls) => noS2 ? `<td class="${cls}"><span class="no-data">&mdash;</span></td>` : v(val, cls);
+
+            return `<tr${rowCls}>
+                <td class="rank-col">${i + 1}</td>
+                <td class="name-col">${esc(r.clean_name || r.name || '')}</td>
+                <td class="univ-col" title="${esc(r._university)}">${esc(r._university)}</td>
+                ${v(r.hindex_scholar, 'num gs')}
+                ${v(r.citations_scholar, 'num gs')}
+                ${v(r.i10_scholar, 'num gs hide-sm')}
+                ${s2v(r.h_index, 'num s2')}
+                ${s2v(r.citation_count, 'num s2')}
+                ${s2v(r.paper_count, 'num s2 hide-sm')}
+                <td><div class="f-links">${links.join('')}</div></td>
+            </tr>`;
+        }).join('');
+    }
+
+    function fmt(val) {
+        if (val === undefined || val === null) return '0';
+        if (Number.isInteger(val)) return val.toLocaleString();
+        return val % 1 !== 0 ? val.toFixed(0) : val.toLocaleString();
+    }
+
+    function esc(s) {
+        return (s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+    }
+    </script>
+</body>
+</html>
